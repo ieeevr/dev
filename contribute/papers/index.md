@@ -47,7 +47,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries: program2025@ieeevr.com</b> <span id="program"></span>
+        <b>Inquiries: <a target="_blank" href="mailto:general2025@ieeevr.org">general2025@ieeevr.org</a> </b> <span id="program"></span>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
