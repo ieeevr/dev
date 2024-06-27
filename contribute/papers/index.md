@@ -1,12 +1,33 @@
 ---
 layout: ieeevr-default
-title: "Past Conferences"
+title: "Call for Papers"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = "";
+		var domain = "ieeevr.org"; 
 
+		email = "program2025"; 		
+		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "steering"; 		
+		steering.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "eventconduct"; 		
+		$(".eventconduct").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "eventconduct"; 		
+		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "swan"; 
+		var domain = "acm.org"; 		
+		swan.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+	});
+</script>
 <div>
-    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span class="programSm"></span></div></h1>
+    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span id="program"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
@@ -17,16 +38,16 @@ title_separator: "|"
 
     <h2 id="overview">Overview</h2>
     <p>
-        IEEE VR 2025 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference only papers. The possible outcomes of this unified process are:
+        IEEE VR 2024 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference only papers. The possible outcomes of this unified process are:
     </p>
     <ol>
-        <li>Accept as IEEE TVCG paper, with presentation at IEEE VR 2025</li>
-        <li>Accept as IEEE VR 2025 conference paper, with presentation at IEEE VR 2025</li>
-        <li>Accept as IEEE VR 2025 poster</li>
+        <li>Accept as IEEE TVCG paper, with presentation at IEEE VR 2024</li>
+        <li>Accept as IEEE VR 2024 conference paper, with presentation at IEEE VR 2024</li>
+        <li>Accept as IEEE VR 2024 poster</li>
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries:</b> <span class="program"></span>
+        <b>Inquiries:</b> <span id="program"></span>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
@@ -48,7 +69,7 @@ title_separator: "|"
         Submissions will be accepted through Precision Conference Solutions this year.<br />
         <a href="https://new.precisionconference.com/vr24a" title="https://new.precisionconference.com/vr24a" target="_blank">https://new.precisionconference.com/vr24a</a>
     </div>
-    <p><b>IMPORTANT:</b> IEEE VR 2025 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
+    <p><b>IMPORTANT:</b> IEEE VR 2024 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
     <p style="text-align: left ! important;">
         Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.
         <ul>
@@ -169,7 +190,7 @@ title_separator: "|"
                 All submissions must report participant demographics (gender, age, etc.).                        
             </li>
         </ul>
-		Notes about recruiting representative populations:
+		<p>Notes about recruiting representative populations:</p>
 		<ul>
             <li>
 				Recruiting more diverse samples does not imply that the research must treat these data as independent variables and analyze differences in independent variables between demographic groups.
@@ -181,7 +202,7 @@ title_separator: "|"
                 Many ethics review boards and funding sources already require participant diversity for inclusive and unbiased research.                        
             </li>
         </ul>
-		The VR 2025 program committee and external reviewers will be strongly encouraged to consider participant diversity in relation to the generality of the claims made by a submission as a first-order reviewing concern. Submissions that make general claims yet rely on a severely imbalanced participant groups may be negatively impacted by the reviewing process.
+		<p>The VR 2025 program committee and external reviewers will be strongly encouraged to consider participant diversity in relation to the generality of the claims made by a submission as a first-order reviewing concern. Submissions that make general claims yet rely on a severely imbalanced participant groups may be negatively impacted by the reviewing process.</p>
     </p>
     <p>
         <b>Review Duties for Authors.</b><br />
@@ -234,7 +255,7 @@ title_separator: "|"
     </p>
    
 
-    <h2 id="contacts">Contacts <div class="floatRight"><span class="programSm"></span></div></h2>						
+    <h2 id="contacts">Contacts <div class="floatRight"><span id="program"></span></div></h2>						
     <p>
         <b>Technical Papers Chairs:</b>
         						

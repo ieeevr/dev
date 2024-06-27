@@ -10,6 +10,9 @@
 <loc>http://localhost:4000/past-conferences/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/attend/code-of-conduct/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contribute/papers/</loc>
 </url>
 <url>
