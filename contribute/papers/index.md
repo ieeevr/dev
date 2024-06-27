@@ -47,7 +47,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries:</b> <span id="program"></span>
+        <b>Inquiries: program2025@ieeevr.com</b> <span id="program"></span>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
