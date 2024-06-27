@@ -7,4 +7,3 @@
 .bundle/
 vendor/
 committees/.DS_Store
-layout/ieeevr-default.html
