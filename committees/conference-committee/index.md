@@ -96,12 +96,6 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Communications Chairs  <div class="floatRight"><span id="communications"></span></div></h2>
-	<ul>
-		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li>
-	</ul>
-</div>
-<div>
 	<h2>Conference Awards Chairs  <div class="floatRight"><span id="awards"></span></div></h2>
 	<ul>
 		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>NAIST, Japan</i></li>
@@ -232,9 +226,10 @@ title_separator: "|"
 		<li><span class="bold">Carolin	Wienrich</span> &#x2012; <i>Julius-Maximilians Universität Würzburg, Germany</i></li>
 	</ul>
 </div>
-<div>
+<!--- <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
 	<ul>
 		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li>
 	</ul>
-</div>
+</div> --->
+
