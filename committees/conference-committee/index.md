@@ -82,14 +82,17 @@ title_separator: "|"
 <div>
 	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
 	<ul>
-		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li></li>
+		<li><span class="bold">Daisuke Iwai</span> &#x2012; <i>Osaka University, Japan</i></li>
+		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
+		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
+		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
 	</ul>
 </div>
 <div>
 	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
 	<ul>
-		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li></li>
-		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li></li>
+		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
+		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
 	</ul>
 </div>
 <div>
@@ -209,15 +212,15 @@ title_separator: "|"
 <div>
 	<h2>Video Chairs <div class="floatRight"><span id="videos"></span></div></h2>
 	<ul>
-		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li>
+		<li><span class="bold">Mauricio Sousa</span> &#x2012; <i>University of Toronto, Canada</i></li>
 	</ul>
 </div>
 <div>
 	<h2>Web Chairs <div class="floatRight"><span id="web"></span></div></h2>
 	<ul>
-		<li><span class="bold">Léa	Pillette</span> &#x2012; <i>CNRS, France</i></li>
-		<li><span class="bold">Emile	Savalle</span> &#x2012; <i>Univ Rennes, France</i></li>
-		<li><span class="bold">Céline	Finet</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Léa Pillette</span> &#x2012; <i>CNRS, France</i></li>
+		<li><span class="bold">Emile Savalle</span> &#x2012; <i>Univ Rennes, France</i></li>
+		<li><span class="bold">Céline Finet</span> &#x2012; <i>Inria, France</i></li>
 	</ul>
 </div>
 <div>
