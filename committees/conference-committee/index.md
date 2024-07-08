@@ -11,6 +11,8 @@ title_separator: "|"
 
 		email = "general2025"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		
 
 		email = "program2025"; 
 		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
@@ -65,6 +67,8 @@ title_separator: "|"
 		
 		email = "xrfuturefaculty2025"; 		
 		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
+		
 	});
 </script>
 <h1>Conference Committee</h1>
@@ -74,6 +78,13 @@ title_separator: "|"
 		<li><span class="bold">Anatole Lécuyer</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Ferran Argelaguet</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Anne-Hélène Olivier</span> &#x2012; <i>Univ Rennes 2, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Honorary General Chairs <div class="floatRight"><span id="honorary"></span></div></h2>
+	<ul>
+		<li><span class="bold">Carolina Cruz-Neira</span> &#x2012; <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Greg Welch</span> &#x2012; <i>University of Central Florida, USA</i></li>
 	</ul>
 </div>
 <div>
@@ -90,6 +101,8 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
 		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
+		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
+		<li><span class="bold">Manuela Chessa</span> &#x2012; <i>University of Genoa, Italy</i></li>
 	</ul>
 </div>
 <div>
@@ -198,12 +211,6 @@ title_separator: "|"
 		<li><span class="bold">Beatriz Santos</span> &#x2012; <i>University of Aveiro, Portugal</i></li>
 		<li><span class="bold">Ken Pfeuffer</span> &#x2012; <i>Aarhus University, Denmark</i></li>
 		<li><span class="bold">Parinya Punpongsanon</span> &#x2012; <i>Saitama University, Japan</i></li>
-	</ul>
-</div>
-<div>
-	<h2>Video Chairs <div class="floatRight"><span id="videos"></span></div></h2>
-	<ul>
-		<li><span class="bold">Mauricio Sousa</span> &#x2012; <i>University of Toronto, Canada</i></li>
 	</ul>
 </div>
 <div>
