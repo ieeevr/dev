@@ -20,7 +20,7 @@ title_separator: "|"
     <h1 id="cfp-3dui-contest">Call for 3DUI Contest Entries<div class="floatRight"><span class="contestSm"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
-            March 8-12, 2025| Saint-Malo, France
+            March 8-12, 2025 | Saint-Malo, France
     </p>
     <p>
         Submissions can be made through the Online System: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>.
