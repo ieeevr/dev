@@ -23,7 +23,7 @@ title_separator: "|"
             March 8-12, 2025| Saint-Malo, France
     </p>
     <p>
-        Contest Registrations can be made via email to  <span class="contest"></span>, final submissions can be made through the Online System: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>.
+        Submissions can be made through the Online System: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>.
     </p>
 
     <h2 id="important-dates"> Important Dates - All deadlines are Anywhere on Earth (AoE)</h2>
