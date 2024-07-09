@@ -63,7 +63,8 @@ title_separator: "|"
         <ul>
             <li>Submissions should present a collaborative 3DUI solution, which …:
                 <ul>
-                    <li> … covers the topics of <strong>“United for Planet Earth: Promoting Environmental Sustainability in Collaborative Virtual Environments”</strong>.  … describes which 3DUI techniques have been created and/or extended.</li>
+                    <li> … covers the topics of <strong>“United for Planet Earth: Promoting Environmental Sustainability in Collaborative Virtual Environments”</strong>. </li>
+                    <li> … describes which 3DUI techniques have been created and/or extended.</li>
                     <li> … is documented with a video (between 3 and 5 minutes) as well as a standalone executable.</li>
                     <li>… is compatible with the OpenXR standard (<a href = "https://www.khronos.org/openxr">https://www.khronos.org/openxr</a>)</li>
                 </ul>
