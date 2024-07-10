@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Conference Committee"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 <script type="text/javascript">
@@ -12,6 +12,8 @@ title_separator: "|"
 		email = "general2025"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
+		
+
 		email = "program2025"; 
 		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
@@ -54,8 +56,8 @@ title_separator: "|"
 		email = "tutorials2025"; 
 		tutorials.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "videos2025"; 		
-		videos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		email = "web2025";		
+		web.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
 		email = "workshops2025"; 		
 		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
@@ -66,6 +68,7 @@ title_separator: "|"
 		email = "environment2025"; 		
 		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
+		
 	});
 </script>
 <h1>Conference Committee</h1>
@@ -104,10 +107,10 @@ title_separator: "|"
 <div>
 	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
 	<ul>
-		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
 		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
-		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 		<li><span class="bold">Manuela Chessa</span> &#x2012; <i>University of Genoa, Italy</i></li>
+		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
+		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 	</ul>
 </div>
 <div>
@@ -116,7 +119,7 @@ title_separator: "|"
 		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>NAIST, Japan</i></li>
 		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>University Hamburg, Germany</i></li>
 		<li><span class="bold">Stefania Serafin</span> &#x2012; <i>Aalborg University, Denmark</i></li>
-		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université Paris Saclay, France</i></li>
+		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université d'Evry Paris-Saclay, France</i></li>
 	</ul>
 </div>
 <div>
@@ -170,7 +173,7 @@ title_separator: "|"
 		<li><span class="bold">Justine	Saint-Aubert</span> &#x2012; <i>CNRS, France</i></li>
 		<li><span class="bold">Jerald	Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
 		<li><span class="bold">Daniel 	Roth</span> &#x2012; <i>Technical University of Munich, Germany</i></li>
-		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RTW Aachen University, Germany</i></li>
+		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 	</ul>
 </div>
 <div>
@@ -187,7 +190,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Yann Glemarec</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Sylvia Pan</span> &#x2012; <i>Goldsmiths, University of London, UK</i></li>
-		<li><span class="bold">Alexandre Kabyl</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
+		<li><span class="bold">Alexandre Kabil</span> &#x2012; <i>CNRS, France</i></li>
 		<li><span class="bold">Rajiv Khadka</span> &#x2012; <i>Idaho National Laboratory, USA</i></li>
 		<li><span class="bold">Takefumi	Hiraki</span> &#x2012; <i>Clusters Metaverse Lab, Japan</i></li>
 	</ul>
