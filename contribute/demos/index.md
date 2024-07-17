@@ -74,7 +74,7 @@ title_separator: "|"
         A demo proposal should include:
         <ul>
             <li>A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
-            <li>A schematic of the layout (a separate document showing components, such as projectors/cameras) : <a id="raw-url" href="https://ieeevr.org/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">(Template .docx)</a></li>
+            <li>A schematic of the layout (a separate document showing components, such as projectors/cameras) : <a id="raw-url" href="https://ieeevr.org/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Template .docx</a></li>
             <li>A 3-5 minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
         </ul>
     </p>
