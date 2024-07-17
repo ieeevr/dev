@@ -82,7 +82,7 @@ title_separator: "|"
         Submissions to the research demo track must be written in English. The submission materials should clearly describe the system's overall architecture or technology demonstrated. Authors should emphasize the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings (IEEE Xplore Digital Library), so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
     </p>
     <p>
-    <a id="raw-url" href="https://github.com/ieeevr/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Download FILE</a>
+    <a id="raw-url" href="https://ieeevr.com/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Download FILE</a>
 
     Template .docx document for submissions : 
     [Download the document](/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx)
