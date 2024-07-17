@@ -74,7 +74,7 @@ title_separator: "|"
         A demo proposal should include:
         <ul>
             <li>A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
-            <li>A schematic of the layout (a separate document showing components, such as projectors/cameras).</li>
+            <li>A schematic of the layout (a separate document showing components, such as projectors/cameras) : <a id="raw-url" href="https://ieeevr.org/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Template .docx</a></li>
             <li>A 3-5 minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
         </ul>
     </p>
@@ -82,7 +82,7 @@ title_separator: "|"
         Submissions to the research demo track must be written in English. The submission materials should clearly describe the system's overall architecture or technology demonstrated. Authors should emphasize the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings (IEEE Xplore Digital Library), so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
     </p>
     <p>
-    <a id="raw-url" href="https://ieeevr.org/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Template .docx document for submissions</a>
+    
     </p>
     <p>
         Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be provided later.
