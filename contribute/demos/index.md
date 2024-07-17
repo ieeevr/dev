@@ -83,7 +83,7 @@ title_separator: "|"
     </p>
     <p>
     Template .docx document for submissions : 
-    [Download the document](assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx)
+    [Download the document](dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx)
     </p>
     <p>
         Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be provided later.
