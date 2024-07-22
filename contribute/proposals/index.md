@@ -99,8 +99,9 @@ title_separator: "|"
             </li>
             <li>our contact informations: full names, affiliation and email address</li>
         </ul>
+        <p>
         Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
-
+        </p>
 
     </p>
 
