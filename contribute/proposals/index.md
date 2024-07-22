@@ -63,6 +63,7 @@ title_separator: "|"
             <li>...</li>
         </ul>
         The exhibition will primarily focus on interactive XR art installations, while also welcoming non-XR art installations, such as performances or any other digital media questioning the nature of reality in our increasingly digital world. 
+        </p><p>
         Accepted submission will be showcased at the dedicated space for the XR Gallery during the entire duration of the IEEEVR conference, excluding the days of workshops <strong>(March 8-12 2025, Saint-Malo, France)</strong>. Discussions are underway to arrange a public exhibition in the days following the conference.
 
     
@@ -140,7 +141,7 @@ title_separator: "|"
         </p>
         <p>
 
-            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
+            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the <i>Siggraph 2023 Art Gallery proceeding</i>  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
 
 
         </p>
@@ -151,7 +152,7 @@ title_separator: "|"
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
     <p>
-        For more information, please contact us at <a href= "mailto: art2025@ieeevr.org"  target="_blank">art2025@ieeevr.org</a>: 
+        For more information, please contact us at: <a href= "mailto: art2025@ieeevr.org"  target="_blank">art2025@ieeevr.org</a>
         <ul>
             <li><span class="bold">Remi Cambuzat</span> &#x2012; <i> Inria, France</i></li>
             <li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
