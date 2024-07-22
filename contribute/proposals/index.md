@@ -133,7 +133,7 @@ title_separator: "|"
         </p>
         <p>
 
-            Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF.  We highly encourage authors to use the LaTeX template (<a href="https://www.cspaul.com/vgtc/vgtc_conference_latex.zip"  target="_blank">https://www.cspaul.com/vgtc/vgtc_conference_latex.zip</a>). 
+            Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF.  We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>). 
         </p>
         <p>
 
