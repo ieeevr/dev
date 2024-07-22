@@ -35,7 +35,7 @@ title_separator: "|"
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
         <li><b>February 13, 2025:</b> Camera-ready version.</li>
     </ul>
- <a href="https://ieeevr.org/2024/program/demos"  target="_blank">https://ieeevr.org/2024/program/demos</a>
+ 
   
    
 
@@ -77,9 +77,9 @@ title_separator: "|"
 
     </p>
 
-    <h2 id="eligibility">Eligibility</h2>
+    <h2 id="submission">Submission</h2>
     <p>
-        In order to apply, submit a 1-2 page abstract (in .pdf format see below) describing your artistic project on the PCS system (link). The abstract should include:
+        In order to apply, submit a 1-2 page abstract (in .pdf format see below) describing your artistic project on the PCS system (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
         <ul>
             <li>Title of XR Gallery submission</li>
             <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
@@ -102,15 +102,54 @@ title_separator: "|"
 
     </p>
 
+    <h2 id="selection">Selection Process</h2>
+        <p>
+            Each submission will be examined by a panel of external assessor from the digital arts fields and XR research communities, on the basis of the following criteria:
+            <ul>
+                <li>Originality</li>
+                <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
+                <li>Representative images of the project</li>
+                <li>The equipment and technical information required for its realization:  (including light, sound, network needs)</li>
+                
+                <li>our contact informations: full names, affiliation and email address</li>
+            </ul>
+            Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
 
+
+        </p>
+
+     <h2 id="selection">Accepted Submissions</h2>
+        <p>
+            The art installation will be showcased at the dedicated space for the XR Gallery during the entire duration of the conference, excluding the days of workshops (March 8-12 2025, Saint-Malo, France). The authors of the accepted submissions will receive <strong style="color: red">support for their accommodation and monetary compensation: one free full conference registration and €500 (on invoice)</strong>.
+
+
+        </p>
+        <h2 id="supplementary">Abstracts and supplementary material due: October 31, 2024</h2>
+        <p>
+            The abstract paper and optional supplementary material are to be submitted via the online submission system:  <a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>
+
+            Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF.  We highly encourage authors to use the LaTeX template (<a href="https://www.cspaul.com/vgtc/vgtc_conference_latex.zip"  target="_blank">https://www.cspaul.com/vgtc/vgtc_conference_latex.zip</a>). 
+
+            Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the  VGTC format (<a href=https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF. 
+
+            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href=https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
+
+
+        </p>
+
+    <h2 id="due">Camera-ready version due: February 13, 2025</h2>
+    <p>
+        For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (13 February 2025).
+    </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="researchdemos"></span></div></h2>	
     <p>
         For more information, please contact the Research Demonstration Chairs:
         <ul>
-            <li><span class="bold">Geoffrey Gorisse</span> &#x2012; <i>ENSAM, France</i></li>
-            <li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li>
-            <li><span class="bold">Ana Serrano</span> &#x2012; <i>Universidad de Zaragoza, Spain</i></li>
-            <li><span class="bold">Thomas Pietrzak</span> &#x2012; <i>Université de Lille, France</i></li>
+            <li><span class="bold">Remi Cambuzat</span> &#x2012; <i> Inria, France</i></li>
+            <li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
+            <li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+            <li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+            <li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
         </ul>
     </p>
 </div>
