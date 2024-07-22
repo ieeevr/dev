@@ -10,8 +10,8 @@ title_separator: "|"
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
-	    email = "researchdemos2025"; 		
-		$(".researchdemos").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
+	    email = "art2025"; 		
+		$(".art").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
 
@@ -151,7 +151,7 @@ title_separator: "|"
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
     <p>
-        For more information, please contact the Research Demonstration Chairs:
+        For more information, please contact us at <a href= "mailto: art2025@ieeevr.org"  target="_blank">art2025@ieeevr.org</a>: 
         <ul>
             <li><span class="bold">Remi Cambuzat</span> &#x2012; <i> Inria, France</i></li>
             <li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
