@@ -17,7 +17,7 @@ title_separator: "|"
 
 <div>
     <h1 id="cfp-demos">Call for Proposals <strong>“XR Gallery”</strong>
-<div class="floatRight"><span class="researchdemos"></span></div></h1>
+<div class="floatRight"><span class="art"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
