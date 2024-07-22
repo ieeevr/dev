@@ -31,66 +31,77 @@ title_separator: "|"
 
     <h2 id="important-dates">Important Dates</h2>
     <ul>
-        <li><b>January 13 Monday, 2025:</b> Two-page abstract and video material submission.</li>
-        <li><b>January 21 Tuesday, 2025:</b> Notification of results.</li>
-        <li><b>January 28 Tuesday, 2025:</b> Camera-ready two-page abstract and final video material submission with a 3-5 min video teaser.</li>
+        <li><b>October 31, 2024:</b>Submission of abstracts.</li>
+        <li><b>November 28, 2024:</b> Notification of acceptance.</li>
+        <li><b>February 13, 2025:</b> Camera-ready version.</li>
     </ul>
-
-    <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
-        Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline.<br />Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations(<a target="_blank" href="mailto:researchdemos2025@ieeevr.org">researchdemos2025@ieeevr.org</a>).
-
-    </div>
-    <p>
-       Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.
-    </p>
-     <p>
-        You can find examples presented at previous conferences here:
-
-        <ul>
-            <li>
-                <a href="https://ieeevr.org/2024/program/demos"  target="_blank">https://ieeevr.org/2024/program/demos</a>
-            </li>
-            <li>
-                <a href="https://ieeevr.org/2023/program/demos"  target="_blank">https://ieeevr.org/2023/program/demos</a>
-            </li>
-            <li>
-                <a href="https://ieeevr.org/2022/program/demos" target="_blank">https://ieeevr.org/2022/program/demos</a>
-            </li>
-            <li>
-                <a href="https://ieeevr.org/2021/program/demos" target="_blank">https://ieeevr.org/2021/program/demos</a>
-            </li>
-            <li>
-                <a href="https://ieeevr.org/2020/program/demos.html" target="_blank">https://ieeevr.org/2020/program/demos.html</a>
-            </li>
-            <li>
-                <a href="https://ieeevr.org/2019/program/demos.html" target="_blank">https://ieeevr.org/2019/program/demos.html</a>
-            </li>
-        </ul>
-    </p>
+ <a href="https://ieeevr.org/2024/program/demos"  target="_blank">https://ieeevr.org/2024/program/demos</a>
+  
+   
 
     <h2 id="Overview">Overview</h2>
     <p>
-        The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces 2025 seeks research demonstrations from laboratories or research groups (academic, government, or industry). Demos should interest the broad XR community and be presentable in a conference setting exhibiting new and innovative work. The conference will provide basic infrastructure. Additionally, authors of accepted demos will present an overview in a fast-forward research demonstration session to summarize their demo and relate it to research being performed at their lab. The research demonstrations will be an in-person event.
+        The desire to replicate reality has been a long-lasting human endeavor. Images of the earliest cave drawings communicated about the important aspects of life at the beginning of human civilization. Paintings and sculptures aspired to capture the natural proportions and beauty of human form as well as spirit, while cinema made the static images move and accompany them with sound. In the late 20th century, the unprecedented speed in digital developments enabled the creation of three-dimensional worlds, which did not only surround the user, but also respond to their actions.
+    </p>
+    <p>
+        Today, we are witnessing a rapid rise of artificial intelligence, conversational agents, and creative machines, the way reality is perceived is going through an unprecedented transformation. While offering immense creative possibilities, those tools also pose significant challenges by blurring the lines between fact and fiction, truth and fabrication. This digital storm is reshaping our relationship to facts and history, confronting our definition of reality, plausibility and realism.
+
     </p>
 
-    <h2 id="submission-guidelines">Submission Guidelines</h2>
+    <h2 id="overview">TOPICS and SCOPE</h2>
     <p>
-        A demo proposal should include:
+        As part IEEE VR 2025, we are delighted to invite you to the first edition of the ‘XR Gallery’ fostering bridges between people from the XR and Art communities through this art exhibition, titled "Edges of Reality: Questioning the Truthfulness of our Digital Realities". We aim to provoke creative thought and discussion between artists and researchers around the question of authenticity and truthfulness of digital experiences. By bridging the gap between the XR research community and the art world, we hope to inspire innovative perspectives and foster a deeper understanding of the complex relationship between technology and reality.
+       
+        Some of the potential questions which can be explored in this respect are: 
         <ul>
-            <li>A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
-            <li>A schematic of the layout (a separate document showing components, such as projectors/cameras) : <a id="raw-url" href="https://ieeevr.org/dev/assets/downloads/IEEEVR2025_RD_LayoutTemplate_v1.docx">Template .docx</a></li>
-            <li>A 3-5 minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
+            <li>How do scientific and technological advances confront and alter our common senses, changing our own perception of reality and of what is possible to imagine</li>
+            <li>Does my behavior change in a plausible simulated environment?</li>
+            <li>Can a software that behaves indistinguishably from a human be considered truly real?</li>
+            <li>What distinguishes our actual self from a simulated self constructed from our digital traces?</li>
+            <li>What would be the implication of a faithful simulation of an ancestor based solely on their private diaries or literary correspondence? </li>
         </ul>
-    </p>
-    <p>
-        Submissions to the research demo track must be written in English. The submission materials should clearly describe the system's overall architecture or technology demonstrated. Authors should emphasize the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings (IEEE Xplore Digital Library), so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
-    </p>
-    <p>
+        The exhibition will primarily focus on interactive XR art installations, while also welcoming non-XR art installations, such as performances or any other digital media questioning the nature of reality in our increasingly digital world. 
+        Accepted submission will be showcased at the dedicated space for the XR Gallery during the entire duration of the IEEEVR conference, excluding the days of workshops <strong>(March 8-12 2025, Saint-Malo, France)</strong>. Discussions are underway to arrange a public exhibition in the days following the conference.
+
     
     </p>
+    
+    <h2 id="eligibility">Eligibility</h2>
     <p>
-        Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be provided later.
+        The call is open to anyone interested in creating artistic content: artists, researchers, designers, etc.
+        
+        The proposed artistic work may be new or already existing.
+        
+        We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criterions and face issues which prevent you from applying, please do not hesitate to contact us (see contact email).   
+
+
     </p>
+
+    <h2 id="eligibility">Eligibility</h2>
+    <p>
+        In order to apply, submit a 1-2 page abstract (in .pdf format see below) describing your artistic project on the PCS system (link). The abstract should include:
+        <ul>
+            <li>Title of XR Gallery submission</li>
+            <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
+            <li>Representative images of the project</li>
+            <li>The equipment and technical information required for its realization:  (including light, sound, network needs)</li>
+            <li>The equipment and technical information required for its realization:
+                <ul>
+                    <li>Preferred space needs (in square meters: height x width x depth)</li>
+                    <li>Lighting Requirements and lighting emission (how much light your art piece is casting light)</li>
+                    <li>Sound Requirements and sound emission</li>
+                    <li>Network needs (Prefer a wired network when feasible)</li>
+                    <li>Electrical needs</li>
+                    <li>Technical needs, setup time, and procedures.</li>
+                </ul>
+            </li>
+            <li>our contact informations: full names, affiliation and email address</li>
+        </ul>
+        Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
+
+
+    </p>
+
 
     <h2 id="contacts">Contacts <div class="floatRight"><span class="researchdemos"></span></div></h2>	
     <p>
