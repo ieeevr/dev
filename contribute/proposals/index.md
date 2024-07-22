@@ -29,7 +29,8 @@ title_separator: "|"
 
 <div>
 
-    <h2 id="important-dates">Important Dates</h2>
+    <h2 id="important-dates">Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)
+    </h2>
     <ul>
         <li><b>October 31, 2024:</b>Submission of abstracts.</li>
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
@@ -59,6 +60,7 @@ title_separator: "|"
             <li>Can a software that behaves indistinguishably from a human be considered truly real?</li>
             <li>What distinguishes our actual self from a simulated self constructed from our digital traces?</li>
             <li>What would be the implication of a faithful simulation of an ancestor based solely on their private diaries or literary correspondence? </li>
+            <li>...</li>
         </ul>
         The exhibition will primarily focus on interactive XR art installations, while also welcoming non-XR art installations, such as performances or any other digital media questioning the nature of reality in our increasingly digital world. 
         Accepted submission will be showcased at the dedicated space for the XR Gallery during the entire duration of the IEEEVR conference, excluding the days of workshops <strong>(March 8-12 2025, Saint-Malo, France)</strong>. Discussions are underway to arrange a public exhibition in the days following the conference.
@@ -69,9 +71,9 @@ title_separator: "|"
     <h2 id="eligibility">Eligibility</h2>
     <p>
         The call is open to anyone interested in creating artistic content: artists, researchers, designers, etc.
-        
+        </p><p>
         The proposed artistic work may be new or already existing.
-        
+        </p><p>
         We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criterions and face issues which prevent you from applying, please do not hesitate to contact us (see contact email).   
 
 
@@ -113,7 +115,6 @@ title_separator: "|"
                 
                 <li>our contact informations: full names, affiliation and email address</li>
             </ul>
-            Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
 
 
         </p>
@@ -127,12 +128,18 @@ title_separator: "|"
         <h2 id="supplementary">Abstracts and supplementary material due: October 31, 2024</h2>
         <p>
             The abstract paper and optional supplementary material are to be submitted via the online submission system:  <a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>
+        </p>
+        <p>
 
             Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF.  We highly encourage authors to use the LaTeX template (<a href="https://www.cspaul.com/vgtc/vgtc_conference_latex.zip"  target="_blank">https://www.cspaul.com/vgtc/vgtc_conference_latex.zip</a>). 
+        </p>
+        <p>
 
-            Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the  VGTC format (<a href=https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF. 
+            Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the  VGTC format (<a href="https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF. 
+        </p>
+        <p>
 
-            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href=https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
+            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
 
 
         </p>
@@ -141,7 +148,7 @@ title_separator: "|"
     <p>
         For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (13 February 2025).
     </p>
-    <h2 id="contacts">Contacts <div class="floatRight"><span class="researchdemos"></span></div></h2>	
+    <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
     <p>
         For more information, please contact the Research Demonstration Chairs:
         <ul>
