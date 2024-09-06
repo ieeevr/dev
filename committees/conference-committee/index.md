@@ -62,8 +62,6 @@ title_separator: "|"
 		email = "workshops2025"; 		
 		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "xrfuturefaculty2025"; 		
-		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 		email = "environment2025"; 		
 		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
@@ -77,7 +75,9 @@ title_separator: "|"
 		email = "onlineexperience2025"; 		
 		onlineexperience.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		
+		email = "xrfuturefaculty2025"; 		
+		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
 		
 	});
 </script>
@@ -97,6 +97,7 @@ title_separator: "|"
 		<li><span class="bold">Greg Welch</span> &#x2012; <i>University of Central Florida, USA</i></li>
 	</ul>
 </div>
+
 <div>
 	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
 	<ul>
@@ -108,12 +109,24 @@ title_separator: "|"
 </div>
 
 <div>
+	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
+	<ul>
+		<li><span class="bold">Rémi Cambuzat</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
+		<li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+
+<div>
 	<h2>Environmental Impact Reduction and Awareness Chairs <div class="floatRight"><span id="environment"></span></div></h2>
 	<ul>
 		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
 	</ul>
 </div>
+
 <div>
 	<h2>On-line Experience Chairs<div class="floatRight"><span id="onlineexperience"></span></div></h2>
 	<ul>
@@ -227,6 +240,7 @@ title_separator: "|"
 	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
 	<ul>
 		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Rob Lindeman</span> &#x2012; <i>HIT Lab, New Zealand</i></li>
 	</ul>
 </div>
 <div>
@@ -264,13 +278,6 @@ title_separator: "|"
 	</ul>
 </div>
 
-<div>
-	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
-	<ul>
-		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>INSA Rennes, France</i></li>
-		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
-</div>
 
 <!--- <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
