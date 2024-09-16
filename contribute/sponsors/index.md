@@ -13,7 +13,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1 id="cfp-exhibitssponsors">Call for Exhibitors and Sponsors<div class="floatRight"><span class="exhibitssponsors"></span></div></h1>
+    <h1 id="cfp-exhibitssponsors">Call for Sponsors and Exhibitors<div class="floatRight"><span class="exhibitssponsors"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
