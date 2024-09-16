@@ -8,12 +8,12 @@ title_separator: "|"
 <div>
     <h1 id="cfp-demos">At a Glance</h1>
     <p>
-        <strong style="color: black">IEEE VR 2024: The 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
-            March 16-21, 2024 | Orlando, Florida USA
+        <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
+            March 8-12, 2025 | Saint-Malo, France
     </p> 
     <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
-           This is an 'At a Glance' schedule of activities associated with IEEE VR 2024. <br/>
+           This is an 'At a Glance' schedule of activities associated with IEEE VR 2025. <br/>
            For a more detailed view, visit <a href="{{ "/program/overview/" | relative_url }}">Program Overview</a>.<br>
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
@@ -32,8 +32,8 @@ title_separator: "|"
             style="border:none;">
         </iframe>
         <h2 id="full">Main-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-38-public-main.pdf" | relative_url }}#zoom=31" 
-            title="IEEE VR 2024 Schedule (PDF)"
+        <iframe src="{{"/assets/program/vr2024_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=31" 
+            title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
             loading="lazy"
