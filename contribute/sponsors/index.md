@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Call for Papers"
+title: "Call for Sponsors and Exhibitors"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
@@ -9,14 +9,12 @@ title_separator: "|"
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
-
 		email = "exhibitssponsors2025"; 
-        	
 		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
-	});
+        });
 </script>
 <div>
-    <h1 id="cfes-conference"> Call for Sponsors & Exhibitors<div class="floatRight"><span id="exhibitssponsors"></span></div></h1>
+    <h1 id="cfes-conference"> Call for Sponsors and Exhibitors <div class="floatRight"><span id="exhibitssponsors"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
