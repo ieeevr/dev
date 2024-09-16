@@ -18,7 +18,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1 id="cfes-conference"> Call for Sponsors & Exhibitors<div class="floatRight"><span id="program"></span></div></h1>
+    <h1 id="cfes-conference"> Call for Sponsors & Exhibitors<div class="floatRight"><span id="exhibitssponsors"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
@@ -46,7 +46,7 @@ title_separator: "|"
         
     </p>
     <p>
-        Download the PDF for full informations <a href=“https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924 v1_IEEE_VR_2025.pdf”>here</a>
+        Download the PDF for full informations <a id="raw-url" href=“https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924 v1_IEEE_VR_2025.pdf”>here</a>
     </p>
     
 </div>
