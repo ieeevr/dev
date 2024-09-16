@@ -40,7 +40,7 @@ title_separator: "|"
     </p>
     <p>
         <ul>
-        Download the PDF for full informations <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf"> here</a>
+        If you are interested in presenting your products, please read the complete informations <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf"> here</a> and contact us at : <a href= "mailto: exhibitssponsors2025@ieeevr.org"  target="_blank">exhibitssponsors2025@ieeevr.org</a>
         </ul>
     </p>
 </div>
