@@ -39,6 +39,8 @@ title_separator: "|"
         </ul>    
     </p>
     <p>
-        Download the PDF for full informations <a id="raw-url" href=“https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf”>here</a>
+        <ul>
+        Download the PDF for full informations <a id="raw-url" href=“https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf” >here</a>
+        </ul>
     </p>
 </div>
