@@ -24,17 +24,14 @@ title_separator: "|"
 </div>
 
 <div>
-
     <h2 id="important-dates">Important Dates</h2>
     <ul>
         <li><b>January 13 Monday, 2025:</b> Two-page abstract and video material submission.</li>
         <li><b>January 21 Tuesday, 2025:</b> Notification of results.</li>
         <li><b>January 28 Tuesday, 2025:</b> Camera-ready two-page abstract and final video material submission with a 3-5 min video teaser.</li>
     </ul>
-
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
         Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline.<br />Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations(<a target="_blank" href="mailto:researchdemos2025@ieeevr.org">researchdemos2025@ieeevr.org</a>).
-
     </div>
     <p>
        Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.
