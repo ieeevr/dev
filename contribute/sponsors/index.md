@@ -4,23 +4,24 @@ title: "Call for Sponsors and Exhibitors"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
-
 <script type="text/javascript">
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
+
 		email = "exhibitssponsors2025"; 
-		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
-        });
+        	
+		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>"); 
+
+        $(".exhibitssponsorsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");    
+	});
 </script>
 <div>
-    <h1 id="cfes-conference"> Call for Sponsors and Exhibitors <div class="floatRight"><span id="exhibitssponsors"></span></div></h1>
+    <h1 id="cfp-doctoral-cosortium">Call for Exhibitors and Sponsors<div class="floatRight"><span class="exhibitssponsors"></span></div></h1>
     <p>
-        <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
+        <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-</div>
-<div>
     <h2 id="overview">Opportunities</h2>
     <p>
         IEEE VR provides a unique opportunity for your organization to reach the world's foremost virtual reality researchers and application builders. We invite companies, government organizations, and academic institutions to showcase VR/AR/MR related products – hardware, software, integrated systems, peripherals, innovations, or literature in one of our dedicated exhibit areas. Refreshments and a special reception will take place in the exhibit areas, ensuring good foot traffic to your display. IEEE VR 2025 provides various ways for sponsors to support the community and gain exposure:
