@@ -113,7 +113,7 @@ title_separator: "|"
                 <li>Originality</li>
                 <li>How well it fits in the scope of the XR Gallery</li>
                 <li>Representative video and image</li>
-                <li>TThe equipment and technical information required for its realization: (including light, sound, network needs)</li>
+                <li>The equipment and technical information required for its realization: (including light, sound, network needs)</li>
             </ul>
 
 
