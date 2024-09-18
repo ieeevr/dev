@@ -42,7 +42,7 @@ title_separator: "|"
         Discover a range of exciting opportunities for you and your company to showcase your latest products, technologies, and innovations at this event. Download or view the prospectus below to learn more about how you can get involved.
     </p>
     <p>
-        <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf"> Full informations</a> 
+        <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf">Call for Sponsors and Exhibitors</a> 
     </p>
     <p>
         You can contact us at : <a href= "mailto: exhibitssponsors2025@ieeevr.org"  target="_blank">exhibitssponsors2025@ieeevr.org</a> 
