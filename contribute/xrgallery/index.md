@@ -87,7 +87,7 @@ title_separator: "|"
 
     <h2 id="submission">Submission <strong style="color: red">(NEW)</strong></h2>
     <p>
-        In order to apply, submit a 1-2 page abstract (in .pdf format see below) describing your artistic project on the PCS system (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
+        In order to apply, submit the following information directly to the  PCS system: (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
         <ul>
             <li>Abstract (1000 words) with the following required information:
                 <ul>
@@ -106,7 +106,7 @@ title_separator: "|"
 
     </p>
 
-    <h2 id="selection">Selection Process<strong style="color: red">(NEW)</strong></h2>
+    <h2 id="selection">Selection Process<strong style="color: red"> (NEW)</strong></h2>
         <p>
             Each submission will be examined by a panel of external assessor from the digital arts fields and XR research communities, on the basis of the following criteria:
             <ul>
