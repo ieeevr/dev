@@ -140,7 +140,9 @@ title_separator: "|"
     <h2 id="due">Camera-ready version due: January 28, 2025</h2>
     <p>
         All accepted submissions must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as a 1-2 page PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>).
+        
         Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the VGTC format (<a href="https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF.
+        
         These  papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track).
 
     </p>
