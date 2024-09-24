@@ -56,15 +56,15 @@ title_separator: "|"
         <p>
             <ul>
                 <li><b>Interaction and Interfaces</b> (e.g., 3D Interaction, Multimodal Input and Interaction, Gestures and Interactions)</li>
-        Visualization and Rendering (e.g., Rendering and Displays, Visual Rendering, Immersive Visualization)</li>
-                <li><b>Haptic Feedback </b>(e.g., Haptics, Touch, Tangible and Gesture Interfaces, Haptics and Vibrotactile)</li>
-                <li><b>Perception and Cognition </b>(e.g., Perception and Cognition, Multimodal Perception and Experience, Depth and Distance Perception)</li>
-                <li><b>Collaboration, Virtual Humans and Social Applications </b>(e.g., Collaboration, Social Applications, Social Interactions, Virtual Humans and Avatars, Virtual Humans and Agents)</li>
-                <li><b>User Experience and Presence</b>(e.g., Evaluating Immersion, UX and Interaction, Experiences, Cybersickness and Presence, Plausibility, Presence and Social VR)</li>
-                <li><b>Training and Education</b>(e.g., Training and Learning, Education Applications, Training and Virtual Humans, Healthcare, Medical Applications)</li>
-                <li><b>Locomotion, Navigation and Redirection</b>(e.g., Locomotion and Redirection, Perception in Navigation, Locomotion and Redirection, Redirected Walking)</li>
-                <li><b>Ethical and Psychological Aspects </b>(e.g., Ethics in VR, Psycho-and Sociocultural Dimensions of Virtual Identities, Cognition and Psychology)</li>
-                <li><b>Miscellaneous Topics</b>(This category serves as a space for diverse and unique research topics that may not clearly align with the other identified thematic area)</li>
+                <li><b>Visualization and Rendering</b> (e.g., Rendering and Displays, Visual Rendering, Immersive Visualization)</li>
+                <li><b>Haptic Feedback </b> (e.g., Haptics, Touch, Tangible and Gesture Interfaces, Haptics and Vibrotactile)</li>
+                <li><b>Perception and Cognition </b> (e.g., Perception and Cognition, Multimodal Perception and Experience, Depth and Distance Perception)</li>
+                <li><b>Collaboration, Virtual Humans and Social Applications </b> (e.g., Collaboration, Social Applications, Social Interactions, Virtual Humans and Avatars, Virtual Humans and Agents)</li>
+                <li><b>User Experience and Presence</b> (e.g., Evaluating Immersion, UX and Interaction, Experiences, Cybersickness and Presence, Plausibility, Presence and Social VR)</li>
+                <li><b>Training and Education</b> (e.g., Training and Learning, Education Applications, Training and Virtual Humans, Healthcare, Medical Applications)</li>
+                <li><b>Locomotion, Navigation and Redirection</b> (e.g., Locomotion and Redirection, Perception in Navigation, Locomotion and Redirection, Redirected Walking)</li>
+                <li><b>Ethical and Psychological Aspects </b> (e.g., Ethics in VR, Psycho-and Sociocultural Dimensions of Virtual Identities, Cognition and Psychology)</li>
+                <li><b>Miscellaneous Topics</b> (This category serves as a space for diverse and unique research topics that may not clearly align with the other identified thematic area)</li>
             </ul>
             In case of an acceptance, further material will be requested for the final Camera Ready deadline such as a teaser slide and a video. 
         </p>
@@ -80,6 +80,8 @@ title_separator: "|"
                 <li>Conditional Acceptance</li>
                 <li>Acceptance</li>
             </ul>
+        </p>
+        <p>
             Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to the final submission of camera-ready materials. This will be verified by the primary reviewer.
         </p>
     <h2 id="poster_presentation">Poster Presentation</h2>
@@ -114,7 +116,7 @@ title_separator: "|"
             <li><span class="bold">Justine Saint-Aubert</span>, <i>IRISA, CNRS, France</i></li>
             <li><span class="bold">Jerald Thomas</span>, <i>University of Wisconsin - Milwaukee, USA</i></li>
         </ul>   
-        at the following adress:<span class="posters"></span>
+        at the following adress: <span class="posters"></span>
     </p>
 </div>
 
