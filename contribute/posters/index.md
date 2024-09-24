@@ -41,7 +41,7 @@ title_separator: "|"
                 <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
             </ul>
         </p>
-    <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
+    <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b> The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
         Submissions will be accepted through Precision Conference Solutions this year.<br />
