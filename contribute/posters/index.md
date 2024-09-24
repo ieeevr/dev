@@ -36,16 +36,21 @@ title_separator: "|"
     <h2 id="important-dates">Important Dates</h2>
         <p>
             <ul>
-                <li><b><span style="color:red;">December 03, 2024</span>:</b> Two-page extended abstract and optional material submission due</li>
-                <li><b><span style="color:red;">January 09, 2025</span>:</b> Notification of results</li>
-                <li><b><span style="color:red;">January 16, 2025</span>:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
+                <li><b>December 03, 2024:</b> Two-page extended abstract and optional material submission due</li>
+                <li><b>January 09, 2025:</b> Notification of results</li>
+                <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
             </ul>
         </p>
-    <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.</p>
+    <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
         <p>
             <b>Important:</b>
-            <b>Submissions need to be anonymized.</b> Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. <b><span style="color:red;">Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</span></b>
+            <b>Submissions need to be anonymized.</b> Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. 
+        </p>
+        <p>
+            <div class="notice--info alignCenter">
+                <h3>Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</h3>
+            </div>
         </p>
         <p>
             Submissions to the poster track must be written in English and in the form of a two-page extended abstract (references included). It should include an abstract with a maximum of 100 words, a concise description of the idea, the results of findings, supporting imagery and figures, and a discussion of the implementations of the work in the selected area of work. Full literature searches are not expected, although relevant citations should be included. The submission must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>). Authors who use the Word template must ensure that their PDF submission matches the format. Accepted two-page extended abstracts will be included in the Abstracts and Workshop Proceedings and will be archived in the IEEE Digital Library.
@@ -66,6 +71,8 @@ title_separator: "|"
                 <li><b>Ethical and Psychological Aspects </b> (e.g., Ethics in VR, Psycho-and Sociocultural Dimensions of Virtual Identities, Cognition and Psychology)</li>
                 <li><b>Miscellaneous Topics</b> (This category serves as a space for diverse and unique research topics that may not clearly align with the other identified thematic area)</li>
             </ul>
+        </p>
+        <p>
             In case of an acceptance, further material will be requested for the final Camera Ready deadline such as a teaser slide and a video. 
         </p>
         <h2 id="poster_review_process">Poster Review Process</h2>
@@ -116,7 +123,9 @@ title_separator: "|"
             <li><span class="bold">Justine Saint-Aubert</span>, <i>IRISA, CNRS, France</i></li>
             <li><span class="bold">Jerald Thomas</span>, <i>University of Wisconsin - Milwaukee, USA</i></li>
         </ul>   
-        at the following adress: <span class="posters"></span>
+    </p>
+    <p>
+    at the following adress: <span class="posters"></span>
     </p>
 </div>
 
