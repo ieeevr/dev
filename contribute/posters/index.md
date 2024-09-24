@@ -43,6 +43,10 @@ title_separator: "|"
         </p>
     <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
+    <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
+        Submissions will be accepted through Precision Conference Solutions this year.<br />
+        <a href="https://new.precisionconference.com/submissions" title="https://new.precisionconference.com/submissions" target="_blank">https://new.precisionconference.com/submissions</a>
+    </div>
         <p>
             <b>Important:</b>
             <b>Submissions need to be anonymized.</b> Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. 
