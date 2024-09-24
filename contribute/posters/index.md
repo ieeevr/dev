@@ -48,11 +48,6 @@ title_separator: "|"
             <b>Submissions need to be anonymized.</b> Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. 
         </p>
         <p>
-            <div class="notice--info alignCenter">
-                <h3>Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</h3>
-            </div>
-        </p>
-        <p>
             Submissions to the poster track must be written in English and in the form of a two-page extended abstract (references included). It should include an abstract with a maximum of 100 words, a concise description of the idea, the results of findings, supporting imagery and figures, and a discussion of the implementations of the work in the selected area of work. Full literature searches are not expected, although relevant citations should be included. The submission must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>). Authors who use the Word template must ensure that their PDF submission matches the format. Accepted two-page extended abstracts will be included in the Abstracts and Workshop Proceedings and will be archived in the IEEE Digital Library.
         </p>
         <p>
@@ -74,6 +69,11 @@ title_separator: "|"
         </p>
         <p>
             In case of an acceptance, further material will be requested for the final Camera Ready deadline such as a teaser slide and a video. 
+        </p>
+        <p>
+            <div class="notice--info alignCenter">
+                <h3>Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</h3>
+            </div>
         </p>
         <h2 id="poster_review_process">Poster Review Process</h2>
         <p>

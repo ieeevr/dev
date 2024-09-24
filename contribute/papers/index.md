@@ -241,7 +241,7 @@ title_separator: "|"
     </p>
     <p>
         <div class="notice--info alignCenter">
-            <h3>* Failure to make reasonable attempts to adhere to the double-blind policy will result in desk rejection. *</h3>
+            <h3>Failure to make reasonable attempts to adhere to the double-blind policy will result in desk rejection.</h3>
         </div>
     </p>    
     <p>
