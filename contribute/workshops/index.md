@@ -109,11 +109,11 @@ title_separator: "|"
         Workshop organizers are expected to distribute their CFP and announce the workshops through their professional networks if accepted. As listed in the Workshops CFP submission, workshop organizers must provide a workshop website and are expected to update that website as workshop details become better defined.
     </p>
     <p>
-        For each accepted workshop, we will be able to provide one complimentary workshop/tutorial registration (Saturday- Sunday).
-    </p>
-    <p>
         In case the workshop has contributions that should be included in the IEEE digital library, workshop organizers are expected to issue any acceptance decisions to their contributors no later than <b>Thursday, January 9, 2025 (AoE)</b>, to allow sufficient time for delivering camera-ready material, as well as planning and advance registration for the conference. IEEE VR Workshops proceedings will be published electronically through the IEEE Digital Library, depending on the workshop organizers' on-time submission of the proceedings before the mandatory IEEE deadline of <b>Thursday, January 16, 2025 (AoE)</b>. Organizers of accepted workshops are encouraged to seek assistance from the Workshops Chairs to navigate this process.
     </p>
+    <p><b>
+        For each accepted workshop, we will be able to provide one complimentary workshop/tutorial registration (Saturday- Sunday).
+    </b></p>
      <h2 id="contacts">Contacts <div class="floatRight"><span class="workshops"></span></div></h2>	
     <p>
         For more information, to inquire about a particular tutorial topic, or to submit a proposal, please contact the Workshop Chairs at <span class="workshops"></span>
