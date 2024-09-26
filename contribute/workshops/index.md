@@ -37,7 +37,7 @@ title_separator: "|"
         We invite individuals or teams interested in organizing such a workshop to submit proposals that will work at the conference venue for IEEE VR 2025. We encourage workshops to consider this in their initial submission to maximize participation, as IEEE VR2025 will be held in person. We invite individuals or teams interested in organizing such a workshop to submit proposals. Workshops will be held during the first two days of the conference: March 8th (Saturday) and March 9th 2025 (Sunday).
     </p>
     <p>
-        Workshops are intended to bring together researchers, developers, technology providers, practitioners, and users for a lively and interactive discussion of issues through an informal exchange of ideas and information. Workshops may target a specific application area, a specific research area, or a topic of general interest. Workshops should be more than just a mini-conference of paper presentations. Workshops may include, but are not limited to:
+        Workshops are intended to bring together researchers, developers, technology providers, practitioners, and users for a lively and interactive discussion of issues through an informal exchange of ideas and information. Workshops may target a specific application area, a specific research area, or a topic of general interest. Workshops should be more than just mini-conferences of paper presentations. Workshops may include, but are not limited to:
         <ul>
             <li>A focus on creating and exchanging new ideas and opportunities to meet new people</li>
             <li>A balance of formal presentations with informal discussion and ideation</li>
