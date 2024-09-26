@@ -57,7 +57,7 @@ title_separator: "|"
         Workshop submissions require a short two-page maximum proposal and a call for papers (CFP).
         <ul>
             <li>
-                TThe Workshop Proposal is an internal document for decision-making purposes only. Organizers are welcome to email a PDF proposal to the Workshop Chairs at <span class="workshops"></span>, which should address the following:           
+                The Workshop Proposal is an internal document for decision-making purposes only. Organizers are welcome to email a PDF proposal to the Workshop Chairs at <span class="workshops"></span>, which should address the following:           
                 <ul>
                     <li style="font-size: inherit;">Workshop title and acronym.</li>
                     <li style="font-size: inherit;">The goal of organizing the workshop.</li>
