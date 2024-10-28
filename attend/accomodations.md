@@ -1,11 +1,11 @@
 ---
 layout: ieeevr-default
-title: "Accomodation"
+title: "Accommodations"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 <div>
-    <h1>Accomodation</h1>
+    <h1>Accommodations</h1>
     <h2>A quality accommodation</h2>
     <p>
       The city of Saint-Malo offers nearly 3,000 rooms, 900 of which are within walking distance.
