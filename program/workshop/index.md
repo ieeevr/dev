@@ -32,7 +32,7 @@ title_separator: "|"
     <div>
         {% for workshop in ws %}
             <!-- Workshop title matter -->
-            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} {{ workshop.id }}</h2> 
+            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} ({{ workshop.id }})</h2> 
             <!--<p class="small">{{ workshop.day }}, {{ workshop.starttime }}-{{ workshop.endtime }} ({{ workshop.timezone }}), Room: {{ workshop.room }}</p>                -->
             <div class="padding_left_medium">
                 {% if workshop.url %}
