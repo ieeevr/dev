@@ -7,7 +7,7 @@ title_separator: "|"
 
 <div>
     <h1 id="call-for-workshop-papers"> Workshops </h1>
-      <!--% for day in site.data.workshopdays %}
+      {% for day in site.data.workshopdays %}
         <div>
             <div>
                 <table class="styled-table">
@@ -28,7 +28,7 @@ title_separator: "|"
                 </table>
             </div>
         <div>
-    {% endfor %}       -->
+    {% endfor %}       
     <div>
         {% for workshop in ws %}
             <!-- Workshop title matter -->
