@@ -1,4 +1,4 @@
-num,acronym,title,day,starttime,endtime,timezone,abstract,organiser,url,room
+num,id,title,day,starttime,endtime,timezone,abstract,organiser,url,room
 1,ReViSI,1st International Workshop on Real and Virtual Spaces Influences,TBD,TBD,TBD,"Saint-Malo, France UTC+1","This will be the first edition of the workshop, designed to bring
 together researchers from diverse fields to promote a multidisciplinary conversation around a key
 question: how do real and virtual environments reciprocally influence each other? More specifically,
