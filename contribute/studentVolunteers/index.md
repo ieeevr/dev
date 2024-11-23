@@ -75,8 +75,9 @@ title_separator: "|"
     <p>
         For more information, please contact the Student Volunteer Chairs:     
         <ul>
-            <li><span class="bold">Huyen Nguyen</span>, <i>Université Paris-Saclay, France</i><a target="_blank" href="mailto:huyen.nguyen@universite-paris-saclay.fr"> huyen.nguyen@universite-paris-saclay.fr</a></li>
-            <li><span class="bold">Jason Orlosky</span>, <i>Augusta University, USA</i><a target="_blank" href="mailto:jorlosky@augusta.edu"> jorlosky@augusta.edu</a></li>
-            <li><span class="bold">Claudio Pacchierotti</span>, <i>CNRS IRISA/Inria Rennes, France</i><a target="_blank" href="mailto:claudio.pacchierotti@irisa.fr"> claudio.pacchierotti@irisa.fr</a></li>
+            <li><span class="bold">Huyen Nguyen</span>, <i>Université Paris-Saclay, France</i></li>
+            <li><span class="bold">Jason Orlosky</span>, <i>Augusta University, USA</i></li>
+            <li><span class="bold">Claudio Pacchierotti</span>, <i>CNRS IRISA/Inria Rennes, France</i></li>
         </ul> 
+        <p>Contact: <a target="_blank" href="mailto:studentvolunteers2025@ieeevr.org">studentvolunteers2025@ieeevr.org</a>
     </p>
