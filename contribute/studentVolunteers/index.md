@@ -21,7 +21,7 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-     <p class="alignCenter"><a href="https://forms.gle/NhUFYCkHTyQkbnxPA" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
+     <p class="alignCenter"><a href="https://forms.gle/VHHzCPc47z36absm6" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
         <li><b>December 10th, 2024:</b> Open student volunteer applications</li>
@@ -75,9 +75,9 @@ title_separator: "|"
     <p>
         For more information, please contact the Student Volunteer Chairs:     
         <ul>
-            <li><span class="bold">Huyen Nguyen</span>, <i>Université Paris-Saclay, France</i><a target="_blank" href="mailto:huyen.nguyen@universite-paris-saclay.fr">huyen.nguyen@universite-paris-saclay.fr</a> </b> <span id="program"></li>
-            <li><span class="bold">Jason Orlosky</span>, <i>Augusta University, USA</i><a target="_blank" href="mailto:jorlosky@augusta.edu">jorlosky@augusta.edu</a></li>
-            <li><span class="bold">Claudio Pacchierotti</span>, <i>CNRS IRISA/Inria Rennes, France</i><a target="_blank" href="mailto:claudio.pacchierotti@irisa.fr">claudio.pacchierotti@irisa.fr</a></li>
+            <li><span class="bold">Huyen Nguyen</span>, <i>Université Paris-Saclay, France</i> <a target="_blank" href="mailto:huyen.nguyen@universite-paris-saclay.fr">huyen.nguyen@universite-paris-saclay.fr</a></li>
+            <li><span class="bold">Jason Orlosky</span>, <i>Augusta University, USA</i> <a target="_blank" href="mailto:jorlosky@augusta.edu">jorlosky@augusta.edu</a></li>
+            <li><span class="bold">Claudio Pacchierotti</span>, <i>CNRS IRISA/Inria Rennes, France</i> <a target="_blank" href="mailto:claudio.pacchierotti@irisa.fr">claudio.pacchierotti@irisa.fr</a></li>
         </ul> 
     </p>
 </div> 
