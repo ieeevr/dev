@@ -10,7 +10,7 @@ title_separator: "|"
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
-	    email = "studentvolunteers2024"; 		
+	    email = "studentvolunteers2025"; 		
 		$(".studentvolunteers").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
