@@ -80,4 +80,3 @@ title_separator: "|"
             <li><span class="bold">Claudio Pacchierotti</span>, <i>CNRS IRISA/Inria Rennes, France</i><a target="_blank" href="mailto:claudio.pacchierotti@irisa.fr"> claudio.pacchierotti@irisa.fr</a></li>
         </ul> 
     </p>
-</div> 
