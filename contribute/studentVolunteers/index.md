@@ -42,7 +42,7 @@ title_separator: "|"
        Besides the stimulating experience, SVs will receive an excellent package of benefits that includes: 
         <ul>
             <li>free registration*</li>
-            <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs)</li>
+            <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs) </li>
             <li>an exclusive student volunteer shirt</li>
         </ul>
     </p>
