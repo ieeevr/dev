@@ -21,7 +21,7 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-     <p class="alignCenter"><a href="https://forms.gle/VHHzCPc47z36absm6" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
+     <p class="alignCenter"><a href="https://forms.gle/Wu8Hw6qcEaYtezR59" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
         <li><b>December 10th, 2024:</b> Open student volunteer applications</li>
@@ -69,7 +69,7 @@ title_separator: "|"
     </p>    
     <h2 id="application">Application</h2>
     <p>
-        Application will be done through this form: <a href="https://forms.gle/VHHzCPc47z36absm6">https://forms.gle/VHHzCPc47z36absm6</a>
+        Application will be done through this form: <a href="https://forms.gle/Wu8Hw6qcEaYtezR59">https://forms.gle/Wu8Hw6qcEaYtezR59</a>
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="studentvolunteers"></span></div></h2>
     <p>
