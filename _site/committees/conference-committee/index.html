@@ -12,7 +12,7 @@
 
 
 
-<!-- begin _includes/seo.html --><title>Code of Conduct | IEEE VR 2025</title>
+<!-- begin _includes/seo.html --><title>Conference Committee | IEEE VR 2025</title>
 <meta name="description" content="The 32nd IEEE Conference on Virtual Reality and 3D User Interfaces ">
 
 
@@ -22,8 +22,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="IEEE VR 2025">
-<meta property="og:title" content="Code of Conduct">
-<meta property="og:url" content="http://localhost:4000/attend/code-of-conduct/">
+<meta property="og:title" content="Conference Committee">
+<meta property="og:url" content="http://localhost:4000/committees/conference-committee/">
 
 
   <meta property="og:description" content="The 32nd IEEE Conference on Virtual Reality and 3D User Interfaces ">
@@ -35,9 +35,9 @@
 
 
   <meta name="twitter:site" content="@IEEEVR">
-  <meta name="twitter:title" content="Code of Conduct">
+  <meta name="twitter:title" content="Conference Committee">
   <meta name="twitter:description" content="The 32nd IEEE Conference on Virtual Reality and 3D User Interfaces ">
-  <meta name="twitter:url" content="http://localhost:4000/attend/code-of-conduct/">
+  <meta name="twitter:url" content="http://localhost:4000/committees/conference-committee/">
 
   
     <meta name="twitter:card" content="summary">
@@ -59,7 +59,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/attend/code-of-conduct/">
+<link rel="canonical" href="http://localhost:4000/committees/conference-committee/">
 
 
 
@@ -252,91 +252,289 @@
                 <!-- left sidebar -->
                 <div class="column left">
                     <script type="text/javascript">
-    $(document).ready(function(){
+	$(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
 		email = "general2025"; 		
-		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		
 
-        email = "steering"; 		
-		steering.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+		email = "program2025"; 
+		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "contest2025"; 
+		contest.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-        email = "eventconduct"; 		
-		$(".eventconduct").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
+		email = "awards2025"; 
+		awards.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "doctoralconsortium2025"; 
+		doctoralconsortium.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "deia2025"; 
+		diversity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+	
+		email = "exhibitssponsors2025"; 
+		exhibitssponsors.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-        email = "eventconduct"; 		
-		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+		email = "finance2025"; 
+		finance.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "localarrangements2025";
+		localarrangements.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "posters2025"; 
+		posters.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "publications2025"; 
+		publications.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "publicity2025"; 
+		publicity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "researchdemos2025"; 
+		researchdemos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "studentvolunteers2025"; 
+		studentvolunteers.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "tutorials2025"; 
+		tutorials.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-        email = "swan"; 
-		var domain = "acm.org"; 		
-		swan.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+		email = "web2025";		
+		web.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "workshops2025"; 		
+		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+
+		email = "environment2025"; 		
+		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+		
+		email = "socialevents2025"; 		
+		socialevents.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "art2025"; 		
+		art.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "onlineexperience2025"; 		
+		onlineexperience.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+		email = "xrfuturefaculty2025"; 		
+		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
+		
 	});
 </script>
 
+<h1>Conference Committee</h1>
 <div>
-    <h1>Code of Conduct<div class="floatRight"><span class="eventconductSm"></span></div></h1>
-    <p>
-        IEEE Virtual Reality 2025 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
-    </p>
-    <p>
-        As a conference that aims to share ideas and freedom of thought and expression, it is essential that the conference takes place in an environment that recognizes the inherent worth of every person by being respectful of all. All communication should be appropriate for a professional audience including people of many different backgrounds. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers. In addition, attendees are subject to the <i class="far fa-file-pdf"></i> <a href="/assets/attend/ieee_code_of_conduct.pdf" target="_blank">IEEE Code of Ethics</a>.
-    </p>
-    <p>
-        If you wish to report a breach of the code of conduct this can be done via email to:
-        <ul>
-            <li> 
-                The General Co-Chairs: <span id="general"></span>
-            </li>
-            <li> 
-                The Steering Committee: <span id="steering"></span>
-            </li>
-            <li> 
-                The Chair, Ed Swan: <span id="swan"></span>
-            </li>
-        </ul>
-        <p>All reports will only be sent to the authorized people and will be treated confidentially.</p>
-    </p>
-
-    <h2>IEEE Computer Society Open Conference Statement</h2>
-
-    <p>
-        Equity, Diversity, and Inclusion are central to the goals of the IEEE Computer Society and all of its conferences. Equity at its heart is about removing barriers, 
-        biases, and obstacles that impede equal access and opportunity to succeed. Diversity is fundamentally about valuing human differences and recognizing diverse talents. 
-        Inclusion is the active engagement of Diversity and Equity.
-    </p>
-    <p>
-        A goal of the IEEE Computer Society is to foster an environment in which all individuals are entitled to participate in any IEEE Computer Society activity free 
-        of discrimination. For this reason, the IEEE Computer Society is firmly committed to team compositions in all sponsored activities, including but not limited to, 
-        technical committees, steering committees, conference organizations, standards committees, and ad hoc committees that display Equity, Diversity, and Inclusion.
-    </p>
-
-    <p>
-        IEEE Computer Society meetings, conferences and workshops must provide a welcoming, open and safe environment, that embraces the value of every person, 
-        regardless of race, color, sex, sexual orientation, gender identity or expression, age, marital status, religion, national origin, ancestry, or disability.
-        All individuals are entitled to participate in any IEEE Computer Society activity free of discrimination, including harassment based on any of the above factors.
-    </p>
-
-    <h2>IEEE Event Conduct and Safety Statement</h2>
-
-    <p>
-        IEEE believes that science, technology, and engineering are fundamental human activities, for which openness, international collaboration, and the free flow 
-        of talent and ideas are essential. Its meetings, conferences, and other events seek to enable engaging, thought provoking conversations that support IEEE’s 
-        core mission of advancing technology for humanity. Accordingly, IEEE is committed to providing a safe, productive, and welcoming environment to all participants, 
-        including staff and vendors, at IEEE-related events.
-    </p>
-
-    <p>
-        IEEE has no tolerance for discrimination, harassment, or bullying in any form at IEEE-related events. All participants have the right to pursue shared 
-        interests without harassment or discrimination in an environment that supports diversity and inclusion. Participants are expected to adhere to these 
-        principles and respect the rights of others.
-    </p>
-
-    <p>
-        IEEE seeks to provide a secure environment at its events. Participants should report any behavior inconsistent with the principles outlined here, to 
-        on site staff, security or venue personnel, or to <span class="eventconduct"></span>. 
-    </p>
+	<h2>General Chairs <div class="floatRight"><span id="general"></span></div></h2>
+	<ul>
+		<li><span class="bold">Anatole Lécuyer</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Ferran Argelaguet</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Anne-Hélène Olivier</span> &#x2012; <i>Univ Rennes 2, France</i></li>
+	</ul>
 </div>
+<div>
+	<h2>Honorary General Chairs <div class="floatRight"><span id="honorary"></span></div></h2>
+	<ul>
+		<li><span class="bold">Carolina Cruz-Neira</span> &#x2012; <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Greg Welch</span> &#x2012; <i>University of Central Florida, USA</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
+	<ul>
+		<li><span class="bold">Daisuke Iwai</span> &#x2012; <i>Osaka University, Japan</i></li>
+		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
+		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
+		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
+	<ul>
+		<li><span class="bold">Rémi Cambuzat</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
+		<li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>Environmental Impact Reduction and Awareness Chairs <div class="floatRight"><span id="environment"></span></div></h2>
+	<ul>
+		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>On-line Experience Chairs<div class="floatRight"><span id="onlineexperience"></span></div></h2>
+	<ul>
+		<li><span class="bold">Florian Nouviale</span> &#x2012; <i>INSA, France</i></li>
+		<li><span class="bold">Kyle Johnson</span> &#x2012; <i>University Of Georgia, USA</i></li>
+		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University Of Georgia, USA</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
+	<ul>
+		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
+		<li><span class="bold">Manuela Chessa</span> &#x2012; <i>University of Genoa, Italy</i></li>
+		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
+		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Conference Awards Chairs  <div class="floatRight"><span id="awards"></span></div></h2>
+	<ul>
+		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>NAIST, Japan</i></li>
+		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>University Hamburg, Germany</i></li>
+		<li><span class="bold">Stefania Serafin</span> &#x2012; <i>Aalborg University, Denmark</i></li>
+		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université d'Evry Paris-Saclay, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Doctoral Consortium Chairs <div class="floatRight"><span id="doctoralconsortium"></span></div></h2>			
+	<ul>
+		<li><span class="bold">Jonathan Ventura</span> &#x2012; <i>California Polytechnic State University, USA</i></li>
+		<li><span class="bold">Missie Smith</span> &#x2012; <i>RealityLabsResearch, Meta, USA</i></li>
+		<li><span class="bold">Marc	Macé</span> &#x2012; <i>CRNS, France</i></li>
+		<li><span class="bold">Iana	Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><span id="diversity"></span></div></h2>			
+	<ul>
+		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>Univ North Texas, USA</i></li>
+		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
+		<li><span class="bold">Tonja Machulla</span> &#x2012; <i>TU Chemnitz, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><span id="exhibitssponsors"></span></div></h2>
+	<ul>
+		<li><span class="bold">Jérôme Perret</span> &#x2012; <i>HAPTION, France</i></li>
+		<li><span class="bold">Franck Multon</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Philippe Guillotel</span> &#x2012; <i>Interdigital, France</i></li>
+		<li><span class="bold">Christian Sandor</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
+		<li><span class="bold">Gabriel Zachmann</span> &#x2012; <i>University of Bremen, Germany</i></li>
+		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
+		<li><span class="bold">Masahiko Inami</span> &#x2012; <i>University of Tokyo, Japan</i></li>
+		<li><span class="bold">Arnulph Fuhrmann</span> &#x2012; <i>TH Köln, Germany</i></li>
+		<li><span class="bold">Thomas Odaker</span> &#x2012; <i>Leibniz Supercomputing Centre, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Finance Chairs <div class="floatRight"><span id="finance"></span></div></h2>			
+	<ul>
+		<li><span class="bold">Pascal Lorenz</span> &#x2012; <i>IEEE France</i></li>
+		<li><span class="bold">Edith Blin</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Local Arrangements Chairs <div class="floatRight"><span id="localarrangements"></span></div></h2>			
+	<ul>
+		<li><span class="bold">Edith Blin</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Nathalie	Denis</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Gwenaelle Lannec</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Posters Chairs <div class="floatRight"><span id="posters"></span></div></h2>
+	<ul>
+		<li><span class="bold">Justine	Saint-Aubert</span> &#x2012; <i>CNRS, France</i></li>
+		<li><span class="bold">Jerald	Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
+		<li><span class="bold">Daniel 	Roth</span> &#x2012; <i>Technical University of Munich, Germany</i></li>
+		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Publications Chairs <div class="floatRight"><span id="publications"></span></div></h2>
+	<ul>
+		<li><span class="bold">Christos	Mousas</span> &#x2012; <i>Purdue University, USA</i></li>
+		<li><span class="bold">Mohammed	Safayet Arefin</span> &#x2012; <i>Colorado State University, USA</i></li>
+		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College Dublin, Ireland</i></li>
+		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>Trier University, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Publicity Chairs <div class="floatRight"><span id="publicity"></span></div></h2>
+	<ul>
+		<li><span class="bold">Yann Glemarec</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Sylvia Pan</span> &#x2012; <i>Goldsmiths, University of London, UK</i></li>
+		<li><span class="bold">Alexandre Kabil</span> &#x2012; <i>CNRS, France</i></li>
+		<li><span class="bold">Rajiv Khadka</span> &#x2012; <i>Idaho National Laboratory, USA</i></li>
+		<li><span class="bold">Takefumi	Hiraki</span> &#x2012; <i>Clusters Metaverse Lab, Japan</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Research Demonstrations Chairs <div class="floatRight"><span id="researchdemos"></span></div></h2>
+	<ul>
+		<li><span class="bold">Geoffrey Gorisse</span> &#x2012; <i>ENSAM, France</i></li>
+		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li>
+		<li><span class="bold">Ana Serrano</span> &#x2012; <i>Universidad de Zaragoza, Spain</i></li>
+		<li><span class="bold">Thomas Pietrzak</span> &#x2012; <i>Université de Lille, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
+	<ul>
+		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Rob Lindeman</span> &#x2012; <i>HIT Lab, New Zealand</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Student Volunteers Chairs <div class="floatRight"><span id="studentvolunteers"></span></div></h2>			
+	<ul>
+		<li><span class="bold">Claudio Pacchierotti</span> &#x2012; <i>CNRS, France</i></li>
+		<li><span class="bold">Huyen Nguyen</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
+		<li><span class="bold">Jason Orlosky</span> &#x2012; <i>Augusta University, USA</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Tutorials Chairs <div class="floatRight"><span id="tutorials"></span></div></h2>
+	<ul>
+		<li><span class="bold">Etienne Peillard</span> &#x2012; <i>IMT-Atlantique, France</i></li>
+		<li><span class="bold">Beatriz Santos</span> &#x2012; <i>University of Aveiro, Portugal</i></li>
+		<li><span class="bold">Ken Pfeuffer</span> &#x2012; <i>Aarhus University, Denmark</i></li>
+		<li><span class="bold">Parinya Punpongsanon</span> &#x2012; <i>Saitama University, Japan</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Web Chairs <div class="floatRight"><span id="web"></span></div></h2>
+	<ul>
+		<li><span class="bold">Léa Pillette</span> &#x2012; <i>CNRS, France</i></li>
+		<li><span class="bold">Emile Savalle</span> &#x2012; <i>Univ Rennes, France</i></li>
+		<li><span class="bold">Céline Finet</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Workshop Chairs  <div class="floatRight"><span id="workshops"></span></div></h2>
+	<ul>
+		<li><span class="bold">Rebecca	Fribourg</span> &#x2012; <i>École Centrale Nantes, France</i></li>
+		<li><span class="bold">Hugo	Brument</span> &#x2012; <i>TU Wien, Austria</i></li>
+		<li><span class="bold">Dirk	Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Carolin	Wienrich</span> &#x2012; <i>Julius-Maximilians Universität Würzburg, Germany</i></li>
+	</ul>
+</div>
+
+<!--- <div>
+	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
+	<ul>
+		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li>
+	</ul>
+</div> --->
+
 
                 </div>
                 <div class="column center"></div>
