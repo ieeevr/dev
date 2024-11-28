@@ -19,6 +19,12 @@
 <loc>http://localhost:4000/program/workshop/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/awards/conference-awards/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/awards/vgtc/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/committees/conference-committee/</loc>
 </url>
 <url>
