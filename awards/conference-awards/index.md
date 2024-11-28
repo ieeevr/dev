@@ -1,27 +1,26 @@
 ---
 layout: ieeevr-default
-title: "Conference Awards Committee IEEE VR 2024"
+title: "Conference Awards Committee IEEE VR 2025"
 ---
 <script type="text/javascript">
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
-        email = "awards2024";  		
+        email = "awards2025";  		
 		$(".awards").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");   
         
         $(".awardsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
 	});
 </script>
-<h1>Conference Awards Committee IEEE VR 2024 <div class="floatRight"><span class="awardsSm"></span></div></h1>
+<h1>Conference Awards Committee IEEE VR 2025 <div class="floatRight"><span class="awardsSm"></span></div></h1>
 
 <h2>Chairs</h2>
 <ul>
-    <li>Frank Steinicke ‒ Universität Hamburg, Germany</li>
-    <li>Shi-Min Hu ‒ Tsinghua University, China</li>
     <li>Kiyoshi Kiyokawa ‒ Nara Institute of Science and Technology, Japan</li>
-    <li>Luciana Nedel ‒ Federal University of Rio Grande do Sul, Brazil</li>
-    <li>Missie Smith ‒ Meta Reality Labs, USA</li>
+    <li>Frank Steinicke ‒ Universität Hamburg, Germany</li>
+    <li>Stefania Serafin ‒ Aalborg University, Denmark</li>
+    <li>Amine Chellali ‒ Université d'Evry Paris-Saclay, France</li>
 </ul>
 
 <h2>Best Papers & Honorable Mention for Best Papers</h2>
@@ -31,7 +30,7 @@ title: "Conference Awards Committee IEEE VR 2024"
 
 <h2>Best Posters & Honorable Mention for Best Poster</h2>
 
-<p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
+<p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 
 
 <h2>Best Demo & Honorable Mention for Best Demo</h2>
