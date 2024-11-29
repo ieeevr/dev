@@ -13,7 +13,7 @@ title: "IEEEVR VGTC Awards"
     </p>
     <ul class="extraSpacing">
         <li>
-            <a href="{{"/assets/award/IEEE_VGTC_VR_Awards_2025_Call_for_Nominations.pdf" | relative_url }}"  target="_blank">Call for NOMINATIONS</a> and <a href="https://ieeevr.org/vgtc/VR_best_dissertation/index.html" target="_blank">PREVIOUS WINNERS</a>
+            <a href="{{"/assets/award/IEEE_VGTC_VR_Awards_2025_Call_for_Nominations.pdf" | relative_url }}"  target="_blank">Call for NOMINATIONS</a>
         </li>
         <li>
             <a href="https://tc.computer.org/vgtc/award-criteria/" target="_blank">IEEE VGTC Awards Overview and Criteria</a>
