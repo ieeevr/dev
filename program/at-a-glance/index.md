@@ -13,7 +13,7 @@ title_separator: "|"
     </p> 
     <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
-			<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">
+			<img src="/dev/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">
            This is an 'At a Glance' schedule of activities associated with IEEE VR 2025. <br/>
            A more detailed view will be provided soon.<br>
            <span class="main_view"><hr></span>
@@ -23,7 +23,7 @@ title_separator: "|"
     </div>   
     <div class="main_view">
         <h2 id="pre">Pre-Conference</h2>
-		<img src="/2025/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
+		<img src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
         <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
@@ -32,7 +32,7 @@ title_separator: "|"
             style="border:none;">
         </iframe>-->
         <h2 id="full">Main-Conference</h2>
-        <img src="/2025/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">
+        <img src="/dev/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">
         <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
