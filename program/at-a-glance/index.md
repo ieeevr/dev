@@ -13,7 +13,7 @@ title_separator: "|"
     </p> 
     <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
-			<img src="/dev/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">
+			<!--<img src="/dev/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
            This is an 'At a Glance' schedule of activities associated with IEEE VR 2025. <br/>
            A more detailed view will be provided soon.<br>
            <span class="main_view"><hr></span>
