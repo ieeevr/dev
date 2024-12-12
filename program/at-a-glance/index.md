@@ -23,7 +23,7 @@ title_separator: "|"
     </div>   
     <div class="main_view">
         <h2 id="pre">Pre-Conference</h2>
-		<img src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
+		<img style="width: 80%;" src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
         <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
@@ -32,7 +32,7 @@ title_separator: "|"
             style="border:none;">
         </iframe>-->
         <h2 id="full">Main-Conference</h2>
-        <img src="/dev/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">
+        <img style="width: 80%;" src="/dev/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">
         <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
