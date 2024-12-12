@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "At a Glance"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
@@ -13,34 +13,35 @@ title_separator: "|"
     </p> 
     <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
+			<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">
            This is an 'At a Glance' schedule of activities associated with IEEE VR 2025. <br/>
-           For a more detailed view, visit <a href="{{ "/program/overview/" | relative_url }}">Program Overview</a>.<br>
+           A more detailed view will be provided soon.<br>
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
-           <div>
-            <a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a></div>
-           <div class="italic med" style="text-align: right;">Updated: 18 March, 2024 </div>
+           <div class="italic med" style="text-align: right;">Updated: December 12th, 2025 </div>
         </div>
     </div>   
-    <div class="main_view"> 
+    <div class="main_view">
         <h2 id="pre">Pre-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
-            title="IEEE VR 2024 Schedule (PDF)"
-            width="100%"
-            height="600px"
-            loading="lazy"
-            style="border:none;">
-        </iframe>
-        <h2 id="full">Main-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=31" 
+		<img src="/2025/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
+        <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
             loading="lazy"
             style="border:none;">
-        </iframe>
+        </iframe>-->
+        <h2 id="full">Main-Conference</h2>
+        <img src="/2025/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">
+        <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=31" 
+            title="IEEE VR 2025 Schedule (PDF)"
+            width="100%"
+            height="600px"
+            loading="lazy"
+            style="border:none;">
+        </iframe>-->
     </div>
-     <div class="mobile_view">         
-         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-38-public-mobile.pdf&embedded=true"> </iframe>    
-    </div>
+     <!--<div class="mobile_view">         
+         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2025/assets/program/vr2025_overall_schedule-38-public-mobile.pdf&embedded=true"> </iframe>    
+    </div>-->
 </div>
