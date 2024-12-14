@@ -76,6 +76,6 @@ title_separator: "|"
     </p>   
     <h2>Questions?</h2>
     <p>
-        This program is an initiative of the 2024 IEEE VR Diversity, Equity, Inclusion, and Accessibility Committee. The committee can be reached via email at <span class="deia"></span>.
+        This program is an initiative of the 2025 IEEE VR Diversity, Equity, Inclusion, and Accessibility Committee. The committee can be reached via email at <span class="deia"></span>.
     </p>
 </div>
