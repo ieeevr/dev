@@ -17,7 +17,7 @@ title_separator: "|"
 </script>
 
 <div>
-    <h1>Mentorship Program<div class="floatRight"><span class="deiaSm"></span></div></h1> 
+    <h1>Mentorship Program<div class="floatRight"><span class="deia"></span></div></h1> 
     <p>
         <strong style="color: black">IEEE VR 2024: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
         <br>

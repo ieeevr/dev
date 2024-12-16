@@ -72,7 +72,7 @@ title_separator: "|"
     </p> 
     <h2>Student Volunteering Opportunities</h2>
     <p>
-        Eligible researchers are also encouraged to <a href="{{ "/attend/mentoring" | relative_url }}">apply for a Mentorship Program</a> (February 21 deadline), which is a great opportunity for newcomers to the conference to connect with more senior participants.
+        Eligible researchers are also encouraged to <a href="{{ "/attend/mentorship" | relative_url }}">apply for a Mentorship Program</a> (February 21 deadline), which is a great opportunity for newcomers to the conference to connect with more senior participants.
     </p>   
     <h2>Questions?</h2>
     <p>
