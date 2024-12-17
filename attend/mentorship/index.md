@@ -30,7 +30,7 @@ title_separator: "|"
     </p>    
     <h2>How do I participate?</h2>
     <p>
-        nterested individuals can apply to the Mentorship Program after registering for the 2025 IEEE VR conference. Mentors and mentees will be matched by the program organizers based on different levels of IEEE VR experience and research interests and will be put in contact before the conference begins.
+        Interested individuals can apply to the Mentorship Program after registering for the 2025 IEEE VR conference. Mentors and mentees will be matched by the program organizers based on different levels of IEEE VR experience and research interests and will be put in contact before the conference begins.
     </p>
     <p> 
         Interested participants should complete this <a href="https://forms.gle/69cqSoWzhBCMSuHp6" target="_blank">form</a> by <strong>February 21, 2025</strong>. This deadline is to give time for the committee to match mentors and mentees before the conference begins. First-time attendees will receive priority consideration for a mentor, and the mentorship program will be open to the most compelling 40 applicants, based on need and order of application.
@@ -54,7 +54,7 @@ title_separator: "|"
     </p>    
     <h2>Contact</h2>
     <p>
-        This program is an initiative of the 2023 IEEE VR Inclusion, Diversity, and Accessibility Committee. The committee can be reached via email at <span class="deia"></span>
+        This program is an initiative of the 2025 IEEE VR Inclusion, Diversity, and Accessibility Committee. The committee can be reached via email at <span class="deia"></span>
     </p>
     <h3>Data Privacy Information</h3>
     <p>
