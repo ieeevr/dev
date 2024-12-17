@@ -71,7 +71,7 @@ title_separator: "|"
 		<ul>
 			<li><b>5 February, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
 			<li><b>5 February, 2025</b>: Early registration ends.</li>	
-			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2025@ieeevr.org">visa2025@ieeevr.org</a>.</li>
+			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:edith.blin@inria.fr">visa2025@ieeevr.org</a>.</li>
 			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a>.</li>	
 		</ul>
 		<p class="italic">
@@ -98,105 +98,119 @@ title_separator: "|"
 	<h4>What is Included for Each Type of Registration?</h4>
 	<div>
 		<p>
-			<span class="bold">Full Conference (Saturday-Thursday)</span>
+			<span class="bold">Full Conference (Saturday to Wednesday)</span>
 			<ul>
-				<li>Access to the Workshops & Tutorials (Saturday–Sunday)</li>
-				<li>Main Conference (Monday–Thursday)</li>
-				<li>Exhibitor Reception (Monday night)</li>
-				<li>VR Banquet (Wednesday night)</li>
+				<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+				<li>Access to all the conference sessions (Monday - Wednesday)</li>
+				<li>Access to the welcome reception (Monday evening)</li>
+				<li>Access to the gala dinner (Tuesday evening)</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the conference proceedings</li>
 			</ul>
 		</p>
 		<p>
-			<span class="bold">Main Conference (Monday – Thursday)</span>
+			<span class="bold">Conference only (Monday to Wednesday)</span>
 			<ul>
-				<li>Main Conference (Monday–Thursday)</li>
-				<li>Exhibitor Reception (Monday night)</li>
-				<li>VR Banquet (Wednesday night)</li>
+				<li>Access to all the conference sessions (Monday - Wednesday)</li>
+				<li>Access to the welcome reception (Monday evening)</li>
+				<li>Access to the gala dinner (Tuesday evening)</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the conference proceedings</li>
 			</ul>
 		</p>
 		<p>
-			<span class="bold">Main Conference One-Day Only</span>
+			<span class="bold">Conference One-day only (Monday or Tuesday or Wednesday)</span>
 			<ul>
-				<li>Access to the Technical Sessions and Breaks for one day only.</li>
-				<li>Depending on the chosen day it could include Exhibits, Research Demonstrations, Panels, and Posters.</li>
-				<li>Tickets to any social events must be purchased separately during the registration.</li>
+				<li>Access to all the conference sessions of that day</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the conference proceedings</li>
 			</ul>
 		</p>
 		<p>
-			<span class="bold">Workshops & Tutorials (Saturday–Sunday)</span>
+			<span class="bold">Workshops & Tutorials only (Saturday to Sunday)</span>
 			<ul>
-				<li>Access to the Workshops & Tutorials (Saturday–Sunday)</li>
+				<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the conference proceedings</li>
 			</ul>
 		</p>
 		<p>
-			<span class="bold">Workshops & Tutorials One-Day Only</span>
+			<span class="bold">Workshops & Tutorials One-day only (Saturday or Sunday)</span>
 			<ul>
-				<li>Access to the Workshops & Tutorials on either Saturday or Sunday.</li>
+				<li>Access to all the Workshops and Tutorials of that day</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the conference proceedings</li>
 			</ul>
 		</p>
 		<p>
-			<span class="bold">Additional Tickets</span>
+			<span class="bold">Virtual attendance (Monday to Wednesday)</span>
 			<ul>
-				<li>Reception on Monday night, March 18th</li>
-				<li>Banquet on Wednesday night, March 20th</li>
+				<li>Access to the live streaming of plenary sessions (opening, keynotes, panels, closing)</li>
+				<li>Access to the Discord server (chat)</li>
+				<li>Access to the video presentations</li>
+				<li>Access to the conference proceedings</li>
+			</ul>
+		</p>
+		<p>
+			<span class="bold">Additionnal tickets</span>
+			<ul>
+				<li>Welcome reception on Monday evening</li>
+				<li>Gala dinner on Tuesday evening</li>
 			</ul>
 		</p>
 	</div>
 </div>
 <div>	
-	<h4>Fees: Early Registration Ending 14 February, 2025</h4>
+	<h4>Fees: Early Registration Ending February 5th, 2025 (AoE)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
 				<th>Registration Categories</th>
 				<th>Full Conference</th>				
-				<th>Main Conference Only<br>(Mon-Thurs)</th>				
-				<th>Main Conference<br>One Day</th>				
+				<th>Conference Only<br>(Mon-Thurs)</th>				
+				<th>Conference <br>One-day Only</th>				
 				<th>Workshops&nbsp;& Tutorials<br>(Sat-Sun)</th>				
-				<th>Workshops&nbsp;& Tutorials<br>One Day</th>
+				<th>Workshops&nbsp;& Tutorials<br>One Day</th>			
+				<th>Virtual registration</th>
 			</tr>
 			<tr>
 				<td>IEEE Member</td>
-				<td>$1,075</td>
-				<td>$840</td>
-				<td>$350</td>
-				<td>$600</td>
-				<td>$450</td>
+				<td>990€</td>
+				<td>775€</td>
+				<td>260€</td>
+				<td>550€</td>
+				<td>275€</td>
+				<td>130€</td>
 			</tr>
 			<tr>
 				<td>Non-Member</td>
-				<td>$1,290</td>
-				<td>$1,010</td>
-				<td>$420</td>
-				<td>$720</td>
-				<td>$540</td>
+				<td>1190€</td>
+				<td>930€</td>
+				<td>310€</td>
+				<td>660€</td>
+				<td>330€</td>
+				<td>160€</td>
 			</tr>
 			<tr>
 				<td>IEEE Student Member</td>
-				<td>$755</td>
-				<td>$590</td>
-				<td>$245</td>
-				<td>$420</td>
-				<td>$315</td>
+				<td>695€</td>
+				<td>545€</td>
+				<td>185€</td>
+				<td>385€</td>
+				<td>195€</td>
+				<td>50€</td>
 			</tr>
 			<tr>
 				<td>Student Non-Member</td>
-				<td>$910</td>
-				<td>$710</td>
-				<td>$295</td>
-				<td>$505</td>
-				<td>$380</td>
-			</tr>
-			<tr>
-				<td><a href="https://www.ieee.org/communities/life-members/index.html" target="_blank">IEEE Life Member</a><sup>*</sup></td>
-				<td>$595</td>
-				<td>N/A</td>
-				<td>N/A</td>
-				<td>N/A</td>
-				<td>N/A</td>
+				<td>835€</td>
+				<td>655€</td>
+				<td>220€</td>
+				<td>465€</td>
+				<td>235€</td>
+				<td>60€</td>
 			</tr>
 		</table>
-		<p class="tiny_print italic">* Verified life members will recieve a discount for the <b>Full Conference</b> as an author or attendee. If you are a life member and would like to register for one of the other options, please select <b>IEEE Member</b> in the CVENT.COM Registrant Information page under Select Your Member Type instead of <b>Life Member</b>.</p>
+		
 	</div>
 </div>
 <div>
@@ -206,108 +220,62 @@ title_separator: "|"
 			<tr>
 				<th>Registration Categories</th>
 				<th>Full Conference</th>				
-				<th>Main Conference Only<br>(Mon-Thurs)</th>				
-				<th>Main Conference<br>One Day</th>				
+				<th>Conference Only<br>(Mon-Thurs)</th>				
+				<th>Conference <br>One-day Only</th>				
 				<th>Workshops&nbsp;& Tutorials<br>(Sat-Sun)</th>				
-				<th>Workshops&nbsp;& Tutorials<br>One Day</th>
+				<th>Workshops&nbsp;& Tutorials<br>One Day</th>			
+				<th>Virtual registration</th>
 			</tr>
 			<tr>
 				<td>IEEE Member</td>
-				<td>$1,300</td>
-				<td>$1,010</td>
-				<td>$420</td>
-				<td>$720</td>
-				<td>$540</td>
+				<td>1200€</td>
+				<td>930€</td>
+				<td>310€</td>
+				<td>660€</td>
+				<td>330€</td>
+				<td>160€</td>
 			</tr>
 			<tr>
 				<td>Non-Member</td>
-				<td>$1,560</td>
-				<td>$1,215</td>
-				<td>$505</td>
-				<td>$865</td>
-				<td>$650</td>
+				<td>1440€</td>
+				<td>1120€</td>
+				<td>375€</td>
+				<td>795€</td>
+				<td>395€</td>
+				<td>195€</td>
 			</tr>
 			<tr>
 				<td>IEEE Student Member</td>
-				<td>$910</td>
-				<td>$710</td>
-				<td>$295</td>
-				<td>$505</td>
-				<td>$380</td>
+				<td>840€</td>
+				<td>655€</td>
+				<td>220€</td>
+				<td>465€</td>
+				<td>235€</td>
+				<td>60€</td>
 			</tr>
 			<tr>
 				<td>Student Non-Member</td>
-				<td>$1,095</td>
-				<td>$855</td>
-				<td>$355</td>
-				<td>$610</td>
-				<td>$460</td>
-			</tr>
-			<tr>
-				<td><a href="https://www.ieee.org/communities/life-members/index.html" target="_blank">IEEE Life Member</a><sup>*</sup></td>
-				<td>$715</td>
-				<td>N/A</td>
-				<td>N/A</td>
-				<td>N/A</td>
-				<td>N/A</td>
+				<td>1010€</td>
+				<td>790€</td>
+				<td>265€</td>
+				<td>560€</td>
+				<td>280€</td>
+				<td>75€</td>
 			</tr>
 		</table>		
-		<p class="tiny_print italic">* Verified life members will recieve a discount for the <b>Full Conference</b> as an author or attendee. If you are a life member and would like to register for one of the other options, please select <b>IEEE Member</b> in the CVENT.COM Registrant Information page under Select Your Member Type instead of <b>Life Member</b>.</p>
 	</div>
 </div>
-<div>
-	<h4>Fees: Workshops Onsite Registration</h4>
-	<div>
-		<table class="registration-table">
-			<tr>
-				<th class="valignBottom alignCenter">Registration Categories</th>
-				<th class="valignBottom alignCenter">Workshops&nbsp;& Tutorials<br>(Sat-Sun)</th>				
-				<th class="valignBottom alignCenter">Workshops&nbsp;& Tutorials<br>One Day</th>
-			</tr>
-			<tr>
-				<td>IEEE Member</td>
-				<td>$790</td>
-				<td>$595</td>
-			</tr>
-			<tr>
-				<td>Non-Member</td>
-				<td>$950</td>
-				<td>$715</td>
-			</tr>
-			<tr>
-				<td>IEEE Student Member</td>
-				<td>$555</td>
-				<td>$420</td>
-			</tr>
-			<tr>
-				<td>Student Non-Member</td>
-				<td>$670</td>
-				<td>$505</td>
-			</tr>
-			<tr>
-				<td><a href="https://www.ieee.org/communities/life-members/index.html" target="_blank">IEEE Life Member</a><sup>*</sup></td>
-				<td>N/A</td>
-				<td>N/A</td>
-			</tr>
-		</table>	
-		<p class="tiny_print italic">* Verified life members will recieve a discount for the <b>Full Conference</b> as an author or attendee. If you are a life member and would like to register for one of the other options, please select <b>IEEE Member</b> in the CVENT.COM Registrant Information page under Select Your Member Type instead of <b>Life Member</b>.</p>
-	</div>
-</div>
-<div>
-	<h4>Fees: Additional Reception/Banquet Tickets</h4>
-	<div>
-		<p>If you need to purchase additional tickets for the reception or banquet, the prices are:</p>
-		<ul>
-			<li><b>Reception on Monday night, 18 March 2025</b>: $65</li>
-			<li><b>Banquet on Wednesday night, 20 March 2025</b>: $120</li>		
-		</ul>
-	</div>
-</div>
+
 <div>
 	<h4>Visa Invitation Letters</h4>
 	<div>
 		<p>
-			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do, one will be automatically generated when your registration is complete, using your name, organization, and address.  <span class="warning">Please note that if you request a visa letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: Carolina Cruz-Neira and Gregory Welch at <span class="general"></span>. 
+			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:edith.blin@inria.fr">visa2025@ieeevr.org</a>. 
+		</p>
+		<p>
+		<span class="bold">For presenting authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
+		</p>
+		<p>For the other situations, we strongly encourage authors to register right after the final notification is provided. We will deliver the visa invitation letters as soon as possible. In any case, we encourage authors to anticipate potential delays during the visa process.
 		</p>
 	</div>	
 </div>
@@ -315,9 +283,11 @@ title_separator: "|"
 	<h4>Cancellation Policy</h4>
 	<div>
 		<p>
-			All refund/cancellation requests must be received in writing to <span class="registration"></span> by <b>15 February 2025 11:59 PM AoE Time</b>. There will be an administrative fee of US$150 for cancelled registrations and US$150 deducted for One-Day/Workshop/Tutorial registrations from each cancellation.
+			All refund/cancellation requests must be received in writing to  <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a> by February 6, 2025 11:59 PM AoE Time.
 		</p>
 		<p>
+			Registration cancelled until February 16th will be refunded 80% of the registration fees. Registration cancelled from February 17th will not be eligible for a refund.
+		</p><p>
 			Note:
 			<ul>
 				<li>Author registrations are non-refundable.</li>
