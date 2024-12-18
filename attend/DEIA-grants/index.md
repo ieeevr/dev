@@ -70,7 +70,7 @@ title_separator: "|"
     <p>
         Eligible student researchers are also encouraged to <a href="{{ "/contribute/studentVolunteers" | relative_url }}">apply for a Student Volunteer position</a> (13th of January 2025 deadline), as those positions include financial benefits and offer a great opportunity to meet / engage with other students and the VR community in general.
     </p> 
-    <h2>Student Volunteering Opportunities</h2>
+    <h2>Mentoring Opportunities</h2>
     <p>
         Eligible researchers are also encouraged to <a href="{{ "/attend/mentorship" | relative_url }}">apply for a Mentorship Program</a> (February 21 deadline), which is a great opportunity for newcomers to the conference to connect with more senior participants.
     </p>   
