@@ -69,8 +69,8 @@ title_separator: "|"
 		<p>We are looking forward to welcoming you at the IEEE VR 2025 conference, for this very special week of exchanges about innovative research and advances in VR, AR, XR and 3D user interfaces. 
 		After reviewing the sections below, please use the buttons above to register to IEEE VR 2025.</p>
 		<ul>
-			<li><b>5 February, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
-			<li><b>5 February, 2025</b>: Early registration ends.</li>	
+			<li><b>February 5th, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
+			<li><b>February 5th, 2025</b>: Early registration ends.</li>	
 			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>.</li>
 			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a>.</li>	
 		</ul>
@@ -86,7 +86,7 @@ title_separator: "|"
 			At least one author per accepted <b>contribution</b>  published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the <span class="bold">FULL conference</span> (from Saturday 8 to Wednesday 12) at the rate of <span class="bold">full Member/Non-Member registration</span> regardless of whether or not he/she is a student.
 		</p>
 		<ul>
-			<li>The registration deadline for authors is <span class="bold">5 February, 2025.</span></li>
+			<li>The registration deadline for authors is <span class="bold">February 5th, 2025.</span></li>
 			<li>Author registrations are <span class="bold">not refundable</span> and must be processed no later than <span class="bold">February 5, 2025</span> for their work to be included in the conference program and publications.</li>		
 			<li>Author registration requires a submission track and submission ID.</li>
 			<li>To register, open the Registration form using one of the buttons above. Under the REGISTRATION ITEMS  section, select  “Author registration”.</li>
@@ -214,7 +214,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4>Fees: Late Registration from 6 February 2025 (AoE) Euros (€)</h4>
+	<h4>Fees: Late Registration from February 6th 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
