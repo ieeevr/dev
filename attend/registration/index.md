@@ -48,7 +48,7 @@ title_separator: "|"
 
 <h1 id="registration">Registration  <div class="floatRight"><span id="register"></span></div></h1>
 <p>
-	<strong style="color: black">IEEE VR 2024: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
+	<strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
 	<br>
 	March 8-12, 2025 | Saint-Malo, France
 	<br>
@@ -71,7 +71,7 @@ title_separator: "|"
 		<ul>
 			<li><b>5 February, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
 			<li><b>5 February, 2025</b>: Early registration ends.</li>	
-			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2024@ieeevr.org ">visa2025@ieeevr.org</a>.</li>
+			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>.</li>
 			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a>.</li>	
 		</ul>
 		<p class="italic">
@@ -214,7 +214,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4>Fees: Late Registration from 14 February 2025 (AoE) Euros (€)</h4>
+	<h4>Fees: Late Registration from 6 February 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
@@ -281,7 +281,7 @@ title_separator: "|"
 	<h4>Visa Invitation Letters</h4>
 	<div>
 		<p>
-			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:visa2024@ieeevr.org ">visa2025@ieeevr.org</a>. 
+			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>. 
 		</p>
 		<p>
 		<span class="bold">For presenting authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
