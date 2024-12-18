@@ -269,9 +269,10 @@ title_separator: "|"
 	<h4>Additional Tickets</h4>
 	<div>
 		<p>
+		If you need to purchase additional tickets for the reception or banquet, the prices are:
 			<ul>
-				<li>Welcome reception on Monday night, 10 March 2025: 40 € (Euros)</li>
-				<li>Gala dinner on Tuesday night, 11 March 2025: 130 € (Euros) </li>
+				<li><b>Welcome reception on Monday night, 10 March 2025: 40 € (Euros)</b></li>
+				<li><b>Gala dinner on Tuesday night, 11 March 2025: 130 € (Euros) </b></li>
 			</ul>
 		</p>
 	</div>
