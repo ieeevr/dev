@@ -41,11 +41,20 @@ title_separator: "|"
     <p>
         The <strong>Immersia platform</strong> is a cutting-edge VR facility located at the <strong>Inria Center at Rennes University / IRISA</strong> research institute, it features a large-scale, high-resolution VR display (CAVE) and tools for natural interaction, such as motion tracking and haptic feedback. These capabilities support detailed visualizations and seamless engagement, making it a valuable resource for diverse fields, including urban planning, cultural heritage, arts, healthcare, and scientific research. It supports academic and industrial projects, fostering partnerships with regional, national, and international organizations.
     </p>
-	<img style="width: 80%;" src="/dev/assets/images/program/Immersia.jpg" alt="Examples of VR projects developped in Immersia.">
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <img src="/dev/assets/images/program/Immersia1.jpg" alt="1st example of VR project developped in Immersia." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+        <img src="/dev/assets/images/program/Immersia2.jpg" alt="2nd example of VR project developped in Immersia." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+        <img src="/dev/assets/images/program/Immersia3.jpg" alt="3rd example of VR project developped in Immersia." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+    </div>
     <p>
         The <strong>Immermove platform</strong>, also features a large-scale, high-resolution VR display (CAVE) enclosed in a sports gymnasium fully equipped with motion capture systems, designed for interdisciplinary applications, supporting research in fields like biomechanics, robotics, cognitive sciences, and ergonomics. It is used to explore how people move, perceive, and interact in virtual environments, with applications ranging from rehabilitation and sports training to vehicle simulation and human-robot interaction. By bridging motion technology with immersive environments, Immermove contributes to advancements in both fundamental research and practical innovations across multiple domains.
     </p>
 	<img style="width: 80%;" src="/dev/assets/images/program/Immermove.jpg" alt="Examples of VR projects developped in Immermove.">
 	<h1>VR Lab Tour Supporters</h1>
-	<img style="width: 60%;" src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour.">
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <img src="/dev/assets/images/program/Immermove1.jpg" alt="1st example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+        <img src="/dev/assets/images/program/Immermove2.jpg" alt="2nd example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+        <img src="/dev/assets/images/program/Immermove3.jpg" alt="3rd example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
+    </div>
+	<!--<img style="width: 60%;" src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour.">-->
 </div>
