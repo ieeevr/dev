@@ -54,12 +54,12 @@ title_separator: "|"
 	<br>
 </p>
 
-<p class="alignCenter">
+<!--<p class="alignCenter">
 	<a href="javascript:openRegistration('Member')" class="btn registration_button">IEEE Member Registration</a>
 	<a href="javascript:openRegistration('Non-Member')" class="btn registration_button">IEEE Non-Member Registration</a>		
-</p>
+</p>-->
 <p>
-    Registration payments for this conference will be handled through <b>VERTCOM</b>. Please keep your email confirmation to modify your registration.
+    Registration payments for this conference will be handled through <b>VERTCOM</b> (Conference Registration Service). Please keep your email confirmation to modify your registration.
 </p>
 
 <div id="accordion">
@@ -72,7 +72,7 @@ title_separator: "|"
 			<li><b>5 February, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
 			<li><b>5 February, 2025</b>: Early registration ends.</li>	
 			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2024@ieeevr.org ">visa2025@ieeevr.org</a>.</li>
-			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a>.</li>	
+			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a>.</li>	
 		</ul>
 		<p class="italic">
 			Note: All deadlines are at 11:59 PM AOE on the stated date and all rates listed are in Euros (exempted of VAT).			
@@ -161,7 +161,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>	
-	<h4>Fees: Early Registration Before February 5th, 2025 (AoE)</h4>
+	<h4>Fees: Early Registration until February 5th, 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
@@ -214,7 +214,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4>Fees: Registration After 14 February 2025 (AoE)</h4>
+	<h4>Fees: Late Registration from 14 February 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
@@ -265,7 +265,15 @@ title_separator: "|"
 		</table>		
 	</div>
 </div>
-
+<div>
+	<p>
+		<h4>Additional Tickets</h4>
+		<ul>
+			<li>Welcome reception on Monday night, 10 March 2025: 40 € (Euros)</li>
+			<li>Gala dinner on Tuesday night, 11 March 2025: 130 € (Euros) </li>
+		</ul>
+	</p>
+</div>
 <div>
 	<h4>Visa Invitation Letters</h4>
 	<div>
@@ -283,7 +291,7 @@ title_separator: "|"
 	<h4>Cancellation Policy</h4>
 	<div>
 		<p>
-			All refund/cancellation requests must be received in writing to  <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a> by February 16th, 2025 11:59 PM AoE Time.
+			All refund/cancellation requests must be received in writing to  <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a> by February 16th, 2025 11:59 PM AoE Time.
 		</p>
 		<p>
 			Registration cancelled until February 16th will be refunded 80% of the registration fees. Registration cancelled from February 17th will not be eligible for a refund.
