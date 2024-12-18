@@ -56,5 +56,7 @@ title_separator: "|"
         <img src="/dev/assets/images/program/Immermove3.jpg" alt="3rd example of VR project developped in Immermove." style="flex: 1 1 20%; max-width: 20%; height: auto;">
     </div>
 	<h1>VR Lab Tour Supporters</h1>
-	<img style="display: flex; justify-content: center; width: 60%;" src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour.">
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+		<img src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour." style="flex: 1 1 60%; max-width: 60%; height: auto;">
+	</div>
 </div>
