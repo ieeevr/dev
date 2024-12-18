@@ -266,8 +266,8 @@ title_separator: "|"
 	</div>
 </div>
 <div>
+	<h4>Additional Tickets</h4>
 	<p>
-		<h4>Additional Tickets</h4>
 		<ul>
 			<li>Welcome reception on Monday night, 10 March 2025: 40 € (Euros)</li>
 			<li>Gala dinner on Tuesday night, 11 March 2025: 130 € (Euros) </li>
