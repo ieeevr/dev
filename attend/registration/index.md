@@ -214,7 +214,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4>Fees: Late Registration from February 6th 2025 (AoE) Euros (€)</h4>
+	<h4>Fees: Late Registration from February 6th, 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
