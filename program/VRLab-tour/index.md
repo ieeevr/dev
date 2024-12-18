@@ -49,12 +49,12 @@ title_separator: "|"
     <p>
         The <strong>Immermove platform</strong>, also features a large-scale, high-resolution VR display (CAVE) enclosed in a sports gymnasium fully equipped with motion capture systems, designed for interdisciplinary applications, supporting research in fields like biomechanics, robotics, cognitive sciences, and ergonomics. It is used to explore how people move, perceive, and interact in virtual environments, with applications ranging from rehabilitation and sports training to vehicle simulation and human-robot interaction. By bridging motion technology with immersive environments, Immermove contributes to advancements in both fundamental research and practical innovations across multiple domains.
     </p>
-	<img style="width: 80%;" src="/dev/assets/images/program/Immermove.jpg" alt="Examples of VR projects developped in Immermove.">
-	<h1>VR Lab Tour Supporters</h1>
-	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+	<!--<img style="width: 80%;" src="/dev/assets/images/program/Immermove.jpg" alt="Examples of VR projects developped in Immermove.">-->
+		<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
         <img src="/dev/assets/images/program/Immermove1.jpg" alt="1st example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
         <img src="/dev/assets/images/program/Immermove2.jpg" alt="2nd example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
         <img src="/dev/assets/images/program/Immermove3.jpg" alt="3rd example of VR project developped in Immermove." style="flex: 1 1 25%; max-width: 25%; height: auto;">
     </div>
-	<!--<img style="width: 60%;" src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour.">-->
+	<h1>VR Lab Tour Supporters</h1>
+	<img style="display: flex; justify-content: center; width: 60%;" src="/dev/assets/images/program/Sponsors.png" alt="Logos of the sponsors for the VR Lab Tour.">
 </div>
