@@ -20,7 +20,10 @@ title_separator: "|"
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
            <div class="italic med" style="text-align: right;">Updated: December 12th, 2025 </div>
         </div>
-    </div>   
+    </div>
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+		<img src="/dev/assets/images/program/overview.png" alt="Map of France with the main locations of the events in Rennes, St Malo and Mt St Michel." style="flex: 1 1 60%; max-width: 60%; height: auto;">
+	</div>
     <div class="main_view">
         <h2 id="pre">Pre-Conference</h2>
 		<img style="width: 80%;" src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
