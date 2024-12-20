@@ -35,7 +35,7 @@ title_separator: "|"
         Mont Saint-Michel, one of France's must-see tourist attractions, is just a stone's throw from Saint-Malo. To enable you to discover this architectural jewel, we propose to organise a visit to the Mont Saint-Michel for you the day after the end of the IEEE VR conference.
     </p>
     <p>
-        To find out more about the mountain and how to visit it, please click on this <br><a href="https://www.ot-montsaintmichel.com/en/discover/visit-the-mont-saint-michel/" target="_blank">link</a>.
+        To find out more about the mountain and how to visit it, please click on this <a href="https://www.ot-montsaintmichel.com/en/discover/visit-the-mont-saint-michel/" target="_blank">link</a>.
     </p>
     <p>
         Here is some important information to help you take part in this organised visit. This page will be updated regularly with any useful information.
