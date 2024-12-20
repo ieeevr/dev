@@ -58,8 +58,14 @@ title_separator: "|"
 	<a href="javascript:openRegistration('Member')" class="btn registration_button">IEEE Member Registration</a>
 	<a href="javascript:openRegistration('Non-Member')" class="btn registration_button">IEEE Non-Member Registration</a>		
 </p>-->
+<div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside med">
+		   The registration is now open! Please clic <strong><a target="_blank" href="https://v4.event-vert.org/en/ieeevr2025/">here</a></strong> to register.<br/>
+		   Please read the following terms and conditions provided hereafter.
+        </div>
+</div>
 <p>
-    Registration payments for this conference will be handled through <b>VERTCOM</b> (Conference Registration Service). Please keep your email confirmation to modify your registration.
+    Registration payments for this conference are handled through <b>VERTCOM</b> (Conference Registration Service). Please keep your email confirmation to modify your registration.
 </p>
 
 <div id="accordion">
