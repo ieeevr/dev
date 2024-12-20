@@ -45,12 +45,12 @@ title_separator: "|"
 		<li>The cost of the visit is not included in the conference registration fee. When the time comes (about 1 month before the conference), we will ask you to confirm your participation by paying the registration fee for the visit to the Mont. We will let you know as soon as possible how much this fee will be, but the principle of a group visit will be to keep it to a minimum, while giving you access to a guided tour for a better visiting experience. This registration will therefore cover at least the cost of transport to the Mont, plus any additional costs for meals and the guided tour of the Mont, which will be optional.</li>
 		<li>The initial plan for the visit is this one:
 			<ul>
-				<li>The visit takes place on Thursday, 13th March, 2025, the day after the conference.</li>
-				<li>Leave Saint-Malo around 10am to be at the Mont Saint-Michel around 11pm.</li>
-				<li>Leave the Mont Saint-Michel around 4pm, to be back in Saint Malo around 5 pm.</li>
-				<li>The transportation will be by bus.</li>
-				<li>You can enjoy a free visit of the Mont on your own, visit the abbey (ticket is needed), and/or register to guided visit of the Mont and of the abbey, and/or register for organised meal.</li>
-				<li>Number of total possible registrations to the guided tour or the organized meal will be limited.</li>
+				<li style="font-size: inherit;">The visit takes place on Thursday, 13th March, 2025, the day after the conference.</li>
+				<li style="font-size: inherit;">Leave Saint-Malo around 10am to be at the Mont Saint-Michel around 11pm.</li>
+				<li style="font-size: inherit;">Leave the Mont Saint-Michel around 4pm, to be back in Saint Malo around 5 pm.</li>
+				<li style="font-size: inherit;">The transportation will be by bus.</li>
+				<li style="font-size: inherit;">You can enjoy a free visit of the Mont on your own, visit the abbey (ticket is needed), and/or register to guided visit of the Mont and of the abbey, and/or register for organised meal.</li>
+				<li style="font-size: inherit;">Number of total possible registrations to the guided tour or the organized meal will be limited.</li>
 			</ul>
 		</li>
 	</ul>
