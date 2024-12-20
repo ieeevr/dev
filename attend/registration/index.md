@@ -284,7 +284,7 @@ title_separator: "|"
 			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>. 
 		</p>
 		<p>
-		<span class="bold">For presenting authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
+		<span class="bold">For journal and conference papers authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification (January 9th, 2025) so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
 		</p>
 		<p>For the other situations, we strongly encourage authors to register right after the final notification is provided. We will deliver the visa invitation letters as soon as possible. In any case, we encourage authors to anticipate potential delays during the visa process.
 		</p>
@@ -302,7 +302,7 @@ title_separator: "|"
 			Note:
 			<ul>
 				<li>Author registrations are non-refundable.</li>
-				<li>Registrations for which a Visa invitation was requested cannot be cancelled.</li>
+				<li>Registrations for which a Visa invitation letter was obtained are no-refundable (one exception applies only for journal and conference papers authors – see above).</li>
 			</ul>
 		</p>
 	</div>
