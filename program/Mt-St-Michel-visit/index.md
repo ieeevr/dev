@@ -44,12 +44,14 @@ title_separator: "|"
 		<li>In the IEEE VR registration form, we ask you if you are interested in visiting Mont Saint-Michel. Our intention is to estimate the number of attendees who may be interested in the visit to help us organise the trip. You will be able to change your mind, register for the visit even if you leave the box unchecked, or conversely, not attend even if you have ticked the box. But, importantly, if you are considering going, please tick the box on the registration form to help the planning.</li>
 		<li>The cost of the visit is not included in the conference registration fee. When the time comes (about 1 month before the conference), we will ask you to confirm your participation by paying the registration fee for the visit to the Mont. We will let you know as soon as possible how much this fee will be, but the principle of a group visit will be to keep it to a minimum, while giving you access to a guided tour for a better visiting experience. This registration will therefore cover at least the cost of transport to the Mont, plus any additional costs for meals and the guided tour of the Mont, which will be optional.</li>
 		<li>The initial plan for the visit is this one:
+			<ol style="list-style-type: lower-alpha; padding-bottom: 0;">
 			<ul>The visit takes place on Thursday, 13th March, 2025, the day after the conference.</ul>
 			<ul>Leave Saint-Malo around 10am to be at the Mont Saint-Michel around 11pm.</ul>
 			<ul>Leave the Mont Saint-Michel around 4pm, to be back in Saint Malo around 5 pm.</ul>
 			<ul>The transportation will be by bus.</ul>
 			<ul>You can enjoy a free visit of the Mont on your own, visit the abbey (ticket is needed), and/or register to guided visit of the Mont and of the abbey, and/or register for organised meal.</ul>
 			<ul>Number of total possible registrations to the guided tour or the organized meal will be limited.</ul>
+			</ol>
 		</li>
 	</ul>
     <p>
