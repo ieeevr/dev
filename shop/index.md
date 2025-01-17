@@ -13,7 +13,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1 id="cfp-exhibitssponsors">Shop IEEE VR 2025<div class="floatRight"><span class="exhibitssponsors"></span></div></h1>
+    <h1>Shop IEEE VR 2025</h1>
     <p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
@@ -40,6 +40,8 @@ title_separator: "|"
 			<li><strong>Order Deadline: </strong> To receive your items at the Conference Center, please place your order by <strong>February 16, 2025</strong>. Your items will be ready for pickup when you collect your conference badge.</li>
 			<li><strong>Late Orders: </strong> Orders placed after February 16 will be shipped directly to your preferred address. Please note that additional shipping fees will apply.</li>
 		</ul>
+	</p>
+	<p>
 		Click the link below to place your order and join us in supporting local, sustainable initiatives while taking home a piece of IEEE VR 2025!
 	</p>
 	<p>
