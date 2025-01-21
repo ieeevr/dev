@@ -29,8 +29,8 @@ title_separator: "|"
 	<p>
 		As part of our commitment to sustainability, we have chosen high-quality, eco-friendly products:
 		<ul>
-			<li>The t-shirts are produced in France by Atelier Textile Français, ensuring premium quality and ethical production standards.</li>
-			<li>Printing is done locally in Brittany by Atelier Monsieur Coton, located less than 100 km from Saint-Malo.</li>
+			<li>The t-shirts are produced in France by <i>Atelier Textile Français</i>, ensuring premium quality and ethical production standards.</li>
+			<li>Printing is done locally in Brittany by <i>Atelier Monsieur Coton</i>, located less than 100 km from Saint-Malo.</li>
 		</ul>
 	</p>
 	<h2 id="overview">Important Information</h2>
@@ -45,7 +45,13 @@ title_separator: "|"
 		Click the link below to place your order and join us in supporting local, sustainable initiatives while taking home a piece of IEEE VR 2025!
 	</p>
 	<p>
+		<strong><a target="_blank" href="https://www.ateliermonsieurcoton.com/ieee-vr-2025">[Order Now]</a></strong>
+	</p>
+	<p>
 		Thank you for contributing to our sustainability efforts!
 	</p>
-		
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <img src="/2025/assets/images/AtelierMrCoton.png" alt="Logo Atelier Mr Coton" style="flex: 1 1 45%; max-width: 45%; height: auto;">
+        <img src="/2025/assets/images/AtelierTextileFr.png" alt="Logo Atelier Textile Fr" style="flex: 1 1 45%; max-width: 45%; height: auto;">
+    </div>
 </div>
