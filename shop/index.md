@@ -14,10 +14,6 @@ title_separator: "|"
 </script>
 <div>
     <h1>Shop IEEE VR 2025</h1>
-    <p>
-        <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
-            March 8-12, 2025 | Saint-Malo, France
-    </p>
     <p>This year, in line with our sustainability policy, we are reducing the distribution of conference goodies. However, for those who are interested, we are offering the opportunity to purchase the official IEEE VR 2025 merchandise.</p>
     <h2 id="overview">Available Items</h2>
     <p>
