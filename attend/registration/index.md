@@ -314,7 +314,8 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-<h2 id="faq">Registation FAQ</h2>
+	<h4 id="faq">Registation FAQ</h2>
+	<div>
 	<ol>
 		<li style="color: #F5725E:"><strong>When do I need to select the “Author Registration” option?</strong><br/>
 			In case you are the author of a conference paper/journal paper/invited TVCG paper/workshop paper published in the digital library/poster/research demo/3DUI contest and that no other author is registered yet. Such author registration is needed and mandatory to make sure that your publication is finally accepted in the conference program and/or proceedings.
@@ -348,5 +349,6 @@ Each paper requires an Author registration so either one of your co-author can t
 		You must select the Conference-Only registration, and then let us know when your payment has been accepted. Then, we will manually upgrade your registration to a Full-Conference registration.		</li>
 	</ol>
 	If you have further questions, please contact register2025[at]ieeevr.org.
+</div>
 </div>
 </div>
