@@ -41,9 +41,11 @@ title_separator: "|"
 			<li><strong>Late Orders: </strong> Orders placed after February 16 will be shipped directly to your preferred address. Please note that additional shipping fees will apply.</li>
 		</ul>
 	</p>
-	<p>
-		Click the link below to place your order and join us in supporting local, sustainable initiatives while taking home a piece of IEEE VR 2025!
-	</p>
+	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <p>
+			Click the link below to place your order and join us in supporting local, sustainable initiatives while taking home a piece of IEEE VR 2025!
+		</p>
+    </div>
 	<p>
 		<strong><a target="_blank" href="https://www.ateliermonsieurcoton.com/ieee-vr-2025">[Order Now]</a></strong>
 	</p>
