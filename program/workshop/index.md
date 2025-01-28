@@ -64,7 +64,7 @@ title_separator: "|"
                 {% endif %}             
                 {% if workshop.agenda %}
                     <div class="content-inner">
-                        <p><a href="https://ieeevr.org/2025/assest/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
+                        <p><a href="https://ieeevr.org/2025/assets/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
                     </div>
                 {% endif %}
                             
