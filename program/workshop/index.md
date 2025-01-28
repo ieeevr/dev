@@ -63,14 +63,8 @@ title_separator: "|"
                     </div>
                 {% endif %}             
                 {% if workshop.agenda %}
-                    <div id="{{ workshop.id }}" class="wrap-collabsible">
-                        <input id="collapsible{{ workshop.id }}" class="toggle" type="checkbox">
-                        <label for="collapsible{{ workshop.id }}" class="lbl-toggle">Workshop Agenda</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                <p><a href="https://ieeevr.org/2025/assest/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
-                            </div>
-                        </div>
+                    <div class="content-inner">
+                        <p><a href="https://ieeevr.org/2025/assest/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
                     </div>
                 {% endif %}
                             
