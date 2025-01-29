@@ -36,13 +36,15 @@ title_separator: "|"
                     <span class='bold'>{{ name }} </span><br />
                 {% endfor %}
             </p>
-            <h3>Summary</h3>
-            {% assign sum = tutorial.summary | split: "|" %}
-            {% for para in sum %}
-                <p>
-                    {{ para }} 
-                </p>
-            {% endfor %}
+            {% if tutorial.summary  %}
+                <h3>Summary</h3>
+                {% assign sum = tutorial.summary | split: "|" %}
+                {% for para in sum %}
+                    <p>
+                        {{ para }} 
+                    </p>
+                {% endfor %}
+            {% endif %}
             {% assign techl = tutorial.techlevel | split: "|" %}
             {% if tutorial.techlevel %}
                 <h3>Technical Level</h3>
