@@ -37,7 +37,7 @@ title_separator: "|"
                 {% endfor %}
             </p>
             {% if tutorial.summary  %}
-                <h3>Summary</h3>
+                <strong>Summary</strong>
                 {% assign sum = tutorial.summary | split: "|" %}
                 {% for para in sum %}
                     <p>
@@ -47,7 +47,7 @@ title_separator: "|"
             {% endif %}
             {% assign techl = tutorial.techlevel | split: "|" %}
             {% if tutorial.techlevel %}
-                <h3>Technical Level</h3>
+                <strong>Technical Level</strong>
                 {% for parat in techl %}
                     <p>
                         {{ parat }} 
@@ -56,7 +56,7 @@ title_separator: "|"
             {% endif %}
             {% assign aud= tutorial.audience | split: "|" %}
             {% if tutorial.audience %}
-                <h3>Intended Audience</h3>
+                <strong>Intended Audience</strong>
                 {% for paraa in aud %}
                     <p>
                         {{ paraa }} 
@@ -65,7 +65,7 @@ title_separator: "|"
             {% endif %}
             {% assign v= tutorial.value | split: "|" %}
             {% if tutorial.value %}
-                <h3>Value</h3>
+                <strong>Value</strong>
                 {% for parav in v %}
                     <p>
                         {{ parav }} 
