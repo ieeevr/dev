@@ -1,5 +1,5 @@
 id,name,title,authors,day,starttime,endtime,timezone,room,authorsfull,summary,techlevel,audience,value,background,outline
-T1,Tutorial 1,Building Social Extended Realities with Ubiq,"Anthony Steed, Ben Congdon","Saturday,&nbsp;March&nbsp;1,&nbsp;2025",10:30,12:00,,Vauban 1,,,,,,,
+T1,Tutorial 1,Building Social Extended Realities with Ubiq,"Anthony Steed, Ben Congdon","Saturday,&nbsp;March&nbsp;1,&nbsp;2025",10:30,12:00,,Vauban 1,,SummaryTest,Techleveltest,audiencetest,valuetest,bgtest,outlinetest
 T2,Tutorial 2,"A Hands-on Introduction to PLUME – a Toolbox to Record, Replay and Analyze XR experiments",Sophie Villenave,"Saturday,&nbsp;March&nbsp;1,&nbsp;2025",16:00,17:30,,Vauban 1,,,,,,,
 T3,Tutorial 3,Production of Immersive VR games for Cultural Heritage,Selma Rizvic,"Saturday,&nbsp;March&nbsp;1,&nbsp;2025",8:30,10:00,,Vauban 1,,,,,,,
 T4,Tutorial 4,"Creating Realistic Avatars with Motion Capture for Animation, Games, and XR",Jason Webb,"Sunday,&nbsp;March&nbsp;2,&nbsp;2025",8:30,10:00,,Vauban 2,,,,,,,

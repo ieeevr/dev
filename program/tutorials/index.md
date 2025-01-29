@@ -31,9 +31,9 @@ title_separator: "|"
                 <strong>Organizers</strong>
             </p>
             <p>
-                {% assign authornames = tutorial.authorsfull | split: "|" %}
+                {% assign authornames = tutorial.authors | split: "|" %}
                 {% for name in authornames %}
-                    <span class='bold'>{{ name | strip }} </span><br />
+                    <span class='bold'>{{ name }} </span><br />
                 {% endfor %}
             </p>
             <h3>Summary</h3>
