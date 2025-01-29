@@ -33,7 +33,7 @@ title_separator: "|"
             <p>
                 {% assign authornames = tutorial.authorsfull | split: "|" %}
                 {% for name in authornames %}
-                    {{ name | strip }} <br />
+                    <span class='bold'>{{ name | strip }} </span><br />
                 {% endfor %}
             </p>
             <h3>Summary</h3>
