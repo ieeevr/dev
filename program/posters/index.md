@@ -26,8 +26,8 @@ title_separator: "|"
                             {% for poster in ps %}
                                 {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
                                     <tr>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ poster.id }}</a></td>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ poster.title }}</a></td>
+                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.id }}</a></td>
+                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.title }}</a></td>
                                     </tr>
                                 {% endif %}
                             {% endfor %}
@@ -49,8 +49,8 @@ title_separator: "|"
                             {% for poster in ps %}
                                 {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
                                     <tr>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ poster.id }}</a></td>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ poster.title }}</a></td>
+                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.id }}</a></td>
+                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.title }}</a></td>
                                     </tr>
                                 {% endif %}
                             {% endfor %}
