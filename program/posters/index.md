@@ -15,30 +15,26 @@ title_separator: "|"
             <td class="medLarge"><a href="#P1"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories %}
-                Categories
-                <div>
-                    <div>
-                        <table class="styled-table">
+                Category : {{ cat.name }}
+                <div>                    
+                    <tr>
+                        <th colspan="4">Category: {{ cat.id }}  {{ cat.name }} (Day : {{ cat.day}})</th>
+                    </tr>                   
+                    {% assign ps = site.data.posters | sort: "id" %}
+                    {% for poster in ps %}
+                        {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
                             <tr>
-                                <th colspan="4">Category: {{ cat.id }}  {{ cat.name }} (Day : {{ cat.day}})</th>
-                            </tr>                   
-                            {% assign ps = site.data.posters | sort: "id" %}
-                            {% for poster in ps %}
-                                {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
-                                    <tr>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
-                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
-                                    </tr>
-                                {% endif %}
-                            {% endfor %}
-                        </table>
-                    </div>
+                                <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
+                                <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
                 <div>
             {% endfor %} 
             <td class="medLarge"><a href="#P1"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories2 %}
-                Categories : {{ cat.name }}
+                Category : {{ cat.name }}
                 <div>
                     <div>
                         <table class="styled-table">
