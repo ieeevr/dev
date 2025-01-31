@@ -25,6 +25,7 @@ title_separator: "|"
                             {% assign ps = site.data.posters | sort: "id" %}
                             {% for poster in ps %}
                                 {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
+                                    bnbrnbpore
                                     <tr>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
@@ -35,7 +36,7 @@ title_separator: "|"
                     </div>
                 <div>
             {% endfor %} 
-            <td class="medLarge"><a href="#P1"></a></td>
+            <td class="medLarge"><a href="#P2"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories2 %}
                 Category : {{ cat.name }}
