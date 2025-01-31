@@ -36,7 +36,7 @@ title_separator: "|"
                 <div>
             {% endfor %} 
             <td class="medLarge"><a href="#P2"></a></td>
-            <h1 id="call-for-workshop-papers"> Monday Posters </h1>
+            <h1 id="call-for-workshop-papers"> Tuesday Posters </h1>
                 {% for cat in site.data.postersCategories2 %}
                 Category : {{ cat.name }}
                 <div>
@@ -64,7 +64,7 @@ title_separator: "|"
 
 <div>    
     <h2 id="P1" class="pink" style="padding-top:25px;">Monday Posters</h2>  
-    <p class="small">Talk with the authors: 9:45&#8209;10:15, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30, Room: Sorcerer's Apprentice Ballroom</p>  
+    <p class="small">Talk with the authors: TBD </p><!--9:45&#8209;10:15, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30, Room: Sorcerer's Apprentice Ballroom</p>  -->
     {% for poster in site.data.posters %}
         <div style="margin-left: 25px;">           
             <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
