@@ -25,7 +25,7 @@ title_separator: "|"
                             {% assign ps = site.data.posters | sort: "id" %}
                             {% for poster in ps %}
                                 {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
-                                    bnbrnbpore
+                                    {{ ps.id }} / {{ ps.title }}
                                     <tr>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
