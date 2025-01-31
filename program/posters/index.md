@@ -38,7 +38,7 @@ title_separator: "|"
             <td class="medLarge"><a href="#P1"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories2 %}
-                Categories
+                Categories : {{ cat.name }}
                 <div>
                     <div>
                         <table class="styled-table">
