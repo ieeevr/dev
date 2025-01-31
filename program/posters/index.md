@@ -12,12 +12,10 @@ title_separator: "|"
             <th colspan="3">Posters (Timezone: Saint-Malo, France UTC+1)</th>
         </tr>
         <tr>
-            <th colspan="3">Monday Posters</th>
-        </tr>
-        <tr>
             <td class="medLarge"><a href="#P1"></a></td>
-            <h1 id="call-for-workshop-papers"> Posters </h1>
+            <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories %}
+                Categories
                 <div>
                     <div>
                         <table class="styled-table">
@@ -26,7 +24,30 @@ title_separator: "|"
                             </tr>                   
                             {% assign ps = site.data.posters | sort: "id" %}
                             {% for poster in ps %}
-                                {% if poster.cat == cat.cat and poster.day == cat.day %}
+                                {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
+                                    <tr>
+                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
+                                        <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
+                                    </tr>
+                                {% endif %}
+                            {% endfor %}
+                        </table>
+                    </div>
+                <div>
+            {% endfor %} 
+            <td class="medLarge"><a href="#P1"></a></td>
+            <h1 id="call-for-workshop-papers"> Monday Posters </h1>
+                {% for cat in site.data.postersCategories2 %}
+                Categories
+                <div>
+                    <div>
+                        <table class="styled-table">
+                            <tr>
+                                <th colspan="4">Category: {{ cat.id }}  {{ cat.name }} (Day : {{ cat.day}})</th>
+                            </tr>                   
+                            {% assign ps = site.data.posters | sort: "id" %}
+                            {% for poster in ps %}
+                                {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
                                     <tr>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.id }}</a></td>
                                         <td class="medLarge"><a href="#{{ ps.id }}">{{ ps.title }}</a></td>
