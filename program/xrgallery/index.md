@@ -39,7 +39,7 @@ title_separator: "|"
                     </div>
                 {% endif%}
                 {% if gallery.image %}
-		            <img src={{ "/assets/images/xrgallery/{{ gallery.image }}" | relative_url }} alt="Slide Template 1">
+		            <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
                 {% endif %}
                 {% if gallery.video %}
                     <div class="video-container">
