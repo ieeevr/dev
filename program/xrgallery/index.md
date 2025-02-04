@@ -39,8 +39,14 @@ title_separator: "|"
                 {% if gallery.website %}
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
                 {% endif %}
+                {% if gallery.artist %}
+                    {% assign authornames = tutorial.gallery.artist | split: "|" %}
+                    {% for name in authornames %}
+                        <span class='bold'>{{ name }} </span><br />
+                    {% endfor %}
+                {% endif%}
                 {% if gallery.promotional_image %}
-		            <img class="margin_bottom_small" src={{ "/assets/images/xrgallery/{{ gallery.promotional_image }}" | relative_url }} alt="Slide Template 1">
+		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.promotional_image }}" | relative_url }} alt="Slide Template 1">
                 {% endif %}
                 <!--{% if gallery.video %}
                     <div class="video-container">
