@@ -41,7 +41,7 @@ title_separator: "|"
         <li><a href="#overview">Overview & Goals</a></li>
         <li><a href="#format">Forum Format</a></li>
         <li><a href="#schedule">Forum Schedule</a></li>
-        <li><a href="#CFP">Call for Participation</a></li>
+        <li><a href="#Update">Call for Participation</a></li>
         </ul>
     </p>
     <h2 id="overview">Overview & Goals</h2>
@@ -154,4 +154,3 @@ title_separator: "|"
 </div>
    
     
-</div>
