@@ -37,7 +37,12 @@ title_separator: "|"
                 {% endif%}
                 {% if gallery.website %}
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
-                {% endif %}
+                {% endif %}            
+                {% if gallery.abstract %}
+                    <div >
+                        <p><b>Description :</b> {{ gallery.abstract }}</p>
+                    </div>
+                {% endif %}   
                 {% if gallery.image %}
 		            <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
                 {% endif %}
@@ -53,12 +58,7 @@ title_separator: "|"
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>-->
-                {% endif %}                
-                {% if gallery.abstract %}
-                    <div >
-                        <p><b>Description :</b> {{ gallery.abstract }}</p>
-                    </div>
-                {% endif %}       
+                {% endif %}        
             </div>         
         {% endfor %}
         <!--<div class="video-container">
