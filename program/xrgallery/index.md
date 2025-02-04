@@ -44,7 +44,7 @@ title_separator: "|"
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                {% endif %}                -->
+                {% endif %}                
                 {% if gallery.abstract %}
                     <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Workshop Description</label>
                         <div class="collapsible-content">
@@ -53,51 +53,6 @@ title_separator: "|"
                             </div>
                         </div>
                     </div>
-                {% endif %}             
-                <!--{% if workshop.agenda %}
-                    <div class="content-inner">
-                        <p><a href="https://ieeevr.org/2025/assets/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
-                    </div>
-                {% endif %}                            
-                 Only show the 'workshop papers' toggle if there's actually something to show 
-                {% assign papers_in_session = false %}
-                {% for paper in site.data.workshoppapers %}
-                    {% if workshop.id == paper.workshop %}
-                        {% assign papers_in_session = true %}
-                    {% endif %}
-                {% endfor %}
-                Show a hideable list of all papers in this workshop
-                {% if papers_in_session == true %}
-                    <div id="{{ workshop.id }}2" class="wrap-collabsible"> 
-                        <input id="collapsible{{ workshop.id }}2" class="toggle" type="checkbox"> 
-                        <label for="collapsible{{ workshop.id }}2" class="lbl-toggle">Workshop Papers</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                {% for paper in site.data.workshoppapers %}
-                                    {% if workshop.id == paper.workshop %}
-                                        <h4 id="{{ paper.id }}">{{ paper.title }}</h4>
-                                        {% if paper.authors %}
-                                            <p><i>{{ paper.authors }}</i></p>
-                                        {% else %}
-                                            <p><i>Author information coming soon</i></p>
-                                        {% endif %}
-                                        {% if paper.url %}
-                                            <p><med>URL: <a href="{{ paper.url }}" target="_blank">{{ paper.url }}</a></med></p>
-                                        {% endif %}
-                                        {% if paper.abstract %}
-                                            <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
-                                                <div class="collapsible-content">
-                                                    <div class="content-inner">
-                                                        <p>{{ paper.abstract }}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                    {% endif %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}  -->
-                </div>         
+                {% endif %}     -->        
+            </div>         
         {% endfor %}
