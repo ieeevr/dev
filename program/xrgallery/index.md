@@ -45,9 +45,9 @@ title_separator: "|"
                         <span class='bold'>{{ name }} </span><br />
                     {% endfor %}
                 {% endif%}
-                {% if gallery.promotional_image %}
+                <!--{% if gallery.promotional_image %}
 		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.promotional_image }}" | relative_url }} alt="Slide Template 1">
-                {% endif %}
+                {% endif %}-->
                 <!--{% if gallery.video %}
                     <div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
