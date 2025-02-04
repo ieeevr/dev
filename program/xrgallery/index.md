@@ -55,3 +55,6 @@ title_separator: "|"
                 {% endif %}       
             </div>         
         {% endfor %}
+        <!--<div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>-->
