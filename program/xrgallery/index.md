@@ -23,7 +23,7 @@ title_separator: "|"
     <div>
         {% for gallery in art %}
             <!-- gallery title matter -->
-            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
+            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} )</h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div>
                 {% if gallery.artist %}
@@ -55,12 +55,8 @@ title_separator: "|"
                     </div>-->
                 {% endif %}                
                 {% if gallery.abstract %}
-                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Description</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                <p>{{ gallery.abstract }}</p>
-                            </div>
-                        </div>
+                    <div >
+                        <p><b>Description :</b> {{ gallery.abstract }}</p>
                     </div>
                 {% endif %}       
             </div>         
