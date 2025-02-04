@@ -144,12 +144,12 @@ title_separator: "|"
     <div>
 	<h2>Organizers: XR Future Faculty Forum Chairs  <div class="floatRight"><span class="xrfuturefaculty"></span></div></h2>
 	<ul>
-		<li><span class="bold">Matt Gottsacker</span> &#x2012; </li>
-		<li><span class="bold">Cassidy R. Nelson</span> &#x2012;</li>
-		<li><span class="bold">Niall L. Williams</span> &#x2012;</li>
-		<li><span class="bold">Lee Lisle</span> &#x2012;</li>		
-		<li><span class="bold">Radha Kumaran</span> &#x2012;</li>
-		<li><span class="bold">Jeanne Hecquard</span> &#x2012;</li>
+		<li><span class="bold">Matt Gottsacker</span> &#x2012; University of Central Florida, USA</li>
+		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; Ohio University, USA</li>
+		<li><span class="bold">Niall L. Williams</span> &#x2012; New York University, USA</li>
+		<li><span class="bold">Lee Lisle</span> &#x2012; Virginia Tech, USA</li>		
+		<li><span class="bold">Radha Kumaran</span> &#x2012; University of California, Santa Barbara, USA</li>
+		<li><span class="bold">Jeanne Hecquard</span> &#x2012; Inria, France</li>
 	</ul>
 </div>
    
