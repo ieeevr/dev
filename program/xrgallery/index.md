@@ -5,15 +5,6 @@ subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
-<script type="text/javascript">
-    $(document).ready(function(){
-		var email = ""; 
-		var domain = "ieeevr.org"; 
-
-	    email = "art2025"; 		
-		$(".art").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
-	});
-</script>
 
 <div>
     <h1 id="call-for-art"> XR Gallery </h1>
