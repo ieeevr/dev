@@ -40,7 +40,8 @@ title_separator: "|"
                 {% endif %}            
                 {% if gallery.abstract %}
                     <div >
-                        <p><b>Description :</b> {{ gallery.abstract }}</p>
+                        <b>Description :</b> 
+                        <p>{{ gallery.abstract }}</p>
                     </div>
                 {% endif %}   
                 {% if gallery.image %}
