@@ -30,12 +30,6 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <div class="ieeevrmsgbox bold alignCenter">
-        <div class = "ieeevrmsgboxInside med">
-			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
-           Given the strong interest in participating in the VR Lab Tour, <strong>we will close the submission of participation intentions on the registration form on the early bird deadline, February 5, 2025 (AoE)</strong>. After this date, a random selection will be conducted, and we will contact you promptly to confirm your participation.  In case of withdrawal, it will be important to notify us as soon as possible so that we can proceed with the waiting list. Thank you for your understanding and cooperation.
-        </div>
-    </div>
 	<h1>Social Program<div class="floatRight"><span class="labtour"></span></div></h1>
 	<p>
         The entire IEEE VR 2025 organising team is delighted and proud to welcome you to this French edition of the conference. For the many participants who will be joining us in Saint-Malo, we also look forward to welcoming you to this spectacular setting. The conference offers you the best scientific, technical, professional and artistic programs, and we're also glad to be able to offer you a social program that allows you to make the most of the conference, the place where it is being held, and to enjoy each other's company, creating, consolidating or enjoying all the links that bind us together.
