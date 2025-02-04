@@ -17,9 +17,12 @@ title_separator: "|"
 
 <div>
     <h1>Future Faculty Forum (F3) <div class="floatRight"><span class="xrfuturefaculty"></span></div></h1>
-    
     <p>
-        We are excited to host the second meeting of the XR Future Faculty Forum. This Forum aims to foster a vibrant community of scholars and educators who are eager to collaborate, learn, and advance together toward or in an academic career in the XR field. Forum meetings will be a means to introduce students who are interested in or curious about an academic career to professorship. And, Forum meetings will be a venue where colleagues can reconnect and collaboratively develop future generations of academic researchers. You can expect the following at F3 meetings:
+    <strong>Want to become an XR faculty member OR level up your existing academic career? Join us on Sunday, March 9, 2025, for the Future Faculty Forum (F3) at IEEE VR!</strong>
+    </p>
+    <p>
+       We are excited to host the fourth meeting of the XR Future Faculty Forum. This Forum aims to foster a vibrant community of scholars and educators eager to collaborate, learn, and advance together toward or in an academic career in the XR field. At its heart, Forum meetings are a venue where colleagues can reconnect and collaboratively develop future generations of academic researchers. Forum meetings will be a means to introduce students who are interested in or curious about an academic career to professorship. Additionally, early-career faculty can hear from seasoned professors about how to improve or expand their research programs. 
+       You can expect the following at F3 meetings:
         <ol>
             <li><span class="bold">Engaging Sessions</span>: Delve into thought-provoking presentations and discussions led by distinguished experts at the forefront of XR in academia.</li>
             <li><span class="bold">Mentorship and Networking</span>: Connect with experienced faculty, postdocs, and senior graduate students who have successfully integrated their interests into academic careers. Build meaningful connections, seek guidance, and explore potential collaboration opportunities.</li>
@@ -27,11 +30,10 @@ title_separator: "|"
         </ol>
     </p>
     <p>
-    F3 convened for the first time at IEEE ISMAR 2023. We will convene at future IEEE ISMAR and VR conferences in the XR space.
+    F3 has been a part of each IEEE ISMAR and IEEE VR conference since ISMAR 2023. We will continue to convene at future ISMAR and VR conferences and are looking for ways to expand beyond conference happenings.
     </p>
-    
     <p>
-    The VR 2024 F3 meeting will take place for a full day on Sunday, March 17.
+    The VR 2025 F3 meeting will take place for a full day on <strong>Sunday, March 9</strong>.
     </p>
     <p>
         The following sections provide more details about what the XR Future Faculty Forum will look like at VR 2024 and how you can participate:
@@ -42,10 +44,9 @@ title_separator: "|"
         <li><a href="#CFP">Call for Participation</a></li>
         </ul>
     </p>
-
     <h2 id="overview">Overview & Goals</h2>
     <p>
-        This forum meeting is designed to foster mentorship, education, and collaboration among students who are curious about becoming AR/VR (or XR) faculty someday.
+        This forum meeting is designed to foster mentorship, education, and collaboration among students curious about eventually becoming AR/VR (or XR) faculty.
     </p>
     <p> 
        The meeting of the Future Faculty Forum at VR 2024 will feature panels and tutorials with current professors about various aspects of professorship such as tenure, creating and organizing a research program, teaching, and professional service, and more generally what aspects of their profession they really like and dislike, and why. We will attempt to include professors (on the panels) who have also worked in industry, and therefore have some basis for comparison. Additionally, the forum will include “speed advising” sessions in which students will be able to have several short advising sessions with current faculty. In this portion, students will have the opportunity to ask more specific questions pertaining to a particular professor's experience while learning from a breadth of experiences. While brief, these meetings will help form relationships between students, junior faculty, and professors, and participants can continue their conversations later in the forum and conference. The panels and speed advising sessions will feature diverse faculty to provide students with various perspectives on the meaning of, success within, and preparation for professorship. Throughout the forum, there will be an emphasis on creating and sustaining an academic environment that is diverse, equitable, inclusive, and accessible.
