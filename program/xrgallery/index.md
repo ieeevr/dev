@@ -25,7 +25,7 @@ title_separator: "|"
             <!-- gallery title matter -->
             <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
-            <div class="padding_left_medium">
+            <div>
                 {% if gallery.website %}
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
                 {% endif %}
@@ -38,7 +38,7 @@ title_separator: "|"
                 {% if gallery.image %}
 		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.image }}" | relative_url }} alt="Slide Template 1">
                 {% endif %}
-                <!--{% if gallery.video %}
+                {% if gallery.video %}
                     <div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -52,6 +52,6 @@ title_separator: "|"
                             </div>
                         </div>
                     </div>
-                {% endif %}     -->        
+                {% endif %}       
             </div>         
         {% endfor %}
