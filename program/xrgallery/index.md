@@ -10,15 +10,15 @@ title_separator: "|"
     <h1 id="call-for-art"> XR Gallery </h1>
       <table class="styled-table">
         <tr>
-            <th colspan="4">Day: TBD (Timezone: {{ day.timezone }})</th>
+            <th colspan="4">Day: TBD (Timezone: (Saint-Malo, France UTC+1))</th>
         </tr>                   
-        {% assign art = site.data.xrgallery | sort: "id" %}
+        <!--{% assign art = site.data.xrgallery | sort: "id" %}
         {% for gallery in art %}
                 <tr>
                     <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.id }}</a></td>
                     <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.title }}</a></td>
                 </tr>
-        {% endfor %}
+        {% endfor %}-->
     </table>
     {% endfor %}       
     <div>
