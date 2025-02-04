@@ -42,11 +42,12 @@ title_separator: "|"
 		            <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
                 {% endif %}
                 {% if gallery.video %}
-                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Video</label>
-                        <div class="video-container">
-                        <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <div id="{{ gallery.video }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.video }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.video }}" class="lbl-toggle">Video</label>
+                        <div class="collapsible-content">
+                            <div class="video-container">
+                                <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
                     </div>
                     <!--<div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
