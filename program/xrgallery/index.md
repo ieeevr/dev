@@ -61,7 +61,7 @@ title_separator: "|"
                     </div>-->
                 {% endif %}        
                 {%if gallery.infos %}
-                    <strong color="red"> {{gallery.infos}}</strong>
+                    <strong style="color: red"> {{gallery.infos}}</strong>
                 {% endif %}
             </div>         
         {% endfor %}
