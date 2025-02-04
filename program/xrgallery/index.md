@@ -13,12 +13,12 @@ title_separator: "|"
             <th colspan="4">Day: TBD (Timezone: (Saint-Malo, France UTC+1))</th>
         </tr>                   
         {% assign art = site.data.xrgallery | sort: "id" %}
-        <!--{% for gallery in art %}
+        {% for gallery in art %}
                 <tr>
                     <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.id }}</a></td>
                     <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.title }}</a></td>
                 </tr>
-        {% endfor %}-->
+        {% endfor %}
     </table>     
     <div>
         {% for gallery in art %}
