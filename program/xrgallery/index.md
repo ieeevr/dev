@@ -42,12 +42,12 @@ title_separator: "|"
                 {% if gallery.promotional_image %}
 		            <img class="margin_bottom_small" src={{ "/assets/images/xrgallery/{{ gallery.promotional_image }}" | relative_url }} alt="Slide Template 1">
                 {% endif %}
-                {% if gallery.video %}
+                <!--{% if gallery.video %}
                     <div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                {% endif %}                
+                {% endif %}                -->
                 {% if gallery.abstract %}
                     <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Workshop Description</label>
                         <div class="collapsible-content">
