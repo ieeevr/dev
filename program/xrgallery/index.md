@@ -10,7 +10,7 @@ title_separator: "|"
     <h1 id="call-for-art"> XR Gallery </h1>
       <table class="styled-table">
         <tr>
-            <th colspan="4">Day: TBD (Timezone: (Saint-Malo, France UTC+1))</th>
+            <th colspan="4">Exhibitions : Monday 10th (9:30 AM) to Wednesday 12th (3PM) (Timezone: (Saint-Malo, France UTC+1))</th>
         </tr>                   
         {% assign art = site.data.xrgallery | sort: "id" %}
         {% for gallery in art %}
@@ -23,7 +23,7 @@ title_separator: "|"
     <div>
         {% for gallery in art %}
             <!-- gallery title matter -->
-            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} )</h2> 
+            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} </h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div>
                 {% if gallery.artist %}
@@ -60,6 +60,9 @@ title_separator: "|"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>-->
                 {% endif %}        
+                {%if gallery.infos %}
+                    <strong color="red"> {{gallery.infos}}</strong>
+                {% endif %}
             </div>         
         {% endfor %}
         <!--<div class="video-container">
