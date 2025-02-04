@@ -26,29 +26,35 @@ title_separator: "|"
             <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div>
-                {% if gallery.website %}
-                    <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
-                {% endif %}
                 {% if gallery.artist %}
                     {% assign authornames = gallery.artist | split: "/" %}
                     <div>
-                        <p><strong>Artists</strong></p>
-                            {% for name in authornames %}               
-                                <span class='bold'>{{ name }} </span>
-                            {% endfor %}
+                        <strong>Artists</strong>
+                        {% for name in authornames %}               
+                            {{ name }}
+                        {% endfor %}
                     </div>
                 {% endif%}
+                {% if gallery.website %}
+                    <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
+                {% endif %}
                 {% if gallery.image %}
 		            <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
                 {% endif %}
                 {% if gallery.video %}
-                    <div class="video-container">
+                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Video</label>
+                        <div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
+                    </div>
+                    <!--<div class="video-container">
+                        <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>-->
                 {% endif %}                
                 {% if gallery.abstract %}
-                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">gallery Description</label>
+                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Description</label>
                         <div class="collapsible-content">
                             <div class="content-inner">
                                 <p>{{ gallery.abstract }}</p>
