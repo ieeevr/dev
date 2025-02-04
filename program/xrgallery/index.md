@@ -31,9 +31,12 @@ title_separator: "|"
                 {% endif %}
                 {% if gallery.artist %}
                     {% assign authornames = gallery.artist | split: "/" %}
-                    {% for name in authornames %}
-                        <span class='bold'>{{ name }} </span><br />
-                    {% endfor %}
+                    <div>
+                        <p><strong>Artists</strong></p>
+                            {% for name in authornames %}               
+                                <span class='bold'>{{ name }} </span>
+                            {% endfor %}
+                    </div>
                 {% endif%}
                 {% if gallery.image %}
 		            <img src={{ "/assets/images/xrgallery/{{ gallery.image }}" | relative_url }} alt="Slide Template 1">
