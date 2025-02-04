@@ -31,7 +31,7 @@ title_separator: "|"
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
                 {% endif %}
                 {% if gallery.artist %}
-                    {% assign authornames = tutorial.gallery.artist | split: "|" %}
+                    {% assign authornames = tutorial.gallery.artist | split: "/" %}
                     {% for name in authornames %}
                         <span class='bold'>{{ name }} </span><br />
                     {% endfor %}
