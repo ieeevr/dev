@@ -26,18 +26,18 @@ title_separator: "|"
             <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div class="padding_left_medium">
-                <!--{% if gallery.website %}
+                {% if gallery.website %}
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
-                {% endif %}-->
-                <!--{% if gallery.artist %}
+                {% endif %}
+                {% if gallery.artist %}
                     {% assign authornames = tutorial.gallery.artist | split: "/" %}
                     {% for name in authornames %}
                         <span class='bold'>{{ name }} </span><br />
                     {% endfor %}
-                {% endif%}-->
-                <!--{% if gallery.image %}
+                {% endif%}
+                {% if gallery.image %}
 		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.image }}" | relative_url }} alt="Slide Template 1">
-                {% endif %}-->
+                {% endif %}
                 <!--{% if gallery.video %}
                     <div class="video-container">
                         <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
