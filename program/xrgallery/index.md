@@ -23,9 +23,9 @@ title_separator: "|"
     {% endfor %}       
     <div>
         {% for gallery in art %}
-            <!-- Workshop title matter -->
-            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
-            <!-- <p class="small">{{ workshop.day }}, {{ workshop.starttime }}-{{ workshop.endtime }} ({{ workshop.timezone }}), Room: {{ workshop.room }}</p>                -->
+            <!-- gallery title matter -->
+            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} ({{ gallery.id }})</h2> 
+            <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div class="padding_left_medium">
                 {% if gallery.website %}
                     <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
@@ -36,8 +36,8 @@ title_separator: "|"
                         <span class='bold'>{{ name }} </span><br />
                     {% endfor %}
                 {% endif%}
-                <!--{% if gallery.promotional_image %}
-		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.promotional_image }}" | relative_url }} alt="Slide Template 1">
+                <!--{% if gallery.image %}
+		            <img src={{ "/assets/images/xrgallery/"+"{{ gallery.image }}" | relative_url }} alt="Slide Template 1">
                 {% endif %}-->
                 <!--{% if gallery.video %}
                     <div class="video-container">
@@ -46,7 +46,7 @@ title_separator: "|"
                     </div>
                 {% endif %}                
                 {% if gallery.abstract %}
-                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">Workshop Description</label>
+                    <div id="{{ gallery.id }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.id }}" class="lbl-toggle">gallery Description</label>
                         <div class="collapsible-content">
                             <div class="content-inner">
                                 <p>{{ gallery.abstract }}</p>
