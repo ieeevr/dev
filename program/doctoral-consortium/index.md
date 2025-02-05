@@ -113,7 +113,7 @@ title_separator: "|"
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
     {% for dc in site.data.dc %}
             <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
-                <strong>{{ dc.title }} (ID:&nbsp;{{ dc.id }})</strong>
+                <strong>{{ dc.title }} </strong>
             </p>
             <p class="clear font_75" >
                 <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
