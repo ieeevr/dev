@@ -16,64 +16,23 @@ title_separator: "|"
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
                     <tr>
-                        <td><a href="#{{ cat.id }}">Test {{ cat.title }}</a></td>
+                        <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
                     </tr>
                 {% endfor %}
             {% endfor %}
-            <!--<th colspan="4"><a href="#{{ cat.id }}">Monday posters</a></th>
-            <h1 id="call-for-workshop-papers"> Monday Posters </h1>
-                {% for cat in site.data.postersCategories %}
-                <div>
-                    <div>
-                        <table class="styled-table">
-                            <tr>
-                                <th colspan="4"><a href="#{{ cat.id }}">Category: {{ cat.id }}  {{ cat.name }} (Day : {{ cat.day}})</a></th>
-                            </tr>                   
-                            {% assign ps = site.data.posters | sort: "id" %}
-                            {% for poster in ps %}
-                                {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
-                                    <tr>
-                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.id }}</a></td>
-                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.title }}</a></td>
-                                    </tr>
-                                {% endif %}
-                            {% endfor %}
-                        </table>
-                    </div>
-                <div>
-            {% endfor %} 
-            <td class="medLarge"><a href="#P2"></a></td>
-            <h1 id="call-for-workshop-papers"> Tuesday Posters </h1>
-                {% for cat in site.data.postersCategories2 %}
-                <div>
-                    <div>
-                        <table class="styled-table">
-                            <tr>
-                                <th colspan="4"><a href="#{{ cat.id }}">Category: {{ cat.id }}  {{ cat.name }} (Day : {{ cat.day}})</a></th>
-                            </tr>                   
-                            {% assign ps = site.data.posters | sort: "id" %}
-                            {% for poster in ps %}
-                                {% if poster.PosterCategory == cat.id and poster.Day == cat.day %}
-                                    <tr>
-                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.id }}</a></td>
-                                        <td class="medLarge"><a href="#{{ poster.id }}">{{ poster.title }}</a></td>
-                                    </tr>
-                                {% endif %}
-                            {% endfor %}
-                        </table>
-                    </div>
-                <div>
-            {% endfor %} -->
+            
         </tr>
     </table>
 </div>
 
 <div>    
-    <h2 id="P1" class="pink" style="padding-top:25px;">Monday Posters</h2>  
-    <p class="small">Talk with the authors: TBD </p><!--9:45&#8209;10:15, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30, Room: Sorcerer's Apprentice Ballroom</p>  -->
-    {% for cat in site.data.postersCategories %}
-        <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }}</h2>  
-        {% for poster in site.data.posters %}
+    {% for day in site.data.postersDays %}
+    <div>
+        <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h2>  
+        {% assign category_file = day.name %}
+        {% for cat in site.data[category_file] %}
+            <h1 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
+            {% for poster in site.data.posters %}
             {% if poster.day == cat.day and poster.PosterCategory=cat.id}
             <div style="margin-left: 25px;">           
                 <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
@@ -110,5 +69,7 @@ title_separator: "|"
             </div>
             {% endif %}
         {% endfor %}
+        {% endfor %}
+    </div>
     {% endfor %}
 </div>
