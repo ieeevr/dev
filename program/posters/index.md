@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 
-<h1>Posters</h1>
+<!--<h1>Posters</h1>
 <div>
     <table class="styled-table">
         <tr>
@@ -20,7 +20,7 @@ title_separator: "|"
                         <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
                     </tr>
                 {% endfor %}
-            {% endfor %}
+            {% endfor %}    
         </tr>
     </table>
 </div>
