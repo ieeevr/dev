@@ -23,7 +23,7 @@ title_separator: "|"
         </tr>
     </table>
 </div>
-
+<!--
 <div>    
     {% for day in site.data.postersDays %}
     <div>
@@ -38,7 +38,7 @@ title_separator: "|"
                     <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
                         <strong>{{ poster.day }} {{ cat.day }} | {{ poster.category }} {{ cat.id }}</strong>
                     </p>
-                    <!--<p class="font_70" >
+                    <p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
                         {% for name in authornames %}
                             {% assign barename = name | split: ":" %}
@@ -65,11 +65,11 @@ title_separator: "|"
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ poster.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                {% endif %}-->
+                {% endif %}
                 </div>
              {% endif %}
             {% endfor %}
         {% endfor %}
     </div>
     {% endfor %}
-</div>
+</div>-->
