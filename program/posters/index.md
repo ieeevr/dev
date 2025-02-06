@@ -9,9 +9,6 @@ title_separator: "|"
 <div>
     <table class="styled-table">
         <tr>
-            <th colspan="3">Posters (Timezone: Saint-Malo, France UTC+1)</th>
-        </tr>
-        <tr>
             <td class="medLarge"><a href="#P1"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories %}
