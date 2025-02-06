@@ -15,7 +15,6 @@ title_separator: "|"
             <td class="medLarge"><a href="#P1"></a></td>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
                 {% for cat in site.data.postersCategories %}
-                Category : {{ cat.name }}
                 <div>
                     <div>
                         <table class="styled-table">
@@ -38,7 +37,6 @@ title_separator: "|"
             <td class="medLarge"><a href="#P2"></a></td>
             <h1 id="call-for-workshop-papers"> Tuesday Posters </h1>
                 {% for cat in site.data.postersCategories2 %}
-                Category : {{ cat.name }}
                 <div>
                     <div>
                         <table class="styled-table">
