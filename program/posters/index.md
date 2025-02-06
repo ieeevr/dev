@@ -15,9 +15,8 @@ title_separator: "|"
                 <th colspan="4"><a href="#{{ day.id }}">{{ day.day}} posters</a></th>
             </tr>
             {% assign category_file = day.name %}
-            {% for cat in site.data[category_file] %}
+            {% for cat in site.data.[category_file] %}
                 <tr>
-                    Test.
                     <td class="medLarge"><a href="#{{ cat.id }}">{{ cat.title }}</a></td>
                 </tr>
             {% endfor %}
