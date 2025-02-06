@@ -32,12 +32,9 @@ title_separator: "|"
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
-                <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
                 {% if poster.day == cat.day %}
-                    Test1
                     {% if poster.cat== cat.id %}
                     <div >       
-                    Test 2   
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
                             {% for name in authornames %}
