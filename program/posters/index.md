@@ -35,9 +35,7 @@ title_separator: "|"
                 <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.postercategory }} - {{ cat.id }} ||</strong>
                 {% if poster.day == cat.day and poster.postercategory=cat.id}
                 <div style="margin-left: 25px;">           
-                    <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
-                    </p>
-                    <p class="font_70" >
+                    <!--<p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
                         {% for name in authornames %}
                             {% assign barename = name | split: ":" %}
@@ -49,7 +47,7 @@ title_separator: "|"
                                 {% endif %}
                             {% endfor %} 
                         {% endfor %}
-                    </p>
+                    </p>-->
                     <!--{% if poster.Abstract %}
                         <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
                             <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
