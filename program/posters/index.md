@@ -36,7 +36,7 @@ title_separator: "|"
                 {% if poster.Day == cat.day and poster.PosterCategory=cat.id}
                 <div style="margin-left: 25px;">           
                     <p class="font_70" >
-                        {% assign authornames = poster.authors | split: ";" %}
+                        {% assign authornames = poster.Authors | split: ";" %}
                         {% for name in authornames %}
                             {% assign barename = name | split: ":" %}
                             {% for n in barename %}
