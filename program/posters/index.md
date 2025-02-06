@@ -14,13 +14,14 @@ title_separator: "|"
             <div>
                 <th colspan="4"><a href="#{{ day.id }}">{{ day.day}} posters</a></th>
                 {% assign category_file = day.name %}
+                <td>
                 {% for cat in site.data[category_file] %}
                     <tr>
                         Test.
                         <td class="medLarge"><a href="#{{ cat.id }}">{{ cat.title }}</a></td>
                     </tr>
                 {% endfor %}
-                <br \>
+                </td>
             </div>
             {% endfor %}
             <!--<th colspan="4"><a href="#{{ cat.id }}">Monday posters</a></th>
