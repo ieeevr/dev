@@ -92,7 +92,7 @@ title_separator: "|"
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        {% endif %}
+        {% endif %}<!--https://www.youtube.com/embed/ -->
         </div>
     {% endfor %}
 </div>
