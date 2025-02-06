@@ -38,7 +38,7 @@ title_separator: "|"
                     {% if poster.cat== cat.id %}
                     <div >       
                     Test 2   
-                        <!--<p class="font_70" >
+                        <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
                             {% for name in authornames %}
                                 {% assign barename = name | split: ":" %}
@@ -65,7 +65,7 @@ title_separator: "|"
                         <div class="video-container">
                             <iframe src="https://www.youtube.com/embed/{{ poster.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        {% endif %}-->
+                        {% endif %}
                     </div>
                     {% endif %}
                 {% endif %}
