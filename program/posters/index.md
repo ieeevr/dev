@@ -25,10 +25,10 @@ title_separator: "|"
     </table>
 </div>
 <div>    
-    {% for day in site.data.postersDays %}
+    <!--{% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
-        <!--{% assign category_file = day.name %}
+        {% assign category_file = day.name %}
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
@@ -66,7 +66,7 @@ title_separator: "|"
                 </div>
                 {% endif %}
             {% endfor %}
-        {% endfor %}-->
+        {% endfor %}
     </div>
-    {% endfor %}
+    {% endfor %}-->
 </div>
