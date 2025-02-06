@@ -1,4 +1,4 @@
-id,name,day
-"C1",Cat1,Monday
-"C2",Cat2,Monday
-"C3",Cat3,Monday
+id,name,day,infos
+"C1",Cat1,Monday,"infos about cat 1 day 1"
+"C2",Cat2,Monday,"infos about cat 2 day 1"
+"C3",Cat3,Monday,"infos about cat 2 day 1"
