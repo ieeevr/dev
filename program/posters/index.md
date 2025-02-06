@@ -34,7 +34,8 @@ title_separator: "|"
             {% for poster in site.data.posters %}
                 <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
                 {% if poster.day == cat.day and poster.cat=cat.id}
-                <div >           
+                <div >       
+                Test    
                     <!--<p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
                         {% for name in authornames %}
