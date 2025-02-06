@@ -19,8 +19,7 @@ title_separator: "|"
                         <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
                     </tr>
                 {% endfor %}
-            {% endfor %}
-            
+            {% endfor %}            
         </tr>
     </table>
 </div>
@@ -37,7 +36,7 @@ title_separator: "|"
                 {% if poster.day == cat.day and poster.category=cat.id}
                 <div style="margin-left: 25px;">           
                     <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
-                        <strong>{{ poster.day }}:{{ cat.day }} | {{ poster.category }}:{{ cat.id }}</strong>
+                        <strong>{{ poster.day }} {{ cat.day }} | {{ poster.category }} {{ cat.id }}</strong>
                     </p>
                     <!--<p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
@@ -66,7 +65,7 @@ title_separator: "|"
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ poster.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                {% endif %}<!--https://www.youtube.com/embed/ -->
+                {% endif %}-->
                 </div>
              {% endif %}
             {% endfor %}
