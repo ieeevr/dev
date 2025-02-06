@@ -24,7 +24,7 @@ title_separator: "|"
         </tr>
     </table>
 </div>
-<div>    
+<!--<div>    
     {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
@@ -35,7 +35,7 @@ title_separator: "|"
                 <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.postercategory }} - {{ cat.id }} ||</strong>
                 {% if poster.day == cat.day and poster.postercategory=cat.id}
                 <div style="margin-left: 25px;">           
-                    <!--<p class="font_70" >
+                    <p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
                         {% for name in authornames %}
                             {% assign barename = name | split: ":" %}
@@ -47,8 +47,8 @@ title_separator: "|"
                                 {% endif %}
                             {% endfor %} 
                         {% endfor %}
-                    </p>-->
-                    <!--{% if poster.Abstract %}
+                    </p>
+                    {% if poster.Abstract %}
                         <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
                             <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
                             <div class="collapsible-content">
@@ -57,16 +57,16 @@ title_separator: "|"
                                 </div>
                             </div>
                         </div>   
-                    {% endif %}-->
-                    <!--{% if poster.Video %}
+                    {% endif %}
+                    {% if poster.Video %}
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ poster.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    {% endif %}-->
+                    {% endif %}
                 </div>
              {% endif %}
             {% endfor %}
         {% endfor %}
     </div>
     {% endfor %}
-</div>
+</div>-->
