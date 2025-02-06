@@ -5,6 +5,7 @@ subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
 
+<!--
 <h1>Posters</h1>
 <div>
     <table class="styled-table">
@@ -23,7 +24,6 @@ title_separator: "|"
         </tr>
     </table>
 </div>
-<!--
 <div>    
     {% for day in site.data.postersDays %}
     <div>
