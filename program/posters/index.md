@@ -17,6 +17,7 @@ title_separator: "|"
                         <td class="medLarge"><a href="#{{ cat.id }}">{{ cat.title }}</a></td>
                     </tr>
                 {% endfor %}
+                </th>
             {% endfor %}
             <!--<th colspan="4"><a href="#{{ cat.id }}">Monday posters</a></th>
             <h1 id="call-for-workshop-papers"> Monday Posters </h1>
