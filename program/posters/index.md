@@ -30,9 +30,9 @@ title_separator: "|"
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
         {% assign category_file = day.name %}
         {% for cat in site.data[category_file] %}
-            <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
+            <!--<h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
-                <!--<strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
+                <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
                 {% if poster.day == cat.day and poster.cat=cat.id}
                 <div style="margin-left: 25px;">           
                     <p class="font_70" >
@@ -64,8 +64,8 @@ title_separator: "|"
                     </div>
                     {% endif %}
                 </div>
-                {% endif %}-->
-            {% endfor %}
+                {% endif %}
+            {% endfor %}-->
         {% endfor %}
     </div>
     {% endfor %}
