@@ -28,7 +28,7 @@ title_separator: "|"
 <div>    
     {% for day in site.data.postersDays %}
     <div>
-        <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h2>  
+        <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
         {% assign category_file = day.name %}
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
