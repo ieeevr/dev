@@ -31,7 +31,7 @@ title_separator: "|"
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h2>  
         {% assign category_file = day.name %}
         {% for cat in site.data[category_file] %}
-            <h1 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
+            <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
             {% if poster.day == cat.day and poster.PosterCategory=cat.id}
             <div style="margin-left: 25px;">           
