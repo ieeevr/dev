@@ -50,7 +50,7 @@ title_separator: "|"
                             {% endfor %} 
                         {% endfor %}
                     </p>
-                    {% if poster.Abstract %}
+                    <!--{% if poster.Abstract %}
                         <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
                             <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
                             <div class="collapsible-content">
@@ -59,7 +59,7 @@ title_separator: "|"
                                 </div>
                             </div>
                         </div>   
-                    {% endif %}
+                    {% endif %}-->
                     <!--{% if poster.Video %}
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ poster.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
