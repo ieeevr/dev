@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Posters"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
@@ -10,7 +10,7 @@ title_separator: "|"
 <div>
     <table class="styled-table">
         <tr>
-            <!--{% for day in site.data.postersDays %}
+            {% for day in site.data.postersDays %}
                 <tr>
                     <th colspan="4"><a href="#{{ day.id }}">{{ day.day}} posters</a></th>
                 </tr>
@@ -20,7 +20,7 @@ title_separator: "|"
                         <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
                     </tr>
                 {% endfor %}
-            {% endfor %}            -->
+            {% endfor %}
         </tr>
     </table>
 </div>
