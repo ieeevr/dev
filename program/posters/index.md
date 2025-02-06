@@ -33,6 +33,7 @@ title_separator: "|"
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
+            <strong>{{ poster.title }} (ID:&nbsp;{{ poster.id }})</strong>
             {% if poster.day == cat.day and poster.PosterCategory=cat.id}
             <div style="margin-left: 25px;">           
                 <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
