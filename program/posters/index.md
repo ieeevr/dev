@@ -32,11 +32,11 @@ title_separator: "|"
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
-                <strong>{{ poster.Day }} - {{ cat.day }} | {{ poster.PosterCategory }} - {{ cat.id }} ||</strong>
-                {% if poster.Day == cat.day and poster.PosterCategory=cat.id}
+                <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
+                {% if poster.day == cat.day and poster.cat=cat.id}
                 <div style="margin-left: 25px;">           
                     <p class="font_70" >
-                        {% assign authornames = poster.Authors | split: ";" %}
+                        {% assign authornames = poster.authors | split: ";" %}
                         {% for name in authornames %}
                             {% assign barename = name | split: ":" %}
                             {% for n in barename %}
@@ -48,19 +48,19 @@ title_separator: "|"
                             {% endfor %} 
                         {% endfor %}
                     </p>
-                    {% if poster.Abstract %}
+                    {% if poster.abstract %}
                         <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
                             <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
                             <div class="collapsible-content">
                                 <div class="content-inner">
-                                    <p>{{ poster.Abstract }}</p>
+                                    <p>{{ poster.abstract }}</p>
                                 </div>
                             </div>
                         </div>   
                     {% endif %}
-                    {% if poster.Video %}
+                    {% if poster.url %}
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/{{ poster.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/{{ poster.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     {% endif %}
                 </div>
