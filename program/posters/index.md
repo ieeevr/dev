@@ -33,7 +33,7 @@ title_separator: "|"
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
                 <strong>{{ poster.day }} - {{ cat.day }} | {{ poster.cat }} - {{ cat.id }} ||</strong>
-                {% if poster.day == cat.day and poster.cat=cat.id}
+                {% if poster.day == cat.day and poster.cat==cat.id}
                 <div >       
                 Test    
                     <!--<p class="font_70" >
