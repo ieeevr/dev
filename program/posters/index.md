@@ -24,7 +24,7 @@ title_separator: "|"
         </tr>
     </table>
 </div>
-<!--<div>    
+<div>    
     {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
@@ -69,4 +69,4 @@ title_separator: "|"
         {% endfor %}
     </div>
     {% endfor %}
-</div>-->
+</div>
