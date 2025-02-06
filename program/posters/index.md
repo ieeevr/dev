@@ -24,7 +24,7 @@ title_separator: "|"
         </tr>
     </table>
 </div>
-<div>    
+<!--<div>    
     {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
@@ -58,15 +58,15 @@ title_separator: "|"
                             </div>
                         </div>   
                     {% endif %}
-                    <!--{% if poster.Video %}
+                    {% if poster.Video %}
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ poster.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    {% endif %}-->
+                    {% endif %}
                 </div>
              {% endif %}
             {% endfor %}
         {% endfor %}
     </div>
     {% endfor %}
-</div>
+</div>-->
