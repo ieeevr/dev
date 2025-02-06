@@ -13,6 +13,7 @@ title_separator: "|"
             {% for day in site.data.postersDays %}
                 <th colspan="4"><a href="#{{ day.id }}">{{ day.day}} posters</a></th>
                 {% for cat in site.data.{{day.name}} %}
+                    Test.
                     <tr>
                         <td class="medLarge"><a href="#{{ cat.id }}">{{ cat.title }}</a></td>
                     </tr>
