@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
 
-<!--
+
 <h1>Posters</h1>
 <div>
     <table class="styled-table">
@@ -32,11 +32,10 @@ title_separator: "|"
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
-                <strong>{{ poster.title }} (ID:&nbsp;{{ poster.id }})</strong>
-                {% if poster.day == cat.day and poster.category=cat.id}
+                <strong>{{ poster.Day }} {{ cat.day }} | {{ poster.category }} {{ cat.id }}</strong>
+                {% if poster.Day == cat.day and poster.category=cat.id}
                 <div style="margin-left: 25px;">           
                     <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
-                        <strong>{{ poster.day }} {{ cat.day }} | {{ poster.category }} {{ cat.id }}</strong>
                     </p>
                     <p class="font_70" >
                         {% assign authornames = poster.authors | split: ";" %}
@@ -61,9 +60,9 @@ title_separator: "|"
                             </div>
                         </div>   
                     {% endif %}
-                    {% if poster.VideoLink %}
+                    {% if poster.Video %}
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/{{ poster.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/{{ poster.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 {% endif %}
                 </div>
@@ -72,4 +71,4 @@ title_separator: "|"
         {% endfor %}
     </div>
     {% endfor %}
-</div>-->
+</div>
