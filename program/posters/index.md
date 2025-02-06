@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 
-<!--<h1>Posters</h1>
+<h1>Posters</h1>
 <div>
     <table class="styled-table">
         <tr>
@@ -25,7 +25,7 @@ title_separator: "|"
     </table>
 </div>
 <div>    
-    <!--{% for day in site.data.postersDays %}
+    {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
         {% assign category_file = day.name %}
@@ -68,5 +68,5 @@ title_separator: "|"
             {% endfor %}
         {% endfor %}
     </div>
-    {% endfor %}-->
+    {% endfor %}
 </div>
