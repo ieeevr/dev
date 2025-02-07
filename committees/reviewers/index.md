@@ -14,7 +14,7 @@ title_separator: "|"
         <col span="1" style="width: 33.3%;">
         </colgroup>
         {% tablerow reviewer in site.data.reviewers cols:3 %}
-            <strong>{{ reviewer.name }}</strong>{%if reviewer.affiliation %} - <i>{{ reviewer.affiliation }}</i>{% endif %}
+            <strong>{{ reviewer.nom }}</strong>{%if reviewer.affiliation %} - <i>{{ reviewer.affiliation }}</i>{% endif %}
         {% endtablerow %}
     </table>
 </div>
