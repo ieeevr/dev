@@ -1,0 +1,226 @@
+n,session,type,presenter,numero,title,id
+0,1A, , ,1, GaussianHand: Real-Time 3D Gaussian Rendering for Hand Avatar Animation,0
+1,1A, , ,2, Effective VR Intervention to Reduce Implicit Bias towards People with Physical Disabilities: The Interplay between Experience Design and Individual Characteristics,1
+2,1A, , ,3, The Impact of Avatar Clothing on the Proteus Effect and Stereotype Threat,2
+3,1A, , ,4, Self-Similarity Beats Motor Contor in Augmented Reality Body Weight Perception,3
+4,1A, , ,5, Investigating the Impact of Video Pass-Through Embodiment on Presence and Performance in Virtual Reality,4
+5,1B, , ,1, On the Benefits of Sensorimotor Regularities as Design Constraints for Superpower Interactions in Mixed Reality,5
+6,1B, , ,2,"Perceptually-Guided Acoustic 'Foveation'",6
+7,1B, , ,3, The Impact of Navigation on Proxemics in an Immersive Virtual Environment with Conversational Agents,7
+8,1B, , ,4, Implicit Learning of Professional Skills through Immersive Virtual Reality: a Media Comparison Study,8
+9,1B, , ,5, Misperception of the distance of virtual augmentations,9
+10,1C, , ,1, VirtuEleDent: A Compact XR Tooth-Cutting Training System Using a Physical EMR-based Dental Handpiece and Teeth Model,10
+11,1C, , ,2, Keep it Clean: The Current State of Hygiene and Disinfection Research and Practices for Immersive Virtual Reality Experiences,11
+12,1C, , ,3, Complex Virtual Environments on All-In-One VR Headsets Through Continuous From-Segment Visibility Computation,12
+13,1C, , ,4, No More Head-Turning: Exploring Passthrough Techniques for Addressing Rear Interruptions from the Front in VR,13
+14,1C, , ,5, XRXL: A System for Immersive Visualization in Large Lectures,14
+15,1D, , ,1, An Early Warning System Based on Visual Feedback for Light-Based Hand Tracking Failures in VR Head-Mounted Displays,15
+16,1D, , ,2, FovealNet: Advancing AI-Driven Gaze Tracking Solutions for Efficient Foveated Rendering in Virtual Reality,16
+17,1D, , ,3, SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality,17
+18,1D, , ,4, EX-Gaze: High-frequency and Low-latency Gaze Tracking with Hybrid Event-frame Cameras for On-Device Extended Reality,18
+19,1D, , ,5, Synthesizing Six Years of AR/VR Research: A Systematic Review of Machine and Deep Learning Applications,19
+20,2A, , ,1, Enhancing Plant Variety Discovery Process with Visual Trait Assessment in VR,20
+21,2A, , ,2, Peripheral Teleportation: A Rest Frame Design to Mitigate Cybersickness During Virtual Locomotion,21
+22,2A, , ,3, Reduction of Motion Complexity as an Objective Indicator of Cybersickness in Virtual Reality,22
+23,2A, , ,4, Exploring Large Language Model-Driven Agents for Environment-Aware Spatial Interactions and Conversations in Virtual Reality Role-Play Scenarios,23
+24,2A, , ,5, Decoding Learner Behavior in Virtual Reality Education: Insights from Epistemic Network Analysis and Differential Sequence Mining,24
+25,2B, , ,1, Dynamic Redirection for Safe Interaction with ETHD-Simulated Virtual Objects,25
+26,2B, , ,2, ShiftingGolf: Gross Motor Skill Correction using Redirection in VR,26
+27,2B, , ,3, Detection Thresholds for Replay and Real-Time Discrepancies in VR Hand Redirection,27
+28,2B, , ,4, Redirected Drawing: Expanding the Perceived Canvas Size in VR,28
+29,2B, , ,5, Redirection Detection Thresholds for Avatar Manipulation with Different Body Parts,29
+30,2C, , ,1, Multimodal Neural Acoustic Fields for Immersive Virtual Reality,30
+31,2C, , ,2, Enhancing Empathy for Visual Impairments: A Multi-modal Approach in VR Serious Games,31
+32,2C, , ,3, Perceptual Alignment of Spatial Auditory and Tactile Stimuli for Effective Directional Cueing,32
+33,2C, , ,4, VR Whispering: A Multisensory Approach for Private Conversations in Social Virtual Reality,33
+34,2C, , ,5, Evaluating Dynamic Delivery of Audio+Visual Message Notifications in XR,34
+35,2D, , ,1, Exploring the Uncoordinated Privacy Protections of Eye Tracking and VR Motion Data for Unauthorized User Identification,35
+36,2D, , ,2, Embedding Human Values into the Designing of Mixed-Reality Technologies,36
+37,2D, , ,3, The Impact of Environment Design Bias on Working Memory,37
+38,2D, , ,4, Observations on Virtual Reality Avatar Alignment with Research Participantsâ€šÃ„Ã¶âˆšÃ‘âˆšÂ¥ Skin Tone and Gender,38
+39,2D, , ,5, Enhancing Obstacle Visibility with Augmented Reality Improves Mobility in People with Low Vision,39
+40,3B, , ,1, It's My Fingers' Fault: Investigating the Effect of Shared Avatar Control on Agency and Responsibility Attribution,40
+41,3B, , ,2, Behavioral Measures of Copresence in Co-located Mixed Reality,41
+42,3B, , ,3,"Avatars,  Should We Look at Them Directly or through a Mirror?: Effects of Avatar Display Method on Sense of Embodiment and Gaze",42
+43,3B, , ,4, A Comparison Study Understanding the Impact of Mixed Reality Collaboration on Sense of Co-Presence,43
+44,3B, , ,5, Simulating Social Pressure: Evaluating Risky Behaviors in Construction Using Augmented Virtuality,44
+45,3D, , ,1, Influence of haptic feedback on perception of threat and peripersonal space in social VR,45
+46,3D, , ,2, PantographHaptics: A Technique for Large-Surface Passive Haptic Interactions using Pantograph Mechanisms,46
+47,3D, , ,3, Shiftly: A Novel Origami Shape-Shifting Haptic Device for Virtual Reality,47
+48,3D, , ,4, The Impact of Airflow and Multisensory Feedback on Immersion and Cybersickness in a VR Surfing Simulation,48
+49,3D, , ,5, Bimanual Ultrasound Mid-Air Haptics for Virtual Reality Manipulation,49
+50,4B, , ,1, Minimalism or Creative Chaos? On the Arrangement and Analysis of Numerous Scatterplots in Immersive 3D Knowledge Spaces,50
+51,4B, , ,2, Perception of Visual Variables on Virtual Wall-Sized Tiled Displays in Immersive Environments,51
+52,4B, , ,3, Immersive Analytics as a Support Medium for Data-Driven Monitoring in Hydropower,52
+53,4B, , ,4, Immersive Analytics for Understanding Ecosystem Services Data,53
+54,4B, , ,5, PwP: Permutating with Probability for Efficient Group Selection in VR,54
+55,4C, , ,1, Virtual teleoperation performance under load factor in real flight,55
+56,4C, , ,2, Performance and ergonomics of automated versus manual validation for AR-supervised industrial operations,56
+57,4C, , ,3, AdaptiveCoPilot: Design and Testing of a NeuroAdaptive LLM Cockpit Guidance System in both Novice and Expert Pilots,57
+58,4C, , ,4,"Measuring the Impact of Objectsâ€™ Physicalization,  Avatar Appearance,  and their Consistency on Pick-and-Place Performance in Augmented Reality",58
+59,4C, , ,5, Exploring Worker-Drone Interaction in Mixed Reality: Balancing Distraction and Situational Awareness,59
+60,4D, , ,1, Robotic Characterization of Markerless Hand-Tracking on Meta Quest Pro and Quest 3 Virtual Reality Headsets,60
+61,4D, , ,2, ViDDAR: Vision Language Model-based Task-Detrimental Content Detection for Augmented Reality,61
+62,4D, , ,3, Investigating Virtual Reality for Alleviating Human-Computer Interaction Fatigue: A Multimodal Assessment and Comparison with Flat Video,62
+63,4D, , ,4, From PINs to Gestures: Analyzing Knowledge-Based Authentication Schemes for Augmented and Virtual Reality,63
+64,4D, , ,5, The Reliability and Validity of the Avatar Embodiment Questionnaire,64
+65,5A, , ,1, Multimodal Turn in Place: A Comparative Analysis of Visual and Auditory Reset UIs in Redirected Walking,65
+66,5A, , ,2, Techniques for Multiple Room Connection in Virtual Reality: Walking Within Small Physical Spaces,66
+67,5A, , ,3, F-RDW: Redirected Walking With Forecasting Future Position,67
+68,5A, , ,4, Follow Me: Confirmation-based Group Navigation in Collocated Virtual Reality,68
+69,5A, , ,5, Can I Get There? Negotiated User-to-User Teleportations in Social VR,69
+70,5B, , ,1, Editable Mesh Animations Modeling Based on Controlable Particles for Real-Time XR,70
+71,5B, , ,2, A Cost-effective Tangible Rehearsal Interface for Microsurgical Clipping of Intracranial Aneurysm,71
+72,5B, , ,3, Blind Augmentation: Calibration-free Camera Distortion Model Estimation for Real-time Mixed-reality Consistency,72
+73,5B, , ,4, Look at the Sky: Sky-aware Efficient 3D Gaussian Splatting in the Wild,73
+74,5B, , ,5, EventPointMesh: Human Mesh Recovery Solely From Event Point Clouds,74
+75,5C, , ,1, Environment Spatial Restitution for Remote Physical AR Collaboration,75
+76,5C, , ,2, Do We Still Need Human Instructors? Investigating Automated Methods for Motor Skill Learning in Virtual Co-embodiment,76
+77,5C, , ,3, Just stop doing everything for now!'': Understanding security attacks in remote collaborative mixed-reality,77
+78,5C, , ,4, Investigating the Influence of Playback Interactivity during Guided Tours for Asynchronous Collaboration in Virtual Reality,78
+79,5C, , ,5, TeamPortal: Exploring Virtual Reality Collaboration Through Shared and Manipulating Parallel Views,79
+80,5D, , ,1, CoordAuth: Hands-Free Two-Factor Authentication in Virtual Reality Leveraging Head-Eye Coordination,80
+81,5D, , ,2, A Dual-Stick Controller for Enhancing Raycasting Interactions with Virtual Objects,81
+82,5D, , ,3, Omnidirectional VR Treadmills Walking Techniques: Comparing Walking-in-Place and Sliding vs Natural Walking,82
+83,5D, , ,4, The Impact of Visual and Haptic Feedback on Keyboard Typing in Immersive Virtual Environments,83
+84,5D, , ,5, AirtypeLogger: How Short Keystrokes in Virtual Space Can Expose Your Semantic Input to Nearby Cameras,84
+85,6A, , ,1, Semantics-Controlled Gaussian Splatting for Outdoor Scene Reconstruction and Rendering in Virtual Reality,85
+86,6A, , ,2, MineVRA: Exploring the Role of Generative AI-Driven Content Development in XR Environments through a Context-Aware Approach,86
+87,6A, , ,3, LLMER: Crafting Interactive Extended Reality Worlds with JSON Data Generated by Large Language Models,87
+88,6A, , ,4, Navigating Decision-Making Frontiers: Virtual Reality and Spatial Skills in Strategic Planning,88
+89,6A, , ,5, MagicScroll: Enhancing Immersive Storytelling with Controllable Scroll Image Generation,89
+90,6B, , ,1, EmBARDiment: an Embodied AI Agent for Productivity in XR,90
+91,6B, , ,2,"`Age Isn't Just a Number': Effects of Virtual Human Age and Gender on Persuasion,  Social Presence and Influence in Interpersonal Social Encounters in VR",91
+92,6B, , ,3,"Coverage of Facial Expressions and Its Effects on Avatar Embodiment,  Self-Identification,  and Uncanniness",92
+93,6B, , ,4, Trust in Virtual Agents: Exploring the Role of Stylization and Voice,93
+94,6B, , ,5, Xâ€™s Day: Personality-Driven Virtual Human Behavior Generation,94
+95,6C, , ,1, Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework,95
+96,6C, , ,2, Hit Around: Substitutional Moving Robot for Immersive and Exertion Interaction with Encountered-Type Haptic,96
+97,6C, , ,3, Mentor-Guided Learning in Immersive Virtual Environments: The Impact of Visual and Haptic Feedback on Skill Acquisition,97
+98,6C, , ,4, Unified Approach to Mesh Saliency: Evaluating Textured and Non-Textured Meshes Through VR and Multifunctional Prediction,98
+99,6C, , ,5, Impact of Visual Virtual Scene and Localization Task on Auditory Distance Perception in Virtual Reality,99
+100,6D, , ,1, Slim Diffractive Waveguide Glasses for Beaming Displays with Enhanced Head Orientation Tolerance,100
+101,6D, , ,2, LAPIG: Language Guided Projector Image Generation with Surface Adaptation and Stylization,101
+102,6D, , ,3, Privacy-Enabled Parallax Display,102
+103,6D, Remote, ,4, Frequency-aware Uncertainty Gaussian Splatting for Dynamic Scene Reconstruction,103
+104,6D, , ,5, ,104
+105,7A, , ,1, Beyond the Phone: Exploring Phone-XR Integration through Multi-View Transitions for Real-World Applications,105
+106,7A, , ,2, Order Up! Multimodal Interaction Techniques for Notifications in Augmented Reality,106
+107,7A, , ,3, SeamlessVR: Bridging the Immersive to Non-Immersive Visualization Divide,107
+108,7A, , ,4, Evaluating 3D Visual Comparison Techniques for Change Detection in Virtual Reality,108
+109,7A, Remote (probably), ,5, FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality,109
+110,7B, , ,1,"Predicting and Explaining Cognitive Load,  Attention,  and Working Memory in Virtual Multitasking",110
+111,7B, , ,2,"Immersion,  Attention,  and Collaboration in Spatial Computing: A Study on Work Performance with Apple Vision Pro",111
+112,7B, , ,3, Cognitive Load Inference Using Physiological Markers in Virtual Reality,112
+113,7B, , ,4, Comparing Absolute Size Perception in Optical See-Through Augmented Reality and Real World Viewing Using Verbal and Physical Judgments,113
+114,7B, , ,5, Perception-driven Soft-Edge Occlusion for Optical See-Through Head-Mounted Displays,114
+115,7C, , ,1, MRUCT: Mixed Reality Assistance for Acupuncture Guided by Ultrasonic Computed Tomography,115
+116,7C, , ,2, Setting the Stage: Using Virtual Reality to Assess the Effects of Music Performance Anxiety in Pianists,116
+117,7C, , ,3, ArmVR: Innovative Design Combining Virtual Reality Technology and Mechanical Equipment in Stroke Rehabilitation Therapy,117
+118,7C, , ,4, Focus-Driven Augmented Feedback: Enhancing Focus and Maintaining Engagement in Upper Limb Virtual Reality Rehabilitation,118
+119,7C, , ,5, Examining the Validity of An Endoscopist-patient Co-participative Virtual Reality Method (EPC-VR) in Pain Relief during Colonoscopy,119
+120,7D, , ,1, Adaptive 360-Degree Video Streaming with Super-Resolution and Interpolation,120
+121,7D, , ,2,"Interactions between vibro-acoustic discomfort and visual stimuli: Comparison of real,  3D and 360 environment",121
+122,7D, , ,3,"Comparative Analysis of AR,  VR,  and Desktop Tools for Prototyping Augmented Reality Services",122
+123,7D, , ,4, ESIQA: Perceptual Quality Assessment of Vision-Pro-based Egocentric Spatial Images,123
+124,7D, , ,5,"Beyond Mute and Block: Adoption and Effectiveness of Safety Tools in Social Virtual Reality,  from Ubiquitous Harassment to Social Sculpting",124
+125,8B, , ,1, ChromaGazer: Unobtrusive Visual Modulation using Imperceptible Color Vibration for Visual Guidance,125
+126,8B, , ,2, On Virtual Pointing Rays and Motion Artefacts,126
+127,8B, , ,3, Children's Calibration of Reaching Estimates in Virtual Reality,127
+128,8B, , ,4, Comparison of Visual Saliency for Dynamic Point Cloud: Task-free vs. Task-dependent,128
+129,8B, , ,5, From Novelty to Knowledge: A Longitudinal Investigation of the Novelty Effect on Learning Outcomes in Virtual Reality,129
+130,8D, , ,1, Smart Pipette: Elevating Laboratory Performance with Tactile Authenticity and Real-Time Feedback,130
+131,8D, , ,2, Automatic Generation of Haptic Motion Effects Expressing Human Dance,131
+132,8D, , ,3, HIPS - A Surgical Virtual Reality Training System for Total Hip Arthroplasty (THA) with Realistic Force Feedback,132
+133,8D, , ,4, In Touch We Decide: Physical Touch by Embodied Virtual Agent Increases the Acceptability of Advice,133
+134,8D, , ,5, Transtiff: A Stylus-shaped Interface for Rendering Perceived Stiffness of Virtual Objects via Stylus Stiffness Control,134
+135,9A, , ,1, Visual Presentation Method for Paranormal Phenomena Through Binocular Rivalry Induced by Dichoptic Color Differences,135
+136,9A, , ,2, Movement- and Traffic-based User Identification in Commercial Virtual Reality Applications: Threats and Opportunities,136
+137,9A, , ,3, Evaluating the Impact of Immersiveness in Virtual Reality Simulations on Anxiety Reduction for MRI Procedures: A Preliminary Study,137
+138,9A, , Tobias Langlotz,4, From Picks to Pixels: An Exploration of Virtual Reality in Geoscience Education,138
+139,9A, , ,5, Designing VR Music Game for Stress Reduction,139
+140,9B, , ,1, Seeing is not Thinking: Testing Capabilities of VR to Promote Perspective-Taking,140
+141,9B, , ,2, When Fear Overshadows Perceived Plausibility: The Influence of Incongruencies on Acrophobia in VR,141
+142,9B, , ,3, Interpupillary to Inter-Camera Distance of Video See-Through AR and its Impact on Depth Perception,142
+143,9B, , ,4, Brain Signatures of Time Perception in Virtual Reality,143
+144,9B, Remote, ,5, Adaptive Score Alignment Learning for Continual Perceptual Quality Assessment of 360-Degree Videos in Virtual Reality,144
+145,9C, , ,1, Color Correction for Occlusion-Capable Optical See-Through Head-Mounted Displays by Using Phase-Modulation,145
+146,9C, , ,2, SRBF-Gaussian: Streaming-Optimized 3D Gaussian Splatting,146
+147,9C, , ,3, DPCS: Path Tracing-based Differentiable Projector-Camera Systems,147
+148,9C, , ,4, MPGS: Multi-plane Gaussian Splatting for Compact Scenes Rendering,148
+149,9C, , ,5, Silo: Half-Gigapixel Cylindrical Stereoscopic Immersive Display,149
+150,9D, , ,1, Am I (Not) a Ghost? Leveraging Affordances to Study the Impact of Avatar/Interaction Coherence on Embodiment and Plausibility in Virtual Reality,150
+151,9D, , ,2, Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality,151
+152,9D, Remote, ,3, Tap into Reality: Understanding the Impact of Interactions on Presence and Reaction Time in Mixed Reality,152
+153,9D, Remote, ,4, Reaction Time as a Proxy for Presence in Mixed Reality Environments with Break-In Presence,153
+154,9D, Remote, ,5,"One Body,  But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment",154
+155,10A, , ,1, AR Fitness Dog: The Effects of a User-Mimicking Interactive Virtual Pet on User Experience and Social Presence in Physical Exercise,155
+156,10A, , ,2, PaRUS: A Virtual Reality Shopping Method Focusing on Contextual Information between Products and Real Usage Scenes,156
+157,10A, , ,3, Enhancing Patient Acceptance of Robotic Ultrasound through Conversational Virtual Agent and Immersive Visualizations,157
+158,10A, , ,4, Enhancing consumer insights through VR metaphor elicitation,158
+159,10A, , ,5, OPVSim: Applying a Graph-Based Methodology for VR Training in Guided Learning of Emergency Procedures in a Ship's Engineering Room,159
+160,10B, , ,1, Presenting Tingling Aftereffects Using Vibro-Thermal Feedback to Enhance Impact Sensation in Virtual Reality,160
+161,10B, , ,2, Optimizing Moving Target Selection in VR by Integrating Proximity-Based Feedback Types and Modalities,161
+162,10B, , ,3, Predicting Ray Pointer Landing Poses in VR Using Multimodal LSTM-Based Neural Networks,162
+163,10B, , ,4, Comparison of Cross-Reality Transition Techniques Between 3D and 2D Display Spaces in Desktop-AR Systems,163
+164,10B, , ,5, From Display to Interaction: Design Patterns for Cross-Reality Systems,164
+165,10C, , ,1, May The Force be With You: Cloning Distant Objects to Improve Medium-Field Interactions in Augmented Reality,165
+166,10C, , ,2, Mixed Reality and Real-Time X-Ray Simulation in Vet Radiography Training: A User-Centered Comparative Study,166
+167,10C, , ,3, Don't They Really Hear Us? A Design Space for Private Conversations in Social Virtual Reality,167
+168,10C, , ,4, Spatial Bar: Exploring Window Switching Techniques for Large Virtual Displays,168
+169,10C, , ,5, Shaping the Future of VR Hand Interactions: Lessons Learned from Modern Methods,169
+170,10D, , ,1, Personalized Dual-Level Color Grading for 360-degree Images in Virtual Reality,170
+171,10D, , ,2, GO-NeRF: Generating Objects in Neural Radiance Fields for Virtual Reality Content Creation,171
+172,10D, , ,3, Which Side is the Top? A User Study to Compare Visual Assets for Component Orientation in Assembly with Augmented Reality,172
+173,10D, , ,4, Usability Evaluation of Integrated and Separated Interfaces in an Immersive Authoring Tool based on Panoramic Videos,173
+174,10D, , ,5, Virtual Reality Impacts on Novice Programmersâ€™ Self-efficacy,174
+175,11A, , ,1, A Comparison of the Effects of Older Age on Homing Performance in Real and Virtual Environments,175
+176,11A, , ,2,"Sensitivity to Redirected Walking Considering Gaze,  Posture,  and Luminance",176
+177,11A, , ,3, When Flames Feel Real in Augmented Reality: Effects of Plausibility and Placement of Virtual Flames on the Burning Hand Illusion and Physiological Responses,177
+178,11A, , ,4, An embodied body morphology task for investigating self-avatar proportions perception in Virtual Reality,178
+179,11A, , ,5, How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation,179
+180,11B, , ,1, VF-Lens: Enhancing Visual Perception of Visually Impaired Users in VR via Adversarial Learning with Visual Field Attention,180
+181,11B, , ,2, BoundaryScreen: Summoning the Home Screen in VR via Walking Outward,181
+182,11B, , ,3, Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying Spatial Information of Virtual Objects to Blind VR Users,182
+183,11B, , ,4, Exploring Aiming Techniques for Blind People in Virtual Reality,183
+184,11B, remote, ,5, SummonBrush: Enhancing Touch Interaction on Large XR User Interfaces by Augmenting Users Hands with Virtual Brushes,184
+185,11C, , ,1, Utilizing Gaze-Contingent Rendering to Maintain Visual Attention in Educational VR,185
+186,11C, , ,2,"The Hidden Face of the Proteus Effect: Deindividuation,  Embodiment and Identification",186
+187,11C, , ,3, Immersive Tailoring of Embodied Agents Using Large Language Models,187
+188,11C, , ,4, Effects of Embodiment and Personality in LLM-based Conversational Agents,188
+189,11C, , ,5, The Impact of Avatar Retargeting on Pointing and Conversational Communication,189
+190,11D, , ,1, Exploring the Influence of Interpersonal Relationships on Gamification Preferences in Collaborative IVR Environments,190
+191,11D, , ,2, Enhancing Social Experiences in Immersive Virtual Reality with Artificial Facial Mimicry,191
+192,11D, , ,3, PASCAL - A Collaboration Technique Between Non-Collocated Avatars in Large Collaborative Virtual Environments,192
+193,11D, , ,4, Does Hand Size Matter? The Effect of Avatar Hand Size on Non-verbal Communication in Virtual Reality,193
+194,11D, , ,5, ,194
+195,12A, , ,1, A Testbed for Studying Cybersickness and its Mitigation in Immersive Virtual Reality,195
+196,12A, , ,2, Beyond Subjectivity: Continuous Cybersickness Detection Using EEG-based Multitaper Spectrum Estimation,196
+197,12A, , ,3, To use or not to use viewpoint oscillations when walking in VR ? State of the art and perspectives,197
+198,12A, , ,4, Multiple Self-Avatar Effect: Effects of Using Diverse Self-Avatars on Memory Acquisition and Retention of Sign-Language Gestures,198
+199,12A, , ,5, The Least Increasing Aversion (LIA) Protocol: Illustration on Identifying Individual Susceptibility to Cybersickness Triggers,199
+200,12B, , ,1, Development and Evaluation of a Treadmill-based Video-see-through and Optical-see-through Mixed Reality Systems for Obstacle Negotiation Training,200
+201,12B, , ,2, Preview Teleport: An Occlusion-Free Point-and-Teleport Technique Enhanced with an Augmented Preview,201
+202,12B, , ,3, Measuring Human Perception of Airflow for Natural Motion Simulation in Virtual Reality,202
+203,12B, , ,4,"Effects of viewpoint oscillations and gaze-based stabilization on walking sensation,  embodiment and cybersickness in immersive VR",203
+204,12B, , ,5, Comparative Evaluation of Differing Levels of Information Presentation in 3D Mini-Maps on Spatial Knowledge Acquisition in VR,204
+205,12C, , ,1, Exploring Multiscale Navigation of Homogeneous and Dense Objects with Progressive Refinement in Virtual Reality,205
+206,12C, , ,2, Single Actor Controlling Multiple Avatars for Social Virtual Realities,206
+207,12C, , ,3, Effects of Proprioceptive Attenuation with Noisy Tendon Electrical Stimulation on Adaptation to Beyond-Real Interaction,207
+208,12C, , ,4, ReLive: Walking into Virtual Reality Spaces from Video Recordings of One's Past Can Increase the Experiential Detail and Affect of Autobiographical Memories,208
+209,12C, , ,5, Analyzing Multimodal Interaction Strategies for LLM-Assisted Manipulation of 3D Scenes,209
+210,12D, , ,1, Intuitive Visual Feedback in Virtual Reality for the Teleoperation of Robots,210
+211,12D, , ,2, MRUnion: Asymmetric Task-Aware 3D Mutual Scene Generation of Dissimilar Spaces for Mixed Reality Telepresence,211
+212,12D, , ,3, Influence of Audiovisual Realism on Communication Behaviour in Group-to-Group Telepresence,212
+213,12D, , ,4, VASA-Rig: Audio-Driven 3D Facial Animation with `Live&#39; Mood Dynamics in Virtual Reality,213
+214,12D, , ,5, SensARy Substitution: Augmented Reality Techniques to Enhance Force Perception in Touchless Robot Control,214
+215,13B, , ,1, Investigating the Impact of Voice-only and Embodied Conversational Virtual Agents on Mixed Reality Puzzle Solving,215
+216,13B, , ,2, ResponsiveView: Enhancing 3D Artifact Viewing Experience in VR Museums,216
+217,13B, , ,3, Examining the Design Process for 3D Interactions in Performing Arts : A Spatial Augmented Reality Cyber-Opera Case Study,217
+218,13B, , ,4, Daddy Long Legs: A Scale and Speed Up Virtual Reality Locomotion Technique for Medium-Scale Scenarios,218
+219,13B, , ,5, Scaling Techniques for Exocentric Navigation Interfaces in Multiscale Virtual Environments,219
+220,13D, , ,1, 360o 3D Photos from a Single 360o Input Image,220
+221,13D, , ,2, Fov-GS: Foveated 3D Guassian Splatting for Dynamic Scene,221
+222,13D, , ,3, Accelerating Stereo Rendering via Image Reprojection and Spatio-Temporal Supersampling,222
+223,13D, , ,4, Multi-Layer Gaussian Splatting for Immersive Anatomy Visualization,223
+224,13D, , ,5, Saliency-aware Foveated Path Tracing for Virtual Reality Rendering,224
