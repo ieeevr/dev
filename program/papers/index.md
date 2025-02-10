@@ -28,7 +28,6 @@ title_separator: "|"
                         <strong>{{ paper.title }}</strong>
                     </p>
                     {% for acpaper in site.data.acceptedpapers %}    
-                    <p>{{ acpaper.ids }} | {{ paper.id }}</p>
                         {% if acpaper.ids | strip == paper.id | strip %} 
                         <div>
                             Test
