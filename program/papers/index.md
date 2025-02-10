@@ -27,12 +27,12 @@ title_separator: "|"
                     <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
                         <strong>{{ paper.title }}</strong>
                     </p>
-                    <div>
                     {% for acpaper in site.data.acceptedpapers %}    
-                        {% if acpaper.PaperId == paper.id  %}
-                        <p>Test</p>
+                        {% if acpaper.PaperId == paper.id  %}    
+                        <div>
+                            <p>Test</p>
+                        </div>
                         {% endif %}
-                    </div>
                     {% endfor %}
                 {% endif %}
             {% endfor %}
