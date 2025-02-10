@@ -18,4 +18,32 @@ title_separator: "|"
             </table>
         </div>
     <div>
-
+</div>
+<div>
+    {% for session in site.data.sessions %}
+            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }})</h2>
+            {% for paper in site.data.papers %}                 
+                {% if session.session == paper.session %}         
+                    <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                        <strong>{{ paper.title }}</strong>
+                    </p>
+                    <p class="font_70" >
+                    {% for acpaper in site.data.acceptedpapers %}    
+                        {% if acpaper.PaperId == paper.id  %}
+                        {{ acpaper.id}}
+                        {% endif %}
+                    </p>
+                    {% if p.abstract %}
+                        <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
+                            <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    <p>{{ p.abstract }}</p>
+                                </div>
+                            </div>
+                        </div>                                                                     
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+    {% endfor %}
+</div>
