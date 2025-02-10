@@ -14,7 +14,7 @@ title_separator: "|"
                 </tr>
                 {% for session in site.data.sessions %}
                     <tr>
-                        <td class="medLarge"><a href="#{{ session.id }}">{{ session.id }}</a></td>
+                        <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}</a></td>
                         <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
                         <!--<td class="medLarge">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
                         <td class="medLarge" class="text-nowrap">{{ session.room }}</td>-->
@@ -47,9 +47,9 @@ title_separator: "|"
 </div>
 <div>
     {% for session in site.data.sessions %}
-            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.id }})</h2>
+            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }})</h2>
             {% for paper in site.data.papers %}                 
-                {% if session.Session == paper.session %}         
+                {% if session.session == paper.session %}         
                     <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
                         <strong>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</strong>
                     </p>
