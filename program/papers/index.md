@@ -54,19 +54,10 @@ title_separator: "|"
                         <strong>{{ paper.title }}</strong>
                     </p>
                     <p class="font_70" >
-                    <!--{% for acpaper in site.data.accepted-papers %}    
+                    {% for acpaper in site.data.acceptedpapers %}    
                         {% if acpaper.PaperId == paper.id  %}
-                        {% assign authornames = acpaper.ACMAuthorAffiliations | split: ";" %}
-                        {% for name in authornames %}
-                            {% assign barename = name | split: ":" %}
-                            {% for n in barename %}
-                                {% if n == barename.last %}
-                                    <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                                {% else %}                            
-                                    <span class="bold">{{ n | strip }},</span>
-                                {% endif %}
-                            {% endfor %} 
-                        {% endfor %}
+                        {{ acpaper.id}}
+                        
                         {% endif %}
                     </p>
                     {% if p.abstract %}
