@@ -33,6 +33,7 @@ title_separator: "|"
                         <p>Test</p>
                         {% endif %}
                     </div>
+                    {% endfor %}
                 {% endif %}
             {% endfor %}
     {% endfor %}
