@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 <h1>Papers</h1>
 <div>
-    <div>
+    <!--<div>
         <div>
             <table class="styled-table">
                 <tr>
@@ -16,13 +16,11 @@ title_separator: "|"
                     <tr>
                         <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}</a></td>
                         <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
-                        <!--<td class="medLarge">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
-                        <td class="medLarge" class="text-nowrap">{{ session.room }}</td>-->
                     </tr>
                 {% endfor %}
             </table>
         </div>
-    <div>
+    <div>-->
     <!--{% for day in site.data.days %}
         <div>
             <div>
