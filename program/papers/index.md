@@ -51,7 +51,7 @@ title_separator: "|"
             {% for paper in site.data.papers %}                 
                 {% if session.session == paper.session %}         
                     <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                        <strong>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</strong>
+                        <strong>{{ paper.title }}</strong>
                     </p>
                     <p class="font_70" >
                         {% assign authornames = p.authors | split: ";" %}
