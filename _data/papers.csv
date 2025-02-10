@@ -1,11 +1,11 @@
-,session,type,presenter,id,title
+id,session,type,presenter,id,title
 0,1A, , ,PTVCG14, GaussianHand: Real-Time 3D Gaussian Rendering for Hand Avatar Animation
 1,1A, , ,P1141, Effective VR Intervention to Reduce Implicit Bias towards People with Physical Disabilities: The Interplay between Experience Design and Individual Characteristics
 2,1A, , ,P1011, The Impact of Avatar Clothing on the Proteus Effect and Stereotype Threat
 3,1A, , ,P1087, Self-Similarity Beats Motor Contor in Augmented Reality Body Weight Perception
 4,1A, , ,P1135, Investigating the Impact of Video Pass-Through Embodiment on Presence and Performance in Virtual Reality
 5,1B, , ,P2227, On the Benefits of Sensorimotor Regularities as Design Constraints for Superpower Interactions in Mixed Reality
-6,1B, , ,P1389," ""Perceptually-Guided Acoustic """"Foveation"""""""
+6,1B, , ,P1389,"Perceptually-Guided Acoustic 'Foveation'"
 7,1B, , ,P1405, The Impact of Navigation on Proxemics in an Immersive Virtual Environment with Conversational Agents
 8,1B, , ,P1497, Implicit Learning of Professional Skills through Immersive Virtual Reality: a Media Comparison Study
 9,1B, , ,P1512, Misperception of the distance of virtual augmentations
@@ -37,11 +37,11 @@
 35,2D, , ,P2061, Exploring the Uncoordinated Privacy Protections of Eye Tracking and VR Motion Data for Unauthorized User Identification
 36,2D, , ,P2243, Embedding Human Values into the Designing of Mixed-Reality Technologies
 37,2D, , ,P1009, The Impact of Environment Design Bias on Working Memory
-38,2D, , ,P1553, Observations on Virtual Reality Avatar Alignment with Research Participantsâ€šÃ„Ã¶âˆšÃ‘âˆšÂ¥ Skin Tone and Gender
+38,2D, , ,P1553, Observations on Virtual Reality Avatar Alignment with Research Participants' Skin Tone and Gender
 39,2D, , ,P1312, Enhancing Obstacle Visibility with Augmented Reality Improves Mobility in People with Low Vision
 40,3B, , ,P1803, It's My Fingers' Fault: Investigating the Effect of Shared Avatar Control on Agency and Responsibility Attribution
 41,3B, , ,P2060, Behavioral Measures of Copresence in Co-located Mixed Reality
-42,3B, , ,P2087," ""Avatars,  Should We Look at Them Directly or through a Mirror?: Effects of Avatar Display Method on Sense of Embodiment and Gaze"""
+42,3B, , ,P2087,"Avatars,  Should We Look at Them Directly or through a Mirror?: Effects of Avatar Display Method on Sense of Embodiment and Gaze"
 43,3B, , ,P2103, A Comparison Study Understanding the Impact of Mixed Reality Collaboration on Sense of Co-Presence
 44,3B, , ,P2444, Simulating Social Pressure: Evaluating Risky Behaviors in Construction Using Augmented Virtuality
 45,3D, , ,P1007, Influence of haptic feedback on perception of threat and peripersonal space in social VR
@@ -57,7 +57,7 @@
 55,4C, , ,P1962, Virtual teleoperation performance under load factor in real flight
 56,4C, , ,P1975, Performance and ergonomics of automated versus manual validation for AR-supervised industrial operations
 57,4C, , ,P2458, AdaptiveCoPilot: Design and Testing of a NeuroAdaptive LLM Cockpit Guidance System in both Novice and Expert Pilots
-58,4C, , ,P1861," ""Measuring the Impact of Objectsâ€™ Physicalization,  Avatar Appearance,  and their Consistency on Pick-and-Place Performance in Augmented Reality"""
+58,4C, , ,P1861,"Measuring the Impact of Objectsâ€™ Physicalization,  Avatar Appearance,  and their Consistency on Pick-and-Place Performance in Augmented Reality"
 59,4C, , ,P2449, Exploring Worker-Drone Interaction in Mixed Reality: Balancing Distraction and Situational Awareness
 60,4D, , ,P1178, Robotic Characterization of Markerless Hand-Tracking on Meta Quest Pro and Quest 3 Virtual Reality Headsets
 61,4D, , ,P1307, ViDDAR: Vision Language Model-based Task-Detrimental Content Detection for Augmented Reality
@@ -90,8 +90,8 @@
 88,6A, , ,P1038, Navigating Decision-Making Frontiers: Virtual Reality and Spatial Skills in Strategic Planning
 89,6A, , ,P1873, MagicScroll: Enhancing Immersive Storytelling with Controllable Scroll Image Generation
 90,6B, , ,P1168, EmBARDiment: an Embodied AI Agent for Productivity in XR
-91,6B, , ,P1189," ""`Age Isn't Just a Number': Effects of Virtual Human Age and Gender on Persuasion,  Social Presence and Influence in Interpersonal Social Encounters in VR"""
-92,6B, , ,P1235," ""Coverage of Facial Expressions and Its Effects on Avatar Embodiment,  Self-Identification,  and Uncanniness"""
+91,6B, , ,P1189,"`Age Isn't Just a Number': Effects of Virtual Human Age and Gender on Persuasion,  Social Presence and Influence in Interpersonal Social Encounters in VR"
+92,6B, , ,P1235,"Coverage of Facial Expressions and Its Effects on Avatar Embodiment,  Self-Identification,  and Uncanniness"
 93,6B, , ,P1441, Trust in Virtual Agents: Exploring the Role of Stylization and Voice
 94,6B, , ,P1486, Xâ€™s Day: Personality-Driven Virtual Human Behavior Generation
 95,6C, , ,P1393, Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework
@@ -103,14 +103,13 @@
 101,6D, , ,P1155, LAPIG: Language Guided Projector Image Generation with Surface Adaptation and Stylization
 102,6D, , ,P1548, Privacy-Enabled Parallax Display
 103,6D, Remote, ,P1391, Frequency-aware Uncertainty Gaussian Splatting for Dynamic Scene Reconstruction
-104,6D, , ,P, 
 105,7A, , ,P2117, Beyond the Phone: Exploring Phone-XR Integration through Multi-View Transitions for Real-World Applications
 106,7A, , ,P1204, Order Up! Multimodal Interaction Techniques for Notifications in Augmented Reality
 107,7A, , ,P1335, SeamlessVR: Bridging the Immersive to Non-Immersive Visualization Divide
 108,7A, , ,P1974, Evaluating 3D Visual Comparison Techniques for Change Detection in Virtual Reality
 109,7A, Remote (probably), ,P1225, FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality
-110,7B, , ,P2355," ""Predicting and Explaining Cognitive Load,  Attention,  and Working Memory in Virtual Multitasking"""
-111,7B, , ,P2367," ""Immersion,  Attention,  and Collaboration in Spatial Computing: A Study on Work Performance with Apple Vision Pro"""
+110,7B, , ,P2355,"Predicting and Explaining Cognitive Load,  Attention,  and Working Memory in Virtual Multitasking"
+111,7B, , ,P2367,"Immersion,  Attention,  and Collaboration in Spatial Computing: A Study on Work Performance with Apple Vision Pro"
 112,7B, , ,P2370, Cognitive Load Inference Using Physiological Markers in Virtual Reality
 113,7B, , ,P2406, Comparing Absolute Size Perception in Optical See-Through Augmented Reality and Real World Viewing Using Verbal and Physical Judgments
 114,7B, , ,PTVCG3, Perception-driven Soft-Edge Occlusion for Optical See-Through Head-Mounted Displays
@@ -120,10 +119,10 @@
 118,7C, , ,P2054, Focus-Driven Augmented Feedback: Enhancing Focus and Maintaining Engagement in Upper Limb Virtual Reality Rehabilitation
 119,7C, , ,P2201, Examining the Validity of An Endoscopist-patient Co-participative Virtual Reality Method (EPC-VR) in Pain Relief during Colonoscopy
 120,7D, , ,P2357, Adaptive 360-Degree Video Streaming with Super-Resolution and Interpolation
-121,7D, , ,P2317," ""Interactions between vibro-acoustic discomfort and visual stimuli: Comparison of real,  3D and 360 environment"""
-122,7D, , ,P1273," ""Comparative Analysis of AR,  VR,  and Desktop Tools for Prototyping Augmented Reality Services"""
+121,7D, , ,P2317,"Interactions between vibro-acoustic discomfort and visual stimuli: Comparison of real,  3D and 360 environment"
+122,7D, , ,P1273,"Comparative Analysis of AR,  VR,  and Desktop Tools for Prototyping Augmented Reality Services"
 123,7D, , ,P1465, ESIQA: Perceptual Quality Assessment of Vision-Pro-based Egocentric Spatial Images
-124,7D, , ,P1634," ""Beyond Mute and Block: Adoption and Effectiveness of Safety Tools in Social Virtual Reality,  from Ubiquitous Harassment to Social Sculpting"""
+124,7D, , ,P1634,"Beyond Mute and Block: Adoption and Effectiveness of Safety Tools in Social Virtual Reality,  from Ubiquitous Harassment to Social Sculpting"
 125,8B, , ,P1879, ChromaGazer: Unobtrusive Visual Modulation using Imperceptible Color Vibration for Visual Guidance
 126,8B, , ,P1993, On Virtual Pointing Rays and Motion Artefacts
 127,8B, , ,P2031, Children's Calibration of Reaching Estimates in Virtual Reality
@@ -153,7 +152,7 @@
 151,9D, , ,P1177, Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality
 152,9D, Remote, ,P1288, Tap into Reality: Understanding the Impact of Interactions on Presence and Reaction Time in Mixed Reality
 153,9D, Remote, ,P1289, Reaction Time as a Proxy for Presence in Mixed Reality Environments with Break-In Presence
-154,9D, Remote, ,P1737," ""One Body,  But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment"""
+154,9D, Remote, ,P1737,"One Body,  But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment"
 155,10A, , ,P1728, AR Fitness Dog: The Effects of a User-Mimicking Interactive Virtual Pet on User Experience and Social Presence in Physical Exercise
 156,10A, , ,P1864, PaRUS: A Virtual Reality Shopping Method Focusing on Contextual Information between Products and Real Usage Scenes
 157,10A, , ,P1049, Enhancing Patient Acceptance of Robotic Ultrasound through Conversational Virtual Agent and Immersive Visualizations
@@ -175,7 +174,7 @@
 173,10D, , ,P1066, Usability Evaluation of Integrated and Separated Interfaces in an Immersive Authoring Tool based on Panoramic Videos
 174,10D, , ,P1992, Virtual Reality Impacts on Novice Programmersâ€™ Self-efficacy
 175,11A, , ,P1563, A Comparison of the Effects of Older Age on Homing Performance in Real and Virtual Environments
-176,11A, , ,P1702," ""Sensitivity to Redirected Walking Considering Gaze,  Posture,  and Luminance"""
+176,11A, , ,P1702,"Sensitivity to Redirected Walking Considering Gaze,  Posture,  and Luminance"
 177,11A, , ,P1815, When Flames Feel Real in Augmented Reality: Effects of Plausibility and Placement of Virtual Flames on the Burning Hand Illusion and Physiological Responses
 178,11A, , ,P1526, An embodied body morphology task for investigating self-avatar proportions perception in Virtual Reality
 179,11A, , ,P1560, How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation
@@ -185,7 +184,7 @@
 183,11B, , ,P2403, Exploring Aiming Techniques for Blind People in Virtual Reality
 184,11B, remote, ,P1461, SummonBrush: Enhancing Touch Interaction on Large XR User Interfaces by Augmenting Users Hands with Virtual Brushes
 185,11C, , ,PTVCG15, Utilizing Gaze-Contingent Rendering to Maintain Visual Attention in Educational VR
-186,11C, , ,P1986," ""The Hidden Face of the Proteus Effect: Deindividuation,  Embodiment and Identification"""
+186,11C, , ,P1986,"The Hidden Face of the Proteus Effect: Deindividuation,  Embodiment and Identification"
 187,11C, , ,P2177, Immersive Tailoring of Embodied Agents Using Large Language Models
 188,11C, , ,P2246, Effects of Embodiment and Personality in LLM-based Conversational Agents
 189,11C, , ,P2399, The Impact of Avatar Retargeting on Pointing and Conversational Communication
@@ -202,7 +201,7 @@
 200,12B, , ,PTVCG13, Development and Evaluation of a Treadmill-based Video-see-through and Optical-see-through Mixed Reality Systems for Obstacle Negotiation Training
 201,12B, , ,P1254, Preview Teleport: An Occlusion-Free Point-and-Teleport Technique Enhanced with an Augmented Preview
 202,12B, , ,P1746, Measuring Human Perception of Airflow for Natural Motion Simulation in Virtual Reality
-203,12B, , ,P1761," ""Effects of viewpoint oscillations and gaze-based stabilization on walking sensation,  embodiment and cybersickness in immersive VR"""
+203,12B, , ,P1761,"Effects of viewpoint oscillations and gaze-based stabilization on walking sensation,  embodiment and cybersickness in immersive VR"
 204,12B, , ,P1549, Comparative Evaluation of Differing Levels of Information Presentation in 3D Mini-Maps on Spatial Knowledge Acquisition in VR
 205,12C, , ,P2017, Exploring Multiscale Navigation of Homogeneous and Dense Objects with Progressive Refinement in Virtual Reality
 206,12C, , ,P1513, Single Actor Controlling Multiple Avatars for Social Virtual Realities
