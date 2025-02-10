@@ -28,8 +28,8 @@ title_separator: "|"
                         <strong>{{ paper.title }}</strong>
                     </p>
                     {% for acpaper in site.data.acceptedpapers %}    
-                        {% if acpaper.ids | strip == paper.id | strip %} 
-                        <div>
+                        {% if acpaper.ids  paper.id  %} 
+                            <div>
                             Test
                             {% assign authornames = acpaper.affiliations | split: "," %}
                             {% for name in authornames %}
@@ -42,7 +42,7 @@ title_separator: "|"
                                     {% endif %}
                                 {% endfor %} 
                             {% endfor %}
-                        </div>
+                            </div>
                         {% endif %}
                     {% endfor %}
                 {% endif %}
