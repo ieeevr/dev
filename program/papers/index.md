@@ -9,6 +9,9 @@ title_separator: "|"
     <div>
         <div>
             <table class="styled-table">
+                <tr>
+                    <th colspan="4">Paper presentations sessions</th>
+                </tr>    
                 {% for session in site.data.sessions %}
                     <tr>
                         <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}</a></td>
