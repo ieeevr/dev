@@ -45,7 +45,7 @@ title_separator: "|"
         <div>
     {% endfor %} -->
 </div>
-<div>
+<!--<div>
     {% for session in site.data.sessions %}
             <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }})</h2>
             {% for paper in site.data.papers %}                 
@@ -57,7 +57,6 @@ title_separator: "|"
                     {% for acpaper in site.data.acceptedpapers %}    
                         {% if acpaper.PaperId == paper.id  %}
                         {{ acpaper.id}}
-                        
                         {% endif %}
                     </p>
                     {% if p.abstract %}
@@ -69,8 +68,8 @@ title_separator: "|"
                                 </div>
                             </div>
                         </div>                                                                     
-                    {% endif %}-->
+                    {% endif %}
                 {% endif %}
             {% endfor %}
     {% endfor %}
-</div>
+</div>-->
