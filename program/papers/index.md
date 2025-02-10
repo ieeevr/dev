@@ -30,6 +30,7 @@ title_separator: "|"
                     {% for acpaper in site.data.acceptedpapers %}    
                         {% if acpaper.id == paper.id  %}    
                         <div>
+                            Test
                             {% assign authornames = acpaper.affiliations | split: "," %}
                             {% for name in authornames %}
                                 {% assign barename = name | split: ":" %}
