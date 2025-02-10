@@ -30,9 +30,9 @@ title_separator: "|"
                     <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
                         <strong>{{ paper.title }}</strong>
                     </p>
+                    <p class="font_70">
                     {% for acpaper in site.data.acceptedpapers %}    
                         {% if acpaper.ids == paper.id  %} 
-                            <div>
                             {% assign authornames = acpaper.affiliations | split: "," %}
                             {% for name in authornames %}
                                 {% assign barename = name | split: ":" %}
@@ -44,10 +44,26 @@ title_separator: "|"
                                     {% endif %}
                                 {% endfor %} 
                             {% endfor %}
-                            </div>
                         {% endif %}
                     {% endfor %}
+                    </p>
                 {% endif %}
             {% endfor %}
     {% endfor %}
 </div>
+<p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                                    <strong>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</strong>
+                                </p>
+                                <p class="font_70" >
+                                    {% assign authornames = p.authors | split: ";" %}
+                                    {% for name in authornames %}
+                                        {% assign barename = name | split: ":" %}
+                                        {% for n in barename %}
+                                            {% if n == barename.last %}
+                                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                            {% else %}                            
+                                                <span class="bold">{{ n | strip }},</span>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    {% endfor %}
+                                </p>
