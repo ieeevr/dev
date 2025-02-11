@@ -40,7 +40,7 @@ title_separator: "|"
             {% for paper in site.data.papers %}                 
                 {% if session.session == paper.session %}
                     {% if paper.room == session.room %}   
-                        <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                        <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
                         <p class="font_70">
