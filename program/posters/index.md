@@ -32,8 +32,7 @@ title_separator: "|"
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
             {% for poster in site.data.posters %}
-                {% if poster.day == cat.day %}
-                    {% if poster.cat== cat.id %}
+                {% if poster.PosterCategory == cat.name %}
                     <div >       
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
@@ -60,11 +59,10 @@ title_separator: "|"
                         {% endif %}
                         {% if poster.url %}
                         <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/{{ poster.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         {% endif %}
                     </div>
-                    {% endif %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
