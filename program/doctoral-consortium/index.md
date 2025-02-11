@@ -111,7 +111,7 @@ title_separator: "|"
 </div>-->
 <div>
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
-    {% for dc in site.data.dc %}
+    {% for dc in site.data.dc | sort: "num" %}
             <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
                 <strong>{{ dc.title }} </strong>
             </p>
