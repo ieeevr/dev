@@ -28,10 +28,11 @@ title_separator: "|"
     {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
-        {% assign category_file = day.name %}
+        {% assign category_file = day.name %}  
+        {% assign poster_file = day.posters %}
         {% for cat in site.data[category_file] %}
             <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
-            {% for poster in site.data.posters %}
+            {% for poster in site.data.[poster_file] %}
                 {% if poster.PosterCategory == cat.name %}
                     <div style="margin-left: 25px;">                                  
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
@@ -51,8 +52,8 @@ title_separator: "|"
                             {% endfor %}
                         </p>
                         {% if poster.abstract %}
-                            <div id="{{ poster.num }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.num }}" class="toggle" type="checkbox"> 
-                                <label for="collapsibleabstract{{ poster.num }}" class="lbl-toggle">Abstract</label>
+                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                                <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
                                 <div class="collapsible-content">
                                     <div class="content-inner">
                                         <p>{{ poster.abstract }}</p>
@@ -61,7 +62,7 @@ title_separator: "|"
                             </div>   
                         {% endif %}
                         {% if poster.VideoLink %}
-                        <div id="{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
                             <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
                             <div class="collapsible-content">
                                 <div class="content-inner">
