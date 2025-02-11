@@ -20,7 +20,7 @@ title_separator: "|"
                             {% if room.session == session.session %}
                                 {% if room.room == session.room %}
                                     <td class="medLarge">{{ room.starttime }}&#8209;{{ room.endtime }}</td>
-                                    <td class="medLarge" class="text-nowrap">{{ room.room }}</td>
+                                    <td class="medLarge" class="text-nowrap">{{ room.name }}</td>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
