@@ -17,7 +17,7 @@ title_separator: "|"
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
                     <tr>
-                        <td><a href="#{{ cat.id }}">{{ cat.name }} - {{cat.infos}}</a></td>
+                        <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
                     </tr>
                 {% endfor %}
             {% endfor %}    
