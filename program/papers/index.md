@@ -55,8 +55,8 @@ title_separator: "|"
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
+                        </p>
                     {% endif %}
-                    </p>
                 {% endif %}
             {% endfor %}
     {% endfor %}
