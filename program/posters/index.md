@@ -36,6 +36,9 @@ title_separator: "|"
                     <div>       
                         vnpore,r
                         <p class="font_70" >
+                        {{  poster.authors    }}
+                        {{  poster.abstract    }}
+                        {{  poster.VideoLink    }}
                             {% assign authornames = poster.authors | split: ";" %}
                             {% for name in authornames %}
                                 {% assign barename = name | split: ":" %}
