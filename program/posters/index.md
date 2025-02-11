@@ -67,7 +67,7 @@ title_separator: "|"
                             <div class="collapsible-content">
                                 <div class="content-inner">
                                     <div class="video-container">
-                                        <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
