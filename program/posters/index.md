@@ -58,9 +58,16 @@ title_separator: "|"
                             </div>   
                         {% endif %}
                         {% if poster.VideoLink %}
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        <div id="{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                            <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    <div class="video-container">
+                                        <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                           
                         {% endif %}
                     </div>
                 {% endif %}
