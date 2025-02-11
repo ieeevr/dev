@@ -18,7 +18,7 @@ title_separator: "|"
                         <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
                         {% for room in site.data.rooms %} 
                             {% if room.session == session.session %}
-                                {% if room.number == session.room.number %}
+                                {% if room.number == session.number %}
                                     <td class="medLarge">{{ room.starttime }}&#8209;{{ room.endtime }}</td>
                                     <td class="medLarge" class="text-nowrap">{{ room.room }}</td>
                                 {% endif %}
