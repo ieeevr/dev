@@ -1,46 +1,46 @@
-id,session,name
-0,1A,"Avatar Representation"
-1,1B,"Perception"
-2,1C, XR technology infrastructure
-3,1D, Tracking and sensing
-4,2A,"Immersive Learning"
-5,2B, Redirection
-6,2C, Multimodal Interaction and Audio Perception
-7,2D,"Ethical"
-8,3B,"Co-Presence"
-9,3D, Haptic interfaces and rendering
-10,4B, Immersive analytics and visualization
-11,4C, Human factors and ergonomics
-12,4D, Evaluation methods
-13,5A, Navigation and Locomotion Strategies
-14,5B, Modeling and simulation
-15,5C, Collaborative interactions
-16,5D, Input devices
-17,6A, Spatial Experiences and AI-Driven Content Generation 
-18,6B,"Virtual Agents"
-19,6C,"Exploring Perception"
-20,6D, Next-Generation Display Technologies and Visual Processing
-21,7A, 3D user interfaces
-22,7B,"Cognitive Load"
-23,7C, Therapy and rehabilitation
-24,7D, Enhancing Immersive Experiences
-25,8B, Visual Perception and Interaction
-26,8D, Tactile interfaces and haptic feedback
-27,9A, Immersive Experiences
-28,9B, Perception and cognition
-29,9C, Display Technologies and Rendering Techniques
-30,9D,"Presence"
-31,10A,"Immersive Applications for Training"
-32,10B, Enhancing Interaction and Feedback in Virtual and Cross-Reality Systems
-33,10C, Interactive Experience and System Usability
-34,10D, 3D authoring
-35,11A,"Perception"
-36,11B, Accessibility of immersive interfaces
-37,11C,"Embodiment"
-38,11D, Social Interaction and Collaboration
-39,12A, Cybersickness
-40,12B, Locomotion and Spatial Awareness
-41,12C, User experience and usability
-42,12D, Teleoperation and telepresence
-43,13B, Immersive applications and 3DUI
-44,13D, Computer graphics techniques
+id,session,number,name
+0,1,A,"Avatar Representation"
+1,1,B,"Perception"
+2,1,C, XR technology infrastructure
+3,1,D, Tracking and sensing
+4,2,A,"Immersive Learning"
+5,2,B, Redirection
+6,2,C, Multimodal Interaction and Audio Perception
+7,2,D,"Ethical"
+8,3,B,"Co-Presence"
+9,3,D, Haptic interfaces and rendering
+10,4,B, Immersive analytics and visualization
+11,4,C, Human factors and ergonomics
+12,4,D, Evaluation methods
+13,5,A, Navigation and Locomotion Strategies
+14,5,B, Modeling and simulation
+15,5,C, Collaborative interactions
+16,5,D, Input devices
+17,6,A, Spatial Experiences and AI-Driven Content Generation 
+18,6,B,"Virtual Agents"
+19,6,C,"Exploring Perception"
+20,6,D, Next-Generation Display Technologies and Visual Processing
+21,7,A, 3D user interfaces
+22,7,B,"Cognitive Load"
+23,7,C, Therapy and rehabilitation
+24,7,D, Enhancing Immersive Experiences
+25,8,B, Visual Perception and Interaction
+26,8,D, Tactile interfaces and haptic feedback
+27,9,A, Immersive Experiences
+28,9,B, Perception and cognition
+29,9,C, Display Technologies and Rendering Techniques
+30,9,D,"Presence"
+31,10,A,"Immersive Applications for Training"
+32,10,B, Enhancing Interaction and Feedback in Virtual and Cross-Reality Systems
+33,10,C, Interactive Experience and System Usability
+34,10,D, 3D authoring
+35,11,A,"Perception"
+36,11,B, Accessibility of immersive interfaces
+37,11,C,"Embodiment"
+38,11,D, Social Interaction and Collaboration
+39,12,A, Cybersickness
+40,12,B, Locomotion and Spatial Awareness
+41,12,C, User experience and usability
+42,12,D, Teleoperation and telepresence
+43,13,B, Immersive applications and 3DUI
+44,13,D, Computer graphics techniques
