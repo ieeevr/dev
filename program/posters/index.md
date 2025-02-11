@@ -34,6 +34,7 @@ title_separator: "|"
             {% for poster in site.data.posters %}
                 {{ poster.PosterCategory }} | {{cat.name  }} <br \>
                 {% if poster.PosterCategory == cat.name %}
+                    vnpore,r
                     <div >       
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
