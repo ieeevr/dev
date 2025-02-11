@@ -34,11 +34,7 @@ title_separator: "|"
             {% for poster in site.data.posters %}
                 {% if poster.PosterCategory == cat.name %}
                     <div>       
-                        vnpore,r
                         <p class="font_70" >
-                        {{  poster.authors    }}
-                        {{  poster.abstract    }}
-                        {{  poster.VideoLink    }}
                             {% assign authornames = poster.authors | split: ";" %}
                             {% for name in authornames %}
                                 {% assign barename = name | split: ":" %}
@@ -61,7 +57,7 @@ title_separator: "|"
                                 </div>
                             </div>   
                         {% endif %}
-                        {% if poster.url %}
+                        {% if poster.VideoLink %}
                         <div class="video-container">
                             <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
