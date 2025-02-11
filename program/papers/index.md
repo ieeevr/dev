@@ -41,7 +41,7 @@ title_separator: "|"
                 {% if session.session == paper.session %}
                     {% if paper.room == session.room %}         
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ paper.title }}</strong>
+                            <b>{{ paper.title }}</b>
                         </p>
                         <p class="font_70">
                         {% for acpaper in site.data.acceptedpapers %}    
