@@ -62,8 +62,8 @@ title_separator: "|"
                             </div>   
                         {% endif %}
                         {% if poster.VideoLink %}
-                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
-                            <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
+                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                            <label for="collapsiblevideo{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
                             <div class="collapsible-content">
                                 <div class="content-inner">
                                     <div class="video-container">
