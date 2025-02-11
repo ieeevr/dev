@@ -7,12 +7,9 @@ title_separator: "|"
 <h1>Papers</h1>
 <div>
     <div>
-        <div>
-            <table class="styled-table">
-                <tr>
-                    <th colspan="4">Paper presentations sessions</th>
-                </tr>    
-                {% for day in site.data.days%}
+        <div> 
+            {% for day in site.data.days%}
+                <table class="styled-table">  
                     <tr>
                         <th colspan="4">Paper presentations : {{ day.day }}</th>
                     </tr>    
@@ -32,8 +29,8 @@ title_separator: "|"
                             </tr>
                         {% endif %}
                     {% endfor %}
-                {% endfor %}
-            </table>
+                </table>
+            {% endfor %}
         </div>
     <div>
 </div>
