@@ -16,7 +16,7 @@ title_separator: "|"
                     {% for session in site.data.sessions %}
                         {% if day.day == session.day %}
                             <tr>
-                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}-{{ session.room }}</a></td>
+                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}&#8209;{{ session.room }}</a></td>
                                 <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
                                 {% for room in site.data.rooms %} 
                                     {% if room.session == session.session %}
