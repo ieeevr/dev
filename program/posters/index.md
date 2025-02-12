@@ -13,7 +13,7 @@ title_separator: "|"
         <tr>
             {% for day in site.data.postersDays %}
                 <tr>
-                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a></th>
+                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters (Timezone: Saint-Malo, France UTC+1) </a></th>
                 </tr>
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
