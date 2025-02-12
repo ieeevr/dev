@@ -12,7 +12,7 @@ title_separator: "|"
         <tr>
             {% for day in site.data.postersDays %}
                 <tr>
-                    <td colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a> <p> Talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 </p></td>
+                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a> Talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00</th>
                 </tr>
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
