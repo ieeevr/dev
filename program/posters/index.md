@@ -37,7 +37,7 @@ title_separator: "|"
                 {% if poster.PosterCategory == cat.name %}
                     <div style="margin-left: 25px;">                                  
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ poster.title }} (Booth id : {{ poster.BoothID }} ) </strong>
+                            <strong>{{ poster.title }} (Booth: {{ poster.BoothID }}) </strong>
                         </p>
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
