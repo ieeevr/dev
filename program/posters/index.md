@@ -53,7 +53,7 @@ title_separator: "|"
                             {% endfor %}
                         </p>
                         {% if poster.abstract %}
-                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="padding-top:0px;margin-bottom: 0.1em;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
                                 <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
                                 <div class="collapsible-content">
                                     <div class="content-inner">
@@ -63,7 +63,7 @@ title_separator: "|"
                             </div>   
                         {% endif %}
                         {% if poster.VideoLink %}
-                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
                             <label for="collapsiblevideo{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
                             <div class="collapsible-content">
                                 <div class="content-inner">
