@@ -8,14 +8,12 @@ title_separator: "|"
 
 <h1>Posters</h1>
 <div>
+<p> <b>Each day, talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 </b> </p>
     <table class="styled-table">
         <tr>
             {% for day in site.data.postersDays %}
                 <tr>
-                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a> -- Talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00</th>
-                </tr>
-                <tr  style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;">
-                    <td  style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> Talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00</td>
+                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a></th>
                 </tr>
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
