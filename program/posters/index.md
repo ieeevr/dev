@@ -29,7 +29,6 @@ title_separator: "|"
     {% for day in site.data.postersDays %}
     <div>
         <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
-        <p>Talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00</p>
         {% assign category_file = day.name %}  
         {% assign poster_file = day.posters %}
         {% for cat in site.data[category_file] %}
@@ -38,7 +37,7 @@ title_separator: "|"
                 {% if poster.PosterCategory == cat.name %}
                     <div style="margin-left: 25px;">                                  
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ poster.title }}</strong>
+                            <strong>{{ poster.title }} (Booth id : {{ poster.BoothID }} ) </strong>
                         </p>
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
