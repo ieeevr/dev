@@ -8,12 +8,12 @@ title_separator: "|"
 
 <h1>Posters</h1>
 <div>
-<p> <b>Each day, talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 </b> </p>
+<p> <b>Each day, talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 (Timezone: Saint-Malo, France UTC+1)</b> </p>
     <table class="styled-table">
         <tr>
             {% for day in site.data.postersDays %}
                 <tr>
-                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters (Timezone: Saint-Malo, France UTC+1) </a></th>
+                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a></th>
                 </tr>
                 {% assign category_file = day.name %}
                 {% for cat in site.data[category_file] %}
@@ -37,7 +37,7 @@ title_separator: "|"
                 {% if poster.PosterCategory == cat.name %}
                     <div style="margin-left: 25px;">                                  
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ poster.title }} (Booth: {{ poster.BoothID }}) </strong>
+                            <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
                         </p>
                         <p class="font_70" >
                             {% assign authornames = poster.authors | split: ";" %}
