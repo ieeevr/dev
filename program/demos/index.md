@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Research Demos"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
@@ -46,7 +46,7 @@ title_separator: "|"
                 <td> {{ demodays.name }}</td>
                 <td> {{ demodays.day }}</td>
                 <td> {{ demodays.sessions }}</td>
-                {% if demodays.hall%} <td> Hall: {{ demodays.hall }}</td> {%endif%}
+                {% if demodays.hall%} <td> Hall: {{ demodays.hall }}</td> {%else%} <td></td>{%endif%}
             </tr>     
             {% endfor %}       
         </tbody>
