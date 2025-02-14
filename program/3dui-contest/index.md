@@ -7,7 +7,7 @@ title_separator: "|"
 <h1>3DUI Contest Demos</h1>
   
 <div>
-    <!--<table class="styled-table">
+    <table class="styled-table">
         <tr>
             <th colspan="2">3DUI Contest Demos</th>
         </tr>
@@ -29,10 +29,10 @@ title_separator: "|"
                         {% endif %}
                     {% endfor %}  
                 </td>
-                <td class="medLarge"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
+                <td class="medLarge"><a href="#{{ entry.num }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
             </tr>
         {% endfor %}
-    </table>-->
+    </table>
 </div>
 <!--<h2>Schedule</h2>
 <p>
