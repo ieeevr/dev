@@ -96,7 +96,6 @@ title_separator: "|"
         <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
             <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
         </p>
-        {{ entry.title }}
         <p class="font_70" >   
             {% assign authornames = entry.affiliations | split: "," %}
             {% for name in authornames %}
