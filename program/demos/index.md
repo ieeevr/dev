@@ -70,7 +70,7 @@ title_separator: "|"
             {% endif %}
         {% endfor %}-->
         <p class="medLarge" id="{{ demo.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.ids }})</strong>
+            <strong>{{ demo.title }} (ID:{{ demo.demoid }})</strong>
         </p>
         <p>
         Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
@@ -114,7 +114,7 @@ title_separator: "|"
             {% endif %}  
         </p>
         {% if demo.abstract %}
-            <div id="{{ demo.id }}" class="wrap-collabsible"> <input id="collapsible{{ demo.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.id }}" class="lbl-toggle">Abstract</label>
+            <div id="{{ demo.demoid }}" class="wrap-collabsible"> <input id="collapsible{{ demo.demoid }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.demoid }}" class="lbl-toggle">Abstract</label>
                 <div class="collapsible-content">
                     <div class="content-inner">
                         <p>{{ demo.abstract }}</p>
