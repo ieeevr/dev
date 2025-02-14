@@ -93,11 +93,11 @@ title_separator: "|"
                 {% endif %}
             {% endif %}
         {% endfor %} -->
-        <p class="medLarge" id="{{ entry.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ entry.title }} (ID:&nbsp;{{ entry.id }})</strong>
+        <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
+            <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
         </p>
         <p class="font_70" >   
-            {% assign authornames = entry.affiliations | split: ";" %}
+            {% assign authornames = entry.affiliations | split: "," %}
             {% for name in authornames %}
                 {% assign barename = name | split: ":" %}
                 {% for n in barename %}
