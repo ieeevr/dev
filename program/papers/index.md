@@ -43,9 +43,9 @@ title_separator: "|"
                         <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
-                        <p class="font_70">
                         {% for acpaper in site.data.acceptedpapers %}    
                             {% if acpaper.ids == paper.ids  %} 
+                                <div><p class="font_70">
                                 {% assign authornames = acpaper.affiliations | split: "," %}
                                 {% for name in authornames %}
                                     {% assign barename = name | split: ":" %}
@@ -57,9 +57,19 @@ title_separator: "|"
                                         {% endif %}
                                     {% endfor %} 
                                 {% endfor %}
+                                </p></div>
+                                {% if poster.abstract %}
+                                    <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
+                                        <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
+                                        <div class="collapsible-content">
+                                            <div class="content-inner">
+                                                <p>{{ poster.abstract }}</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                {% endif %}
                             {% endif %}
                         {% endfor %}
-                        </p>
                     {% endif %}
                 {% endif %}
             {% endfor %}
