@@ -43,6 +43,23 @@ title_separator: "|"
                         <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
+                        {% for acpaper in site.data.acceptedpaperstvcg %}    
+                            {% if acpaper.ids == paper.ids  %} 
+                                <div><p class="font_70">
+                                {{ acpaper.contactauthor }}
+                                </p></div>
+                                {% if acpaper.abstract %}
+                                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
+                                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
+                                        <div class="collapsible-content">
+                                            <div class="content-inner">
+                                                <p>{{ acpaper.abstract }}</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                         {% for acpaper in site.data.acceptedpapers %}    
                             {% if acpaper.ids == paper.ids  %} 
                                 <div><p class="font_70">
