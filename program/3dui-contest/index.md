@@ -109,9 +109,11 @@ title_separator: "|"
                 {% endfor %} 
             {% endfor %}
         </p>
-        {% if entry.url-embed %}
+        {% if entry.num %}
             <div class="video-container">
-                <iframe src="{{ "/assets/videos/3dui/vr25d-sub"+{{ entry.num }}+"-cam-i26.mp4" | relative_url }}" frameborder="0"  allowfullscreen></iframe>
+            {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4" %}
+                <iframe src="{{ video_path | relative_url }}" frameborder="0" allowfullscreen></iframe>
+                <!--<iframe src="{{ "/assets/videos/3dui/vr25d-sub"+{{ entry.num }}+"-cam-i26.mp4" | relative_url }}" frameborder="0"  allowfullscreen></iframe>-->
             </div>
         {% endif %}
         {% if j == i %}
