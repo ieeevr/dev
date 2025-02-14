@@ -111,8 +111,8 @@ title_separator: "|"
         </p>
         {% if entry.num %}
             <div class="video-container">
-            {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4" %}
-                <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox ></iframe>
+            {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4?autoplay=1" %}
+                <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox=""></iframe>
             </div>
         {% endif %}
         {% if j == i %}
