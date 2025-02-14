@@ -46,7 +46,7 @@ title_separator: "|"
                 <td> {{ demodays.name }}</td>
                 <td> {{ demodays.day }}</td>
                 <td> {{ demodays.sessions }}</td>
-                <td> Hall: {{ demodays.hall }}</td>
+                {% if demodays.hall%} <td> Hall: {{ demodays.hall }}</td> {%endif%}
             </tr>     
             {% endfor %}       
         </tbody>
