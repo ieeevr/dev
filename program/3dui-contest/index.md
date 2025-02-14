@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 <h1>3DUI Contest Demos</h1>
-  
+<h2>Topic : United for Planet Earth: Promoting Environmental Sustainability in Collaborative Virtual Environments </h2>
 <div>
     <table class="styled-table">
         <tr>
@@ -34,7 +34,7 @@ title_separator: "|"
         {% endfor %}
     </table>
 </div>
-<!--<h2>Schedule</h2>
+<h2>Schedule</h2>
 <p>
     <table class="program-table">
         <thead>
@@ -45,37 +45,32 @@ title_separator: "|"
         <tbody>           
             <tr>
                 <td style="width:25%">3DUI&nbsp;Contest Fast&nbsp;Forward</td>
-                <td style="width:25%">Monday,&nbsp;18&nbsp;March</td>                
-                <td style="width:25%">13:00&#8209;13:30</td>             
-                <td style="width:25%">Fantasia Ballroom&nbsp;H</td>
+                <td style="width:25%">Monday,&nbsp;10&nbsp;March</td>                
+                <td style="width:25%">15:15&#8209;16:15</td>            
             </tr>
              <tr>
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
-                <td>Monday,&nbsp;18&nbsp;March</td>                
-                <td>9:45&#8209;10:00, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;19:00</td>       
-                <td>Sorcerer's&nbsp;Apprentice Ballroom</td>  
+                <td>Monday,&nbsp;10&nbsp;March</td>                
+                <td>16:15&#8209;17:00</td>       
             </tr>            
              <tr>
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
-                <td>Tuesday,&nbsp;19&nbsp;March</td>                
-                <td>9:45&#8209;10:00, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30</td>       
-                <td>Sorcerer's&nbsp;Apprentice Ballroom</td>  
+                <td>Tuesday,&nbsp;11&nbsp;March</td>                
+                <td>9:30&#8209;10:00, 13:15&#8209;14:00, 15:15&#8209;17:15</td>       
             </tr>
             <tr>
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
-                <td>Wednesday,&nbsp;20&nbsp;March</td>                
-                <td>9:45&#8209;10:00, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30</td>       
-                <td>Sorcerer's&nbsp;Apprentice Ballroom</td>  
+                <td>Wednesday,&nbsp;12&nbsp;March</td>                
+                <td>9:30&#8209;10:00, 13:15&#8209;14:00</td>       
             </tr>
             <tr>
                 <td>Awards</td>
-                <td>Thursday,&nbsp;21&nbsp;March</td>                
-                <td>15:30&#8209;17:00</td>       
-                <td>Fantasia Ballroom&nbsp;H</td>  
+                <td>Thursday,&nbsp;12&nbsp;March</td>                
+                <td>17:15&#8209;18:15</td>        
             </tr>
         </tbody>
     </table>
-</p>-->
+</p>
 <h2>Entries</h2>
 <div>
     {% assign j = 0 %}
