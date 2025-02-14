@@ -58,12 +58,12 @@ title_separator: "|"
                                     {% endfor %} 
                                 {% endfor %}
                                 </p></div>
-                                {% if poster.abstract %}
+                                {% if acpaper.abstract %}
                                     <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
                                         <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
                                         <div class="collapsible-content">
                                             <div class="content-inner">
-                                                <p>{{ poster.abstract }}</p>
+                                                <p>{{ acpaper.abstract }}</p>
                                             </div>
                                         </div>
                                     </div>   
