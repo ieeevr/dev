@@ -70,9 +70,11 @@ title_separator: "|"
             {% endif %}
         {% endfor %}-->
         <p class="medLarge" id="{{ demo.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.id }})</strong>
+            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.ids }})</strong>
         </p>
+        <p>
         Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
+        </p>
         <p class="font_70" >                
             {% if demo.author1first %}                         
                 <span class="bold">{{ demo.author1last }}{{demo.author1first }},</span> <i> {{ demo.author1institution}}</i>
@@ -121,16 +123,9 @@ title_separator: "|"
             </div>
         {% endif %}
         {% if demo.url %}
-        <div id="video_{{ demo.url }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
-            <label for="collapsiblevideo{{ demo.url }}" class="lbl-toggle">Video</label>
-            <div class="collapsible-content">
-                <div class="content-inner">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>                           
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>                          
         {% endif %}
         {% if j == i %}
         {% else %}
