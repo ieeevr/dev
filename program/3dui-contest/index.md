@@ -12,7 +12,7 @@ title_separator: "|"
             <th colspan="2">3DUI Contest Demos</th>
         </tr>
         {% assign i = 0 %}
-        {% for entry in site.data.contest3dui %}
+        {% for entry in site.data.3dui %}
             {% assign i = i | plus:1 %}
             <tr>
                 <td>
