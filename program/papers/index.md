@@ -59,8 +59,8 @@ title_separator: "|"
                                 {% endfor %}
                                 </p></div>
                                 {% if acpaper.abstract %}
-                                    <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> 
-                                        <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
+                                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
+                                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
                                         <div class="collapsible-content">
                                             <div class="content-inner">
                                                 <p>{{ acpaper.abstract }}</p>
