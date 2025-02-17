@@ -98,7 +98,7 @@ title_separator: "|"
                 ;<span class="bold"> {{ demo.author7first }} {{ demo.author7last }},</span> <i> {{ demo.author7institution}}</i>
             {% endif %}           
             {% if demo.author8first %}                         
-                ;<span class="bold"> {{ demo.author8first }} {{ demo.author8flast }},</span> <i> {{ demo.author8institution}}</i>
+                ;<span class="bold"> {{ demo.author8first }} {{ demo.author8last }},</span> <i> {{ demo.author8institution}}</i>
             {% endif %}           
             {% if demo.author9first %}                         
                 ;<span class="bold"> {{ demo.author9first }} {{ demo.author9last }},</span> <i> {{ demo.author9institution}}</i>
