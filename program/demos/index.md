@@ -123,9 +123,14 @@ title_separator: "|"
             </div>
         {% endif %}
         {% if demo.url %}
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>                          
+        {% if 'vimeo' in demo.url %}
+            <iframe src="{{ demo.url }}" loading="lazy" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        {% else %}
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>      
+        {% endif %}
+                            
         {% endif %}
         {% if j == i %}
         {% else %}

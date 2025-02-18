@@ -38,7 +38,6 @@ title_separator: "|"
     </p>
      <p>
         You can find examples presented at previous conferences here:
-
         <ul>
             <li>
                 <a href="https://ieeevr.org/2024/program/demos"  target="_blank">https://ieeevr.org/2024/program/demos</a>
