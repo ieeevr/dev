@@ -125,7 +125,7 @@ title_separator: "|"
         {% if demo.url %}
             {% if 'vimeo' in demo.url %}
                 <div class="video-container">
-                <iframe title="vimeo-player" src="https://player.vimeo.com/video/{{ demo.url }}"  frameborder="0"    allowfullscreen></iframe>
+                <iframe title="vimeo-player" src="https://player.vimeo.com/video/{{ demo.url }}"  frameborder="0"></iframe>
                 </div>                     
             {% else %}
                 <div class="video-container">
