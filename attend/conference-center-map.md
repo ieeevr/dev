@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Venue"
+title: "Conference Center Map"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
