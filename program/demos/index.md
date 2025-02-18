@@ -124,7 +124,7 @@ title_separator: "|"
         {% endif %}
         {% if demo.urlvimeo %}
             <div class="video-container">
-                <iframe src="{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="{{ demo.urlvimeo }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>                     
         {% else %}
             <div class="video-container">
