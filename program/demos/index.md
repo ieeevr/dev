@@ -123,12 +123,12 @@ title_separator: "|"
             </div>
         {% endif %}
         {% if demo.url %}
-            {% if 'vimeo' in demo.url %}
+            {% if 'https' in demo.url %}
                 <div class="video-container">
-                    <iframe title="vimeo-player" src="{{ demo.url }}"  frameborder="0"></iframe>
+                    <iframe src="{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>                     
             {% else %}
-            <div class="video-container">
+                <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>     
             {% endif %}                            
