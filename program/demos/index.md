@@ -130,7 +130,11 @@ title_separator: "|"
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>     
-        {% endif %}                            
+        {% endif %}     
+        {% if j == i %}
+        {% else %}
+            <hr style="margin: 25px 0 25px 0;">
+        {% endif %}                       
     {% endfor %}
 </div>
 
