@@ -122,17 +122,15 @@ title_separator: "|"
                 </div>
             </div>
         {% endif %}
-        {% if demo.url %}
-            {% if 'https' in demo.url %}
-                <div class="video-container">
-                    <iframe src="{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>                     
-            {% else %}
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>     
-            {% endif %}                            
-        {% endif %}
+        {% if demo.urlvimeo %}
+            <div class="video-container">
+                <iframe src="{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>                     
+        {% else %}
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>     
+        {% endif %}                            
     {% endfor %}
 </div>
 
