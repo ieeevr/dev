@@ -17,7 +17,7 @@ title_separator: "|"
            <div class="alignCenter main_view">Quick Links: <a href="#ground">Ground level</a>&nbsp;&nbsp;<a href="#first"> First level</a>&nbsp;&nbsp;<a href="#second"> Second level</a>&nbsp;&nbsp;<a href="#third"> Third level</a></div>
         </div>
     </div>
-    <div class="main_view">
+    <div>
         <h2 id="ground">Ground level</h2>
 		<img style="width: 80%;" src="/dev/assets/images/ground.jpg" alt="Layout of the ground level.">
         <h2 id="first">First level</h2>
