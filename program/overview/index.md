@@ -18,7 +18,7 @@ title_separator: "|"
    $(document).ready(function(){
         let now = new Date();       
         let start = new Date("March 8, 2025 00:00:00");
-        let end = new Date("March 14, 2025 17:30:00");
+        let end = new Date("March 12, 2025 18:00:00");
         let day = days[now.getDay()];
 
         if (start <= now && now <= end) {             
@@ -35,8 +35,6 @@ title_separator: "|"
                     $('#day4').click();
                 case "Wednesday":
                     $('#day5').click();
-                case "Thursday":
-                    $('#day6').click();
                     break;
                 default: 
             }
@@ -47,7 +45,6 @@ title_separator: "|"
             $('#day3').click();
             $('#day4').click();
             $('#day5').click();
-            $('#day6').click();
         } 
     });   
 </script>
