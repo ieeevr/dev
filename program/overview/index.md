@@ -886,7 +886,7 @@ title_separator: "|"
             <div class="session session-20 track-f3" style="grid-column: track-9; grid-row: time-1415 / time-1530;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</span>
                 <span class="session-time">14:15-15:30</span>
-                <span class="session-time">Room: La Conchée/span>
+                <span class="session-time">Room: La Conchée</span>
             </div>            
             <p class="time-slot" style="grid-row: time-1600;">16:00</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1600 / time-1630;">
