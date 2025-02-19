@@ -347,9 +347,9 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}  
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1030 / time-1200;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1030 / time-1230;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">10:30-12:00</span>
+                <span class="session-time">10:30-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
 <!-- SATURDAY Lunch -->		          
