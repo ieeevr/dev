@@ -204,8 +204,7 @@ title_separator: "|"
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
                 {% endif %}     
-            {% endfor %}  
-            <p class="time-slot" style="grid-row: time-0815;">8:15</p>    
+            {% endfor %}   
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
                 <span class="session-time">8:20-8:30</span>
@@ -241,7 +240,7 @@ title_separator: "|"
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1000 / time-1030;">
                 <span class="session-title">Break (Catered): 10:00-10:30</span>
             </div>                             
-            <div class="session session-w1b track-consortium" style="grid-column: track-9; grid-row: time-1000 / time-1030;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1000 / time-1030;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
                 <span class="session-time">10:00-10:30</span>
                 <span class="session-time">Room: La Conchée</span>
