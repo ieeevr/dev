@@ -40,12 +40,12 @@
             [time-0730] 0.25fr [time-0745] 0.25fr
             [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
             [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
-            [time-1000] auto [time-1030] 0.25fr [time-1045] 0.25fr 
+            [time-1000] auto [time-1030] auto
             [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
             [time-1200] 0.25fr [time-1230] 0.25fr 
             [time-1300] 0.25fr [time-1330] 0.25fr [time-1345] 0.25fr 
             [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
-            [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] auto
+            [time-1500] auto [time-1530] auto
             [time-1600] 0.25fr [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
             [time-1700] 0.25fr [time-1715] 0.25fr [time-1730];
         
