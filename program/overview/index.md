@@ -130,14 +130,14 @@ title_separator: "|"
     <div>
         <h4 id="day1">Saturday, 8 March 2025</h4>
         <div class="schedule-sat" aria-labelledby="Saturday, 8 March 2025 - Workshop Schedule"> 
-            <p class="time-slot" style="grid-row: time-0730;">7:30</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0730 / time-1530;">  
+            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">  
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;7:30&#8209;15:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>  
 <!-- SATURDAY Morning (Part 1) -->			
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p>  
+            <p class="time-slot" style="grid-row: time-0830;">8:30</p>  
              {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'ANIVAE' %}
                     <div class="session session-w3a track-workshop" style="grid-column: track-1; grid-row: time-0830 / time-1000;">
@@ -241,7 +241,7 @@ title_separator: "|"
                 <span class="session-time">Room: La Conchée</span>
             </div>              
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
-            <div class="session session-16 track-all" style="grid-column:  track-2-start / track-7-end; grid-row: time-1000 / time-1030;">
+            <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1000 / time-1030;">
                 <span class="session-title">Break (Catered): 10:00-10:30</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-9; grid-row: time-1000 / time-1030;">                    
