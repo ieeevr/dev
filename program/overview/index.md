@@ -616,7 +616,7 @@ title_separator: "|"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'XR Memory' %}
+                {% if workshop.id == 'XRMemory' %}
                     <div class="session session-w12a track-workshop" style="grid-column: track-2; grid-row: time-0830 / time-1000;">                        
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">8:30-10:00</span>
@@ -864,7 +864,7 @@ title_separator: "|"
                 {% endif %}       
             {% endfor %}         
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'XR Access' %}
+                {% if workshop.id == 'XRaccess' %}
                     <div class="session session-13 track-workshop" style="grid-column: track-7; grid-row: time-1400 / time-1600;">
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">14:00-16:00</span>
