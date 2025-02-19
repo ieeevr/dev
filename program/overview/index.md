@@ -590,7 +590,8 @@ title_separator: "|"
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
                 <span class="session-time">16:30-18:00</span>
                 <span class="session-time">Room: ???</span>
-            </div>                
+            </div> 
+			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  			
         </div> 
     </div>
 <!--    <div>
