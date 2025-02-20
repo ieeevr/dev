@@ -236,7 +236,7 @@ title_separator: "|"
                 <span class="session-time">8:30-10:15</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>              
-            <p class="time-slot" style="grid-row: time-1000;">10:00</p>
+            <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45</span>
                 <span class="session-time">Room: Rotonde Cézembre</span>
@@ -250,9 +250,9 @@ title_separator: "|"
              <p class="time-slot" style="grid-row: time-1030;">10:30</p>                                                           
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'ANIVAE' %}
-                    <div class="session session-w4b track-workshop" style="grid-column: track-1; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w4b track-workshop" style="grid-column: track-1; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -260,9 +260,9 @@ title_separator: "|"
             {% endfor %}                
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'XR Health' %}
-                    <div class="session session-w1b track-workshop" style="grid-column: track-2; grid-row: time-1030 / time-1230;">                    
+                    <div class="session session-w1b track-workshop" style="grid-column: track-2; grid-row: time-1045 / time-1230;">                    
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -270,9 +270,9 @@ title_separator: "|"
             {% endfor %}           
             {% for workshop in site.data.workshops %}   
                 {% if workshop.id == 'GenAI-XR' %}
-                    <div class="session session-w2b track-workshop" style="grid-column: track-3; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w2b track-workshop" style="grid-column: track-3; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>         
@@ -280,9 +280,9 @@ title_separator: "|"
             {% endfor %}             
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'ENPT-XR' %}
-                    <div class="session session-w5b track-workshop" style="grid-column: track-4; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w5b track-workshop" style="grid-column: track-4; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -290,9 +290,9 @@ title_separator: "|"
             {% endfor %}                            
             {% for workshop in site.data.workshops %}    
                 {% if workshop.id == 'PerGraVAR' %}
-                    <div class="session session-w6b track-workshop" style="grid-column: track-5; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w6b track-workshop" style="grid-column: track-5; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -300,9 +300,9 @@ title_separator: "|"
             {% endfor %}                                      
             {% for workshop in site.data.workshops %}    
                 {% if workshop.id == 'KEVLAR' %}
-                    <div class="session session-w6b track-workshop" style="grid-column: track-6; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w6b track-workshop" style="grid-column: track-6; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -310,9 +310,9 @@ title_separator: "|"
             {% endfor %}                               
             {% for workshop in site.data.workshops %}    
                 {% if workshop.id == 'LocXR' %}
-                    <div class="session session-w6b track-workshop" style="grid-column: track-7; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w6b track-workshop" style="grid-column: track-7; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -320,9 +320,9 @@ title_separator: "|"
             {% endfor %} 
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T1' %}
-                    <div class="session session-t1b track-tutorials" style="grid-column: track-8; grid-row: time-1030 / time-1230;">                    
+                    <div class="session session-t1b track-tutorials" style="grid-column: track-8; grid-row: time-1045 / time-1230;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Charcot</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
@@ -330,9 +330,9 @@ title_separator: "|"
             {% endfor %}     
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T4' %}
-                    <div class="session session-t1b track-tutorials" style="grid-column: track-9; grid-row: time-1030 / time-1230;">                    
+                    <div class="session session-t1b track-tutorials" style="grid-column: track-9; grid-row: time-1045 / time-1230;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Vauban&nbsp;1</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
@@ -340,17 +340,17 @@ title_separator: "|"
             {% endfor %}  
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T5' %}
-                    <div class="session session-t1b track-tutorials" style="grid-column: track-10; grid-row: time-1030 / time-1230;">                    
+                    <div class="session session-t1b track-tutorials" style="grid-column: track-10; grid-row: time-1045 / time-1230;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Vauban&nbsp;2</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
             {% endfor %}  
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1030 / time-1230;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1045 / time-1230;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">10:30-12:30</span>
+                <span class="session-time">10:45-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
 <!-- SATURDAY Lunch -->		          
@@ -701,18 +701,18 @@ title_separator: "|"
                 <span class="session-time">9:00-10:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>            
-            <p class="time-slot" style="grid-row: time-1000;">10:00</p>
+            <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45</span><br />
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
-            <p class="time-slot" style="grid-row: time-1030;">10:30</p>             
+            <p class="time-slot" style="grid-row: time-1045;">10:45</p>             
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'VR-HSA' %}
-                    <div class="session session-w14b track-workshop" style="grid-column: track-1; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w14b track-workshop" style="grid-column: track-1; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>        
@@ -720,9 +720,9 @@ title_separator: "|"
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'XR Memory' %}
-                    <div class="session session-w15b track-workshop" style="grid-column: track-2; grid-row: time-1030 / time-1230;"> 
+                    <div class="session session-w15b track-workshop" style="grid-column: track-2; grid-row: time-1045 / time-1230;"> 
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -730,9 +730,9 @@ title_separator: "|"
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'WSR' %}
-                    <div class="session session-w12b track-workshop" style="grid-column: track-3; grid-row: time-1030 / time-1230;">                        
+                    <div class="session session-w12b track-workshop" style="grid-column: track-3; grid-row: time-1045 / time-1230;">                        
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -740,9 +740,9 @@ title_separator: "|"
             {% endfor %} 
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'SIC-XR' %}
-                    <div class="session session-w13b track-workshop" style="grid-column: track-4; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w13b track-workshop" style="grid-column: track-4; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>         
@@ -750,9 +750,9 @@ title_separator: "|"
             {% endfor %}  
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'ReDigiTS' %}
-                    <div class="session session-w16b track-workshop" style="grid-column: track-5; grid-row: time-1030 / time-1230;">
+                    <div class="session session-w16b track-workshop" style="grid-column: track-5; grid-row: time-1045 / time-1230;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -760,9 +760,9 @@ title_separator: "|"
             {% endfor %}  
             {% for workshop in site.data.workshops %}   
                 {% if workshop.id == 'VHCIE' %}
-                    <div class="session session-w17b track-workshop" style="grid-column: track-6; grid-row: time-1030 / time-1230;">                   
+                    <div class="session session-w17b track-workshop" style="grid-column: track-6; grid-row: time-1045 / time-1230;">                   
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -770,9 +770,9 @@ title_separator: "|"
             {% endfor %}        
 			{% for workshop in site.data.workshops %}   
                 {% if workshop.id == 'NIDIT' %}
-                    <div class="session session-w17b track-workshop" style="grid-column: track-7; grid-row: time-1030 / time-1230;">                   
+                    <div class="session session-w17b track-workshop" style="grid-column: track-7; grid-row: time-1045 / time-1230;">                   
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -780,9 +780,9 @@ title_separator: "|"
             {% endfor %}   			
             {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T12' %}
-                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1030 / time-1230;">                    
+                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1045 / time-1230;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
-                        <span class="session-time">10:30-12:30</span>
+                        <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Vauban&nbsp;2</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
@@ -890,12 +890,12 @@ title_separator: "|"
                 <span class="session-time">14:15-15:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>            
-            <p class="time-slot" style="grid-row: time-1600;">16:00</p>
-            <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1600 / time-1630;">
-                <span class="session-title">Break (Catered): 16:00-16:30</span>
+            <p class="time-slot" style="grid-row: time-1545;">15:45</p>
+            <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
+                <span class="session-title">Break (Catered): 15:45-16:15</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
-            <p class="time-slot" style="grid-row: time-1630;">16:30</p>              
+            <p class="time-slot" style="grid-row: time-1615;">16:15</p>              
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'SIVE' %}
                     <div class="session session-10 track-workshop" style="grid-column: track-1; grid-row: time-1615 / time-1800;">
