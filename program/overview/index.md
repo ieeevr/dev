@@ -937,7 +937,7 @@ title_separator: "|"
             </div>
 			<div class="session track-main" style="grid-column: track-5; grid-row: time-0800 / time-0830;">
                 <span class="session-title">Poster Installation</span>
-                <span class="session-time">8:00-8:30</span>
+                <span class="session-time">8:00-8:40</span>
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
@@ -1141,6 +1141,7 @@ title_separator: "|"
                 <span class="session-time">11:15-15:00</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>
+            <p class="time-slot" style="grid-row: time-1815;">18:15</p> 
         </div> 
     </div>
     <!--<div>
