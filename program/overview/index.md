@@ -936,7 +936,7 @@ title_separator: "|"
                 </div>
             </div>
 			<div class="session track-main" style="grid-column: track-5; grid-row: time-0800 / time-0830;">
-                <span class="session-title">Poster Installation - Session 1</span>
+                <span class="session-title">Poster Installation</span>
                 <span class="session-time">8:00-8:30</span>
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>
@@ -955,7 +955,7 @@ title_separator: "|"
                 <span class="session-time">9:30-10:00</span>
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>    
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
+			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
                 <span class="session-time">9:30-10:00</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
@@ -1098,7 +1098,7 @@ title_separator: "|"
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>                   
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
+			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
