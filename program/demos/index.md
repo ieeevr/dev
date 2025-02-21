@@ -70,7 +70,7 @@ title_separator: "|"
             {% endif %}
         {% endfor %}-->
         <p class="medLarge" id="{{ demo.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
+            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.demoid }})</strong>
         </p>
         <p>
         Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
