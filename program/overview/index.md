@@ -201,7 +201,7 @@ title_separator: "|"
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
                 <span class="session-time">8:20-8:30</span>
-                <span class="session-time">Room: ???</span>
+                <span class="session-time">Room: La Conchée</span>
             </div>              
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>    
             {% for tutorial in site.data.tutorials %}  
@@ -342,7 +342,7 @@ title_separator: "|"
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1230 / time-1400;">                 
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Lunch (Not Catered) (breakout with mentors)</span><br/>
                 <span class="session-time">12:30-14:00</span>
-                <span class="session-time">Room: ???</span>
+                <span class="session-time">Room: La Conchée</span>
             </div>      
 <!-- SATURDAY Afternoon (Part 1) -->		    
             <p class="time-slot" style="grid-row: time-1400;">14:00</p>     
@@ -448,7 +448,7 @@ title_separator: "|"
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
                 <span class="session-time">15:45-16:15</span>
-                <span class="session-time">Room: ???</span>
+                <span class="session-time">Room: La Conchée</span>
             </div>          
 <!-- SATURDAY Afternoon (Part 2) -->	
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>               
@@ -551,7 +551,7 @@ title_separator: "|"
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
                 <span class="session-time">16:15-18:00</span>
-                <span class="session-time">Room: ???</span>
+                <span class="session-time">Room: La Conchée</span>
             </div> 
 			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  			
         </div> 
@@ -639,21 +639,27 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}                  
-             <div class="session session-f31 track-f3" style="grid-column: track-9; grid-row: time-0830 / time-0845;">                        
+             <div class="session session-f31 track-f3" style="grid-column: track-9; grid-row: time-0815 / time-0830;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">Future Faculty Forum (F3)</a></span>
             </div>    
-            <p class="time-slot" style="grid-row: time-0845;">8:45</p>         
-            <div class="session session-f32 track-f3" style="grid-column: track-9; grid-row: time-0845 / time-0900;">                        
+            <p class="time-slot" style="grid-row: time-0845;">8:30</p>         
+            <div class="session session-f32 track-f3" style="grid-column: track-9; grid-row: time-0830 / time-0845;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Welcome & Opening Remarks</span>
-                <span class="session-time">8:45-9:00</span>
+                <span class="session-time">8:30-8:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>                
-            <p class="time-slot" style="grid-row: time-0900;">9:00</p>           
-            <div class="session session-f33 track-f3" style="grid-column: track-9; grid-row: time-0900 / time-1000;">  
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Professor Application Process</span>                      
-                <span class="session-time">9:00-10:00</span>
+            <p class="time-slot" style="grid-row: time-0845;">8:45</p>           
+            <div class="session session-f33 track-f3" style="grid-column: track-9; grid-row: time-0845 / time-0930;">  
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Lab Formation and Management</span>                      
+                <span class="session-time">8:45-9:30</span>
                 <span class="session-time">Room: La Conchée</span>
-            </div>            
+            </div>      
+			<p class="time-slot" style="grid-row: time-0930;">9:30</p>           
+            <div class="session session-f33 track-f3" style="grid-column: track-9; grid-row: time-0930 / time-1015;">  
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 2: Differences in Universities</span>                      
+                <span class="session-time">9:30-10:15</span>
+                <span class="session-time">Room: La Conchée</span>
+            </div> 			
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45</span><br />
@@ -733,15 +739,15 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}   
-            <div class="session session-f34 track-f3" style="grid-column: track-9; grid-row: time-1030 / time-1115;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Differences in Universities (Geo, Research vs. Teaching Alloc.)</span>
-                <span class="session-time">10:30-11:15</span>
+            <div class="session session-f34 track-f3" style="grid-column: track-9; grid-row: time-1045 / time-1145;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review and Critique of Application Materials</span>
+                <span class="session-time">10:45-11:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>      
-            <p class="time-slot" style="grid-row: time-1115;">11:15</p>          
-            <div class="session session-f35 track-f3" style="grid-column: track-9; grid-row: time-1115 / time-1200;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 2: Lab Formation & Management</span>
-                <span class="session-time">11:15-12:00</span>
+            <p class="time-slot" style="grid-row: time-1115;">11:45</p>          
+            <div class="session session-f35 track-f3" style="grid-column: track-9; grid-row: time-1145 / time-1230;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | SpeedAdvising</span>
+                <span class="session-time">11:45-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>   
             <p class="time-slot" style="grid-row: time-1200;">12:30</p>
@@ -822,11 +828,16 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}     
-            <div class="session session-20 track-f3" style="grid-column: track-9; grid-row: time-1415 / time-1530;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</span>
-                <span class="session-time">14:15-15:30</span>
+            <div class="session session-20 track-f3" style="grid-column: track-9; grid-row: time-1400 / time-1500;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Professor Application Process</span>
+                <span class="session-time">14:00-15:00</span>
                 <span class="session-time">Room: La Conchée</span>
-            </div>            
+            </div>      
+			<div class="session session-20 track-f3" style="grid-column: track-9; grid-row: time-1500 / time-1545;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | SpeedAdvising</span>
+                <span class="session-time">15:00-15:45</span>
+                <span class="session-time">Room: La Conchée</span>
+            </div> 			
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15</span>
@@ -905,16 +916,15 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %} 
-            <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1600 / time-1645;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Speed Advising</span>
-                <span class="session-time">16:00-16:45</span>
+            <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1615 / time-1700;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Challenges and Opportunities of Interdisciplinary Research</span>
+                <span class="session-time">16:15-17:00</span>
                 <span class="session-time">Room: La Conchée</span>
-            </div>          
-            <p class="time-slot" style="grid-row: time-1630;">16:30</p>               
-            <p class="time-slot" style="grid-row: time-1645;">16:45</p>   
-            <div class="session session-23 track-f3" style="grid-column: track-9; grid-row: time-1645 / time-1700;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Closing Remarks & Feedback for Future F3 Events</span>
-                <span class="session-time">16:45-17:00</span>
+            </div>                      
+            <p class="time-slot" style="grid-row: time-1700;">17:00</p>   
+            <div class="session session-23 track-f3" style="grid-column: track-9; grid-row: time-1700 / time-1745;">                        
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Closing Remarks / Speed Advising</span>
+                <span class="session-time">17:00-17:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>             
             <p class="time-slot" style="grid-row: time-1800;">18:00</p>  
