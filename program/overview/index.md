@@ -1438,36 +1438,36 @@ title_separator: "|"
             </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
             {% for session in site.data.sessions %}  
-                {% if session.session == '5' and session.room == 'A' %}
+                {% if session.session == '10' and session.room == 'A' %}
                 <div class="session track-papers" style="grid-column: track-1; grid-row: time-0830 / time-0930;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 5<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 10<br>{{ session.name }}</a></span>
                     <span class="session-time">08:30-09:30</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}   			
 			{% for session in site.data.sessions %}  
-                {% if session.session == '5' and session.room == 'B' %}
+                {% if session.session == '10' and session.room == 'B' %}
                 <div class="session track-papers" style="grid-column: track-2; grid-row: time-0830 / time-0930;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 5<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 10<br>{{ session.name }}</a></span>
                     <span class="session-time">08:30-09:30</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}  
 			{% for session in site.data.sessions %}  
-                {% if session.session == '5' and session.room == 'C' %}
+                {% if session.session == '10' and session.room == 'C' %}
                 <div class="session track-papers" style="grid-column: track-3; grid-row: time-0830 / time-0930;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 5<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 10<br>{{ session.name }}</a></span>
                     <span class="session-time">08:30-09:30</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}  
 			{% for session in site.data.sessions %}  
-                {% if session.session == '5' and session.room == 'D' %}
+                {% if session.session == '10' and session.room == 'D' %}
                 <div class="session track-papers" style="grid-column: track-4; grid-row: time-0830 / time-0930;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 5<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 10<br>{{ session.name }}</a></span>
                     <span class="session-time">08:30-09:30</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
@@ -1493,53 +1493,47 @@ title_separator: "|"
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
                 <span class="session-title">Break (Catered): 9:30-10:00</span>
             </div> 
-			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1030;">
-                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Mavi Sanchez-Vives</a></span>                
-                <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Virtual Reality for Pain Relief</a></span>
-                <span class="session-time">10:00-10:30</span>   
+			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
+                <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-stefania">Stefania Serafin</a></span>                
+                <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-stefania">Sound is All Around Us: Immersive Audio in the Age of Extended Reality</a></span>
+                <span class="session-time">10:00-11:00</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
-            </div>
-			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1030 / time-1100;">
-                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Maria Roussou</a></span>                
-                <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Reflecting on 25+ Years of Immersive Public Experiences</a></span>
-                <span class="session-time">10:30-11:00</span>   
-                <span class="session-time">Room: Chateaubriand</span>             
-            </div>
+            </div> 
             <p class="time-slot" style="grid-row: time-1100;">11:00</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1100 / time-1115;">
                 <span class="session-title">Stretch Break (Not Catered): 11:00-11:15</span>
             </div>  
 			{% for session in site.data.sessions %}  
-                {% if session.session == '6' and session.room == 'A' %}
+                {% if session.session == '11' and session.room == 'A' %}
                 <div class="session track-papers" style="grid-column: track-1; grid-row: time-1115 / time-1215;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 6<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 11<br>{{ session.name }}</a></span>
                     <span class="session-time">11:15-12:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}   	
 			{% for session in site.data.sessions %}  
-                {% if session.session == '6' and session.room == 'B' %}
+                {% if session.session == '11' and session.room == 'B' %}
                 <div class="session track-papers" style="grid-column: track-2; grid-row: time-1115 / time-1215;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 6<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 11<br>{{ session.name }}</a></span>
                     <span class="session-time">11:15-12:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %} 
 			{% for session in site.data.sessions %}  
-                {% if session.session == '6' and session.room == 'C' %}
+                {% if session.session == '11' and session.room == 'C' %}
                 <div class="session track-papers" style="grid-column: track-3; grid-row: time-1115 / time-1215;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 6<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 11<br>{{ session.name }}</a></span>
                     <span class="session-time">11:15-12:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}   		
 			{% for session in site.data.sessions %}  
-                {% if session.session == '6' and session.room == 'D' %}
+                {% if session.session == '11' and session.room == 'D' %}
                 <div class="session track-papers" style="grid-column: track-4; grid-row: time-1115 / time-1215;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 6<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 11<br>{{ session.name }}</a></span>
                     <span class="session-time">11:15-12:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
@@ -1568,36 +1562,36 @@ title_separator: "|"
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div> 
 			{% for session in site.data.sessions %}  
-                {% if session.session == '7' and session.room == 'A' %}
+                {% if session.session == '12' and session.room == 'A' %}
                 <div class="session track-papers" style="grid-column: track-1; grid-row: time-1400 / time-1500;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 7<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 12<br>{{ session.name }}</a></span>
                     <span class="session-time">14:00-15:00</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}  			
             {% for session in site.data.sessions %}  
-                {% if session.session == '7' and session.room == 'B' %}
+                {% if session.session == '12' and session.room == 'B' %}
                 <div class="session track-papers" style="grid-column: track-2; grid-row: time-1400 / time-1500;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 7<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 12<br>{{ session.name }}</a></span>
                     <span class="session-time">14:00-15:00</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %} 
 			{% for session in site.data.sessions %}  
-                {% if session.session == '7' and session.room == 'C' %}
+                {% if session.session == '12' and session.room == 'C' %}
                 <div class="session track-papers" style="grid-column: track-3; grid-row: time-1400 / time-1500;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 7<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 12<br>{{ session.name }}</a></span>
                     <span class="session-time">14:00-15:00</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %} 
 			{% for session in site.data.sessions %}  
-                {% if session.session == '7' and session.room == 'D' %}
+                {% if session.session == '12' and session.room == 'D' %}
                 <div class="session track-papers" style="grid-column: track-4; grid-row: time-1400 / time-1500;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 7<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 12<br>{{ session.name }}</a></span>
                     <span class="session-time">14:00-15:00</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
@@ -1610,25 +1604,25 @@ title_separator: "|"
             </div>    
             <p class="time-slot" style="grid-row: time-1515;">15:15</p>
 			{% for session in site.data.sessions %}  
-                {% if session.session == '8' and session.room == 'B' %}
+                {% if session.session == '13' and session.room == 'B' %}
                 <div class="session track-papers" style="grid-column: track-2; grid-row: time-1515 / time-1615;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 8<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 13<br>{{ session.name }}</a></span>
                     <span class="session-time">15:15-16:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}
 			{% for session in site.data.sessions %}  
-                {% if session.session == '8' and session.room == 'D' %}
+                {% if session.session == '13' and session.room == 'D' %}
                 <div class="session track-papers" style="grid-column: track-4; grid-row: time-1515 / time-1615;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 8<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 13<br>{{ session.name }}</a></span>
                     <span class="session-time">15:15-16:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
             {% endfor %}
 			<div class="session track-main" style="grid-column: track-1; grid-row: time-1515 / time-1615;">
-                <span class="session-title">Pannel - How to adapt our Research Practices in times of Ecological Crisis?</span>
+                <span class="session-title">Pannel - Where will extended reality and AI take us?</span>
                 <span class="session-time">15:15-16:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
@@ -1636,61 +1630,31 @@ title_separator: "|"
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
                 <span class="session-title">Break (Catered): 16:15-16:45</span>
             </div> 
-			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1645;">
+			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1515;">15:15</p>   
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1515 / time-1715;">
+			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1515 / time-1645;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
-                <span class="session-time">15:15-17:15</span>
+                <span class="session-time">15:15-16:45</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>                 
-			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1515 / time-1715;">
+			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1515 / time-1645;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
-                <span class="session-time">15:15-17:15</span>
+                <span class="session-time">15:15-16:45</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div>
-			<div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1645 / time-1715;">
-                <span class="session-title">Break (Catered) + Posters Teasers: 16:45-17:15</span>
+			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7-end; grid-row: time-1645 / time-1715;">
+                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">Demos removed</a></span>
+                <span class="session-time">16:45-17:15</span>
             </div> 
-			{% for session in site.data.sessions %}  
-                {% if session.session == '9' and session.room == 'A' %}
-                <div class="session track-papers" style="grid-column: track-1; grid-row: time-1715 / time-1815;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 9<br>{{ session.name }}</a></span>
-                    <span class="session-time">17:15-18:15</span>
-                    <span class="session-time">Room: {{ session.room }}</span>
-                </div>  
-                {% endif %}   
-            {% endfor %}
-			{% for session in site.data.sessions %}  
-                {% if session.session == '9' and session.room == 'B' %}
-                <div class="session track-papers" style="grid-column: track-2; grid-row: time-1715 / time-1815;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 9<br>{{ session.name }}</a></span>
-                    <span class="session-time">17:15-18:15</span>
-                    <span class="session-time">Room: {{ session.room }}</span>
-                </div>  
-                {% endif %}   
-            {% endfor %}
-			{% for session in site.data.sessions %}  
-                {% if session.session == '9' and session.room == 'C' %}
-                <div class="session track-papers" style="grid-column: track-3; grid-row: time-1715 / time-1815;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 9<br>{{ session.name }}</a></span>
-                    <span class="session-time">17:15-18:15</span>
-                    <span class="session-time">Room: {{ session.room }}</span>
-                </div>  
-                {% endif %}   
-            {% endfor %}
-			{% for session in site.data.sessions %}  
-                {% if session.session == '9' and session.room == 'D' %}
-                <div class="session track-papers" style="grid-column: track-4; grid-row: time-1715 / time-1815;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 9<br>{{ session.name }}</a></span>
-                    <span class="session-time">17:15-18:15</span>
-                    <span class="session-time">Room: {{ session.room }}</span>
-                </div>  
-                {% endif %}   
-            {% endfor %}           
+			<div class="session track-main" style="grid-column: track-1; grid-row: time-1715 / time-1815;">
+                <span class="session-title">Closing Ceremony & Awards</span>
+                <span class="session-time">17:15-18:15</span>
+                <span class="session-time">Room: Chateaubriand</span>
+            </div>      
         </div> 
     </div>
 </div>
