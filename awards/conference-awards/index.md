@@ -131,7 +131,7 @@ title: "Conference Awards Committee IEEE VR 2025"
     {% endfor %}
 </div>
 
-<h2>Best Demo & Honorable Mention for Best Demo</h2>
+<!-- <h2>Best Demo & Honorable Mention for Best Demo</h2>
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
 
@@ -150,4 +150,4 @@ title: "Conference Awards Committee IEEE VR 2025"
 
 <p>The IEEE VR Best Presentation Awards honor excellent, interesting, and stimulating presentations of research papers at the IEEE VR conference. During the conference, the audience can give a vote for each presentation that they think deserves an award. Approximately 3% of presentations with the highest number of votes receive an award. Among these selected presentations, the top 1% regarding the number of votes, will receive a Best Presentation Award, while the remaining presentations receive an Honorable Mention Award.</p>
 
-
+-->
