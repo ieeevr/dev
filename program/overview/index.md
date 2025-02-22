@@ -229,7 +229,7 @@ title_separator: "|"
             </div>              
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
-                <span class="session-title">Break (Catered): 10:15-10:45<br/></span>
+                <span class="session-title">Break (Catered): 10:15-10:45</span><br/>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1015 / time-1045;">                    
@@ -443,7 +443,7 @@ title_separator: "|"
             </div>         
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1545 / time-1615;">
-                <span class="session-title">Break (Catered): 15:45-16:15<br/></span>
+                <span class="session-title">Break (Catered): 15:45-16:15</span><br/>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
@@ -663,7 +663,7 @@ title_separator: "|"
             </div> 			
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
-                <span class="session-title">Break (Catered): 10:15-10:45</span><br />
+                <span class="session-title">Break (Catered): 10:15-10:45</span><br/>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
@@ -841,7 +841,7 @@ title_separator: "|"
             </div> 			
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
-                <span class="session-title">Break (Catered): 15:45-16:15<br/></span>
+                <span class="session-title">Break (Catered): 15:45-16:15</span><br/>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
@@ -960,7 +960,7 @@ title_separator: "|"
             </div>            
             <p class="time-slot" style="grid-row: time-0945;">9:30</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
-                <span class="session-title">Break (Catered): 9:30-10:00<br/></span>
+                <span class="session-title">Break (Catered): 9:30-10:00</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
@@ -1103,7 +1103,7 @@ title_separator: "|"
             </div>			
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
-                <span class="session-title">Break (Catered): 16:15-17:15<br/></span>
+                <span class="session-title">Break (Catered): 16:15-17:15</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
@@ -1228,7 +1228,7 @@ title_separator: "|"
 <!-- TUESDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
-                <span class="session-title">Break (Catered): 9:30-10:00<br/></span>
+                <span class="session-title">Break (Catered): 9:30-10:00</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1030;">
@@ -1370,7 +1370,7 @@ title_separator: "|"
             </div>  
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
-                <span class="session-title">Break (Catered): 16:15-17:15<br>+ Posters Teasers: 16:45-17:15<br/></span>
+                <span class="session-title">Break (Catered): 16:15-17:15<br>+ Posters Teasers: 16:45-17:15</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1645;">
@@ -1497,7 +1497,7 @@ title_separator: "|"
 <!-- WEDNESDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
-                <span class="session-title">Break (Catered): 9:30-10:00<br/></span>
+                <span class="session-title">Break (Catered): 9:30-10:00</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
@@ -1635,7 +1635,7 @@ title_separator: "|"
             </div>  
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
-                <span class="session-title">Break (Catered): 16:15-16:45<br/></span>
+                <span class="session-title">Break (Catered): 16:15-16:45</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
