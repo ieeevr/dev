@@ -1033,7 +1033,7 @@ title_separator: "|"
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1315;">13:15</p>                   
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1315 / time-1400;">
+			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
                 <span class="session-time">13:15-14:00</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
@@ -1156,7 +1156,7 @@ title_separator: "|"
                 </div>  
                 {% endif %}   
             {% endfor %}
-			<div class="session track-pd3dui" style="padding-bottom: 10px; grid-column: track-7; grid-row: time-1115 / time-1500;">
+			<div class="session track-pd3dui" style="padding-bottom: 10px; grid-column: track-6; grid-row: time-1115 / time-1500;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Setup</a></span>
                 <span class="session-time">11:15-15:00</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
