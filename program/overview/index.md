@@ -1112,9 +1112,9 @@ title_separator: "|"
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Jacques Cartier</span>
             </div>     
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
+			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
-                <span class="session-time">09:30-10:00</span>
+                <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>    
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>                   
