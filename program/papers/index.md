@@ -36,10 +36,10 @@ title_separator: "|"
 </div>
 <div>
     {% for session in site.data.sessions %}
-            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.room }})</h2>
+            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.letter }})</h2>
             {% for paper in site.data.papers %}                 
                 {% if session.session == paper.session %}
-                    {% if paper.room == session.room %}   
+                    {% if paper.room == session.letter %}   
                         <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
