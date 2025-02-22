@@ -198,6 +198,7 @@ title_separator: "|"
                     </div>
                 {% endif %}     
             {% endfor %}   
+			<p class="time-slot" style="grid-row: time-0830;">8:20</p>  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
                 <span class="session-time">8:20-8:30</span>
@@ -238,7 +239,7 @@ title_separator: "|"
                 <span class="session-time">Room: La Conchée</span>
             </div>       
 <!-- SATURDAY Morning (Part 2) -->		 
-             <p class="time-slot" style="grid-row: time-1030;">10:30</p>                                                           
+             <p class="time-slot" style="grid-row: time-1045;">10:45</p>                                                           
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'ANIVAE' %}
                     <div class="session session-w4b track-workshop" style="grid-column: track-1; grid-row: time-1045 / time-1230;">
@@ -551,7 +552,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1700;">17:00</p>                 
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
-                <span class="session-time">16:15-18:00</span>
+                <span class="session-time">18:00-18:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div> 
 			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  			
