@@ -1105,6 +1105,7 @@ title_separator: "|"
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
                 <span class="session-title">Break (Catered): 16:15-17:15&nbsp;&nbsp;<br></span>
+                <span class="session-time"></span>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
