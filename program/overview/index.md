@@ -975,8 +975,8 @@ title_separator: "|"
             </div>                      
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
             <div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
-                <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">George Drettakis</a></span>                
-                <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">The 3D Gaussian Splatting Adventure: Past, Present and Future</a></span>
+                <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">George Drettakis</a></span>                
+                <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">The 3D Gaussian Splatting Adventure: Past, Present and Future</a></span>
                 <span class="session-time">10:00-11:00</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
             </div> 
@@ -1237,12 +1237,12 @@ title_separator: "|"
 <!-- TUESDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-1000;">10:00</p> 
 			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1030;">
-                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Mavi Sanchez-Vives</a> - <a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Virtual Reality for Pain Relief</a></span>
+                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-mavi">Mavi Sanchez-Vives</a> - <a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-mavi">Virtual Reality for Pain Relief</a></span>
                 <span class="session-time">10:00-10:30</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
             </div>
 			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1030 / time-1100;">
-                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Maria Roussou</a> - <a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-azenkot">Reflecting on 25+ Years of Immersive Public Experiences</a></span>
+                <span class="session-title">Lightning Keynote<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-maria">Maria Roussou</a> - <a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-maria">Reflecting on 25+ Years of Immersive Public Experiences</a></span>
                 <span class="session-time">10:30-11:00</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
             </div>
