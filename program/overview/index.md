@@ -1650,7 +1650,7 @@ title_separator: "|"
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">Demos removed</a></span>
                 <span class="session-time">16:45-17:15</span>
             </div> 
-			<div class="session track-main" style="grid-column: track-1; grid-row: time-1715 / time-1815;">
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1715 / time-1815;">
                 <span class="session-title">Closing Ceremony & Awards</span>
                 <span class="session-time">17:15-18:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
