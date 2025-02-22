@@ -1370,7 +1370,7 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}
 			<div class="session track-main" style="grid-column: track-1; grid-row: time-1515 / time-1615;">
-                <span class="session-title">Pannel - How to adapt our Research Practices in times of Ecological Crisis?</span>
+                <span class="session-title"><a href="{{ '/program/panels/' | relative_url }}">Panel - How to adapt our Research Practices in times of Ecological Crisis?</a></span>
                 <span class="session-time">15:15-16:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
@@ -1637,7 +1637,7 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}
 			<div class="session track-main" style="grid-column: track-1; grid-row: time-1515 / time-1615;">
-                <span class="session-title">Pannel - Where will extended reality and AI take us?</span>
+                <span class="session-title"><a href="{{ '/program/panels/' | relative_url }}#panel-XR">Panel - Where will extended reality and AI take us?</a></span>
                 <span class="session-time">15:15-16:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
