@@ -549,13 +549,13 @@ title_separator: "|"
                 <span class="session-time">16:15-18:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
-            <p class="time-slot" style="grid-row: time-1700;">17:00</p>                 
+			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  	           
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
                 <span class="session-time">18:00-18:30</span>
                 <span class="session-time">Room: La Conchée</span>
-            </div> 
-			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  			
+            </div> 		
+			<p class="time-slot" style="grid-row: time-1830;">18:30</p>  	
         </div> 
     </div>
 	<div>
