@@ -479,7 +479,7 @@ title_separator: "|"
                     </div>            
                 {% endif %}     
             {% endfor %}   
-            {% for workshop in site.data.workshops %}  
+            {% for workshop in site.data.workshops %}
                 {% if workshop.id == 'ReViSi' %}
                     <div class="session session-8b track-workshop" style="grid-column: track-4; grid-row: time-1615 / time-1800;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
