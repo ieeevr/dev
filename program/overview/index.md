@@ -155,7 +155,7 @@ title_separator: "|"
             {% endfor %}               
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'GenAI-XR' %}
-                    <div class="session track-workshop" style="grid-column: track-3; grid-row: time-0830 / time-1015;">                    
+                    <div class="session session-w4a track-workshop" style="grid-column: track-3; grid-row: time-0830 / time-1015;">                    
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">8:30-10:15</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
