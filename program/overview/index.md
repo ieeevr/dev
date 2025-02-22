@@ -229,7 +229,7 @@ title_separator: "|"
             </div>              
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
-                <span class="session-title">Break (Catered): 10:15-10:45</span><br/>
+                <span class="session-title">Break (Catered): 10:15-10:45</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1015 / time-1045;">                    
@@ -314,7 +314,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T4' %}
                     <div class="session session-t1b track-tutorials" style="grid-column: track-9; grid-row: time-1045 / time-1230;">                    
-                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Vauban&nbsp;1</span>
                     </div>
@@ -323,7 +323,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T5' %}
                     <div class="session session-t1b track-tutorials" style="grid-column: track-10; grid-row: time-1045 / time-1230;">                    
-                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">10:45-12:30</span>
                         <span class="session-time">Room: Vauban&nbsp;2</span>
                     </div>
@@ -394,7 +394,7 @@ title_separator: "|"
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'NGA' %}
                     <div class="session session-6c track-workshop" style="grid-column: track-6; grid-row: time-1400 / time-1545;">
-                        <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
+                        <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">14:00-15:45</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                     </div>
@@ -403,7 +403,7 @@ title_separator: "|"
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'IDEATExR' %}
                     <div class="session session-6c track-workshop" style="grid-column: track-7; grid-row: time-1400 / time-1545;">
-                        <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
+                        <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">14:00-15:45</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                     </div>
@@ -412,7 +412,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T6' %}
                     <div class="session session-t1b track-tutorials" style="grid-column: track-8; grid-row: time-1400 / time-1545;">                    
-                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">14:00-15:45</span>
                         <span class="session-time">Room: Charcot</span>
                     </div>
@@ -421,7 +421,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T7' %}
                     <div class="session session-t1b track-tutorials" style="grid-column: track-9; grid-row: time-1400 / time-1545;">                    
-                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">14:00-15:45</span>
                         <span class="session-time">Room: Vauban&nbsp;1</span>
                     </div>
@@ -430,7 +430,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T8' %}
                     <div class="session session-t1b track-tutorials" style="grid-column: track-10; grid-row: time-1400 / time-1545;">                    
-                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">14:00-15:45</span>
                         <span class="session-time">Room: Vauban&nbsp;2</span>
                     </div>
@@ -443,7 +443,7 @@ title_separator: "|"
             </div>         
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1545 / time-1615;">
-                <span class="session-title">Break (Catered): 15:45-16:15</span><br/>
+                <span class="session-title">Break (Catered): 15:45-16:15</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
@@ -537,7 +537,7 @@ title_separator: "|"
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T8' %}
                     <div class="session session-t2a track-tutorials" style="grid-column: track-10; grid-row: time-1615 / time-1800;">                    
-                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
+                        <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">16:15-18:00</span>
                         <span class="session-time">Room: Vauban&nbsp;2</span>
                     </div>
@@ -663,7 +663,7 @@ title_separator: "|"
             </div> 			
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
-                <span class="session-title">Break (Catered): 10:15-10:45</span><br/>
+                <span class="session-title">Break (Catered): 10:15-10:45</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
@@ -841,7 +841,7 @@ title_separator: "|"
             </div> 			
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
-                <span class="session-title">Break (Catered): 15:45-16:15</span><br/>
+                <span class="session-title">Break (Catered): 15:45-16:15</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
