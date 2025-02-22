@@ -45,6 +45,9 @@ title: "Conference Awards Committee IEEE VR 2025"
         {% endif %}
         {% for acpaper in source %}
             {% if item.id == acpaper.ids  %} 
+                <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
+                    <b>{{ acpaper.title }}</b>
+                </p>
                 <div><p class="font_70">
                 {% assign authornames = acpaper.affiliations | split: "," %}
                 {% for name in authornames %}
