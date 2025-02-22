@@ -959,7 +959,7 @@ title_separator: "|"
                 <span class="session-time">8:30-9:30</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>            
-            <p class="time-slot" style="grid-row: time-0945;">9:30</p>
+            <p class="time-slot" style="grid-row: time-0930;">9:30</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
                 <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
                 <span class="session-time">Room: Rotonde Cézembre</span>
