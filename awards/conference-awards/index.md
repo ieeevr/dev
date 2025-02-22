@@ -80,7 +80,56 @@ title: "Conference Awards Committee IEEE VR 2025"
 <h2>Best Posters & Honorable Mention for Best Poster</h2>
 
 <p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
-
+{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
+</div>
+{% endif %}  
+<div style="padding-bottom:15px;">
+    {% for item in award %}     
+        {% if item.ptype == 'Journal' %}
+            {% assign source = site.data.acceptedpapers %}
+        {% endif %}
+        {% if item.ptype == 'Conference' %}
+            {% assign source = site.data.conferencepapers %}
+        {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
+        {% endif %}
+        {% for acpaper in source %}
+            {% if item.id == acpaper.ids  %} 
+                <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
+                    <b>{{ acpaper.title }}</b>
+                </p>
+                <div><p class="font_70">
+                {% assign authornames = acpaper.affiliations | split: "," %}
+                {% for name in authornames %}
+                    {% assign barename = name | split: ":" %}
+                    {% for n in barename %}
+                        {% if n == barename.last %}
+                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                        {% else %}                            
+                            <span class="bold">{{ n | strip }},</span>
+                        {% endif %}
+                    {% endfor %} 
+                {% endfor %}
+                </p></div>
+                {% if acpaper.abstract %}
+                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ acpaper.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+            {% endif %}
+            
+        {% endfor %}
+    {% endfor %}
+</div>
 
 <h2>Best Demo & Honorable Mention for Best Demo</h2>
 
