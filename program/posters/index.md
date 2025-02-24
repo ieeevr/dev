@@ -77,8 +77,13 @@ title_separator: "|"
                     </div>
                 {% endif %}
             {% endfor %}            
+            {% assign j = 0 %}
             {% for poster in site.data.postersDC %}
                 {% if poster.PosterCategory == cat.name %}
+                    {% if j == 0 %}
+                        {% assign j = 1 %}
+                        <h3> Doctoral Consortium Posters </h3>
+                    {% endif %}
                     <div style="margin-left: 25px;">                                  
                         <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
