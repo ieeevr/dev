@@ -77,10 +77,7 @@ title: "Conference Awards Committee IEEE VR 2025"
     {% endfor %}
 </div>
 
-<h2>Best Posters & Honorable Mention for Best Poster</h2>
-
-<p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
-{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
+<h2> Honorable Mention for Best Papers </h2>
 {% if award.size > 0  %}
 <div>
     <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
@@ -131,7 +128,11 @@ title: "Conference Awards Committee IEEE VR 2025"
     {% endfor %}
 </div>
 
-<!-- <h2>Best Demo & Honorable Mention for Best Demo</h2>
+<!-- <h2>Best Posters & Honorable Mention for Best Poster</h2>
+
+<p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
+{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
+<h2>Best Demo & Honorable Mention for Best Demo</h2>
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
 
