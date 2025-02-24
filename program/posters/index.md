@@ -85,6 +85,7 @@ title_separator: "|"
                         <h3> Doctoral Consortium Posters </h3>
                     {% endif %}
                     {% for dc in site.data.dc %}
+                    |||{{dc.id}}||{{poster.BoothID}}||{{poster.PosterCategory}}||{{cat.name}}|||
                         {% if dc.id == poster.BoothID %}
                             <div style="margin-left: 25px;">                                  
                                 <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
