@@ -89,9 +89,6 @@ title_separator: "|"
                     <div style="text-indent: -.7em; margin-left: .7em;">
                         * Posters & Research Demos & XR Gallery & 3DUI Contest Demos & Exhibits<br>
                     </div>
-                    <div style="text-indent: -.7em; margin-left: .7em;">
-                        * Research Demos, 3DUI Contest Demos & Posters<br>
-                    </div>
                     * Welcome Reception
                 </td>
                 <td class="text-nowrap"><a href="#day4">Tuesday<br>2025-03-11</a></td>
@@ -231,7 +228,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1015 / time-1045;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -445,7 +442,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -664,7 +661,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-1045;">10:45</p>             
@@ -842,7 +839,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>              
@@ -947,11 +944,6 @@ title_separator: "|"
                     <span class="session-title">Registration:&nbsp;8:00&#8209;18:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>
-			<div class="session track-main" style="grid-column: track-5; grid-row: time-0800 / time-0830;">
-                <span class="session-title">Poster Installation</span>
-                <span class="session-time">8:00-8:40</span>
-                <span class="session-time">Room: J. Cartier</span>
-            </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
             <div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-0830 / time-0930;">
                 <span class="session-title">Opening & Awards</span>
@@ -961,12 +953,12 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
                 <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">9:30-10:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>    
 			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
@@ -1029,7 +1021,7 @@ title_separator: "|"
             <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:15-14:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1315;">13:15</p>                   
 			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1315 / time-1400;">
@@ -1097,19 +1089,19 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %} 		
 			<div class="session track-pd3dui" style="padding-bottom: 10px; grid-column: track-1-start; grid-row: time-1515 / time-1615;">
-                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery</a></span>
+                <span class="session-title">Fast forward session: <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery</a></span>
                 <span class="session-time">15:15-16:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>			
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-2-start / track-4-end; grid-row: time-1615 / time-1715;">
                 <span class="session-title">Break (Catered): 16:15-17:15&nbsp;&nbsp;<br></span>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">16:15-17:15</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1123,7 +1115,7 @@ title_separator: "|"
             </div>
             <p class="time-slot" style="grid-row: time-1715;">17:15</p> 
 			<div class="session track-main" style="grid-column: track-1; grid-row: time-1615 / time-1815;">
-                <span class="session-title">Preparation Welcome Event</span>
+                <span class="session-title">Art performance - ReVerie</span>
                 <span class="session-time">16:15-18:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
@@ -1154,12 +1146,14 @@ title_separator: "|"
                 </div>  
                 {% endif %}   
             {% endfor %}
-			<div class="session track-pd3dui" style="padding-bottom: 10px; grid-column: track-6; grid-row: time-1115 / time-1500;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Setup</a></span>
-                <span class="session-time">11:15-15:00</span>
-                <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
-            </div>
             <p class="time-slot" style="grid-row: time-1815;">18:15</p> 
+            <p class="time-slot" style="grid-row: time-1845;">18:45</p> 
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1845 / time-2045;">
+                <span class="session-title">Welcome reception</span>
+                <span class="session-time">18:45-20:45</span>
+                <span class="session-time">Room: Jacques Cartier/Grand large</span>
+            </div>      
+            <p class="time-slot" style="grid-row: time-2045;">20:45</p> 
         </div> 
     </div>
 <!-- TUESDAY Morning (Part 1) -->
@@ -1172,11 +1166,6 @@ title_separator: "|"
                     <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
-			<div class="session track-main" style="grid-column: track-5; grid-row: time-0800 / time-0830;">
-                <span class="session-title">Poster Installation</span>
-                <span class="session-time">8:00-8:40</span>
-                <span class="session-time">Room: Jacques Cartier</span>
-            </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
             {% for session in site.data.sessions %}  
                 {% if session.id == '13' %}
@@ -1218,7 +1207,7 @@ title_separator: "|"
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">09:30-10:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1232,7 +1221,7 @@ title_separator: "|"
             </div> 
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
                 <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
 <!-- TUESDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-1000;">10:00</p> 
@@ -1296,7 +1285,7 @@ title_separator: "|"
             <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:15-14:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1376,13 +1365,13 @@ title_separator: "|"
             </div>  
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
-                <span class="session-title">Break (Catered): 16:15-17:15<br>+ Posters Teasers: 16:45-17:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-title">Break (Catered): 16:15-17:15</span><br>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
-			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1645;">
+			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">16:15-17:15</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1515 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1432,6 +1421,13 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p>   
+            <p class="time-slot" style="grid-row: time-1915;">19:15</p>   
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1915 / time-2315;">
+                <span class="session-title">Welcome reception</span>
+                <span class="session-time">19:15-23:15</span>
+                <span class="session-time">Quai Saint Malo</span>
+            </div>      
+            <p class="time-slot" style="grid-row: time-2045;">20:45</p> 
         </div> 
     </div>
     <div>
@@ -1444,11 +1440,6 @@ title_separator: "|"
                     <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
-			<div class="session track-main" style="grid-column: track-5; grid-row: time-0800 / time-0830;">
-                <span class="session-title">Poster Installation</span>
-                <span class="session-time">8:00-8:40</span>
-                <span class="session-time">Room: Jacques Cartier</span>
-            </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
             {% for session in site.data.sessions %}  
                 {% if session.id == '31' %}
@@ -1489,7 +1480,7 @@ title_separator: "|"
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">09:30-10:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1505,7 +1496,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
                 <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
 			<div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
                 <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-stefania">Stefania Serafin</a></span>                
@@ -1563,7 +1554,7 @@ title_separator: "|"
             <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:15-14:00</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1315 / time-1400;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
@@ -1644,29 +1635,14 @@ title_separator: "|"
 			<p class="time-slot" style="grid-row: time-1615;">16:15</p>
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1615 / time-1715;">
                 <span class="session-title">Break (Catered): 16:15-17:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotonde Cézembre</span>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div> 
 			<div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">16:15-17:15</span>
-                <span class="session-time">Room: Jacques Cartier</span>
+                <span class="session-time">Room: Grand large</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1715;">17:15</p>   
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1515 / time-1645;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
-                <span class="session-time">15:15-16:45</span>
-                <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
-            </div>                 
-			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1515 / time-1645;">
-                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
-                <span class="session-time">15:15-16:45</span>
-                <span class="session-time">Room: Bouvet, Charcot</span>
-            </div>
-            <p class="time-slot" style="grid-row: time-1645;">16:45</p>   
-			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7-end; grid-row: time-1645 / time-1715;">
-                <span class="session-title">Demos removed</span>
-                <span class="session-time">16:45-17:15</span>
-            </div> 
 			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1715 / time-1815;">
                 <span class="session-title">Closing Ceremony & Awards</span>
                 <span class="session-time">17:15-18:15</span>
