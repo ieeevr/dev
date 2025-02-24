@@ -102,7 +102,7 @@ title_separator: "|"
                             {% endfor %}
                         </p>
                         {% if poster.abstract %}
-                            <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                            <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
                                 <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
                                 <div class="collapsible-content">
                                     <div class="content-inner">
