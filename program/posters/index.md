@@ -84,34 +84,28 @@ title_separator: "|"
                         {% assign j = 1 %}
                         <h3> Doctoral Consortium Posters </h3>
                     {% endif %}
-                    <div style="margin-left: 25px;">                                  
-                        <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
-                        </p>
-                        <p class="font_70" >
-                            {% assign authornames = poster.authors | split: ";" %}
-                            {% for name in authornames %}
-                                {% assign barename = name | split: ":" %}
-                                {% for n in barename %}
-                                    {% if n == barename.last %}
-                                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                                    {% else %}                            
-                                        <span class="bold">{{ n | strip }},</span>
-                                    {% endif %}
-                                {% endfor %} 
-                            {% endfor %}
-                        </p>
-                        {% if poster.abstract %}
-                            <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
-                                <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
-                                <div class="collapsible-content">
-                                    <div class="content-inner">
-                                        <p>{{ poster.abstract }}</p>
-                                    </div>
-                                </div>
-                            </div>   
+                    {% for dc in site.data.dc %}
+                        {% if dc.id == poster.BoothID}
+                            <div style="margin-left: 25px;">                                  
+                                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                                    <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
+                                </p>
+                                <p class="font_70">
+                                        <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                                </p>
+                                {% if poster.abstract %}
+                                    <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
+                                        <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
+                                        <div class="collapsible-content">
+                                            <div class="content-inner">
+                                                <p>{{ poster.abstract }}</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                {% endif %}
+                            </div>                    
                         {% endif %}
-                    </div>
+                    {% endfor %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
