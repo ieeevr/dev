@@ -91,7 +91,7 @@ title_separator: "|"
                                     <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
                                 </p>
                                 <p class="font_70">
-                                        <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                                    <span class="bold">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
                                 </p>
                                 {% if poster.abstract %}
                                     <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
