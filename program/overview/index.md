@@ -742,13 +742,13 @@ title_separator: "|"
                 <span class="session-time">10:45-11:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>      
-            <p class="time-slot" style="grid-row: time-1115;">11:45</p>          
+            <p class="time-slot" style="grid-row: time-1145;">11:45</p>          
             <div class="session session-f35 track-f3" style="grid-column: track-9; grid-row: time-1145 / time-1230;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | SpeedAdvising</span>
                 <span class="session-time">11:45-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>   
-            <p class="time-slot" style="grid-row: time-1200;">12:30</p>
+            <p class="time-slot" style="grid-row: time-1230;">12:30</p>
             <div class="session session-l track-all" style="grid-column: track-1-start / track-9-end; grid-row: time-1230 / time-1400;">
                 <span class="session-title">Lunch (Not Catered): 12:30&#8209;14:00</span>
             </div>   
