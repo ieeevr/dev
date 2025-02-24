@@ -1427,7 +1427,7 @@ title_separator: "|"
                 <span class="session-time">19:15-23:15</span>
                 <span class="session-time">Quai Saint Malo</span>
             </div>      
-            <p class="time-slot" style="grid-row: time-2045;">20:45</p> 
+            <p class="time-slot" style="grid-row: time-2315;">23:15</p> 
         </div> 
     </div>
     <div>
