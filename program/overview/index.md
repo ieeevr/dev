@@ -980,7 +980,7 @@ title_separator: "|"
             {% for session in site.data.sessions %}  
                 {% if session.id == '0' %}
                 <div class="session track-papers" style="grid-column: track-1; grid-row: time-1115 / time-1215;">
-                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 1<br>{{ session.name }}</a></span>
+                    <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#0">Session 1-{{ session.letter }}<br>{{ session.name }}</a></span>
                     <span class="session-time">11:15-12:15</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
