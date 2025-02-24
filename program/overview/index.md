@@ -1115,7 +1115,7 @@ title_separator: "|"
             </div>
             <p class="time-slot" style="grid-row: time-1715;">17:15</p> 
 			<div class="session track-main" style="grid-column: track-1; grid-row: time-1615 / time-1815;">
-                <span class="session-title">Art performance - ReVerie</span>
+                <span class="session-title">Art performance - <a href="{{ '/program/xrgallery/' | relative_url }}#PO1103">ReVerie</a></span>
                 <span class="session-time">16:15-18:15</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
@@ -1373,14 +1373,14 @@ title_separator: "|"
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Grand large</span>
             </div>     
-			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1515 / time-1715;">
+			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
-                <span class="session-time">15:15-17:15</span>
+                <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>                 
-			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1515 / time-1715;">
+			<div class="session track-pd3dui" style="grid-column: track-7; grid-row: time-1615 / time-1715;">
                 <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
-                <span class="session-time">15:15-17:15</span>
+                <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div>
             <p class="time-slot" style="grid-row: time-1715;">17:15</p>   
@@ -1423,7 +1423,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1815;">18:15</p>   
             <p class="time-slot" style="grid-row: time-1915;">19:15</p>   
 			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1915 / time-2315;">
-                <span class="session-title">Welcome reception</span>
+                <span class="session-title">Gala Dinner</span>
                 <span class="session-time">19:15-23:15</span>
                 <span class="session-time">Quai Saint Malo</span>
             </div>      
