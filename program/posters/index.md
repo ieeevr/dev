@@ -77,7 +77,6 @@ title_separator: "|"
                     </div>
                 {% endif %}
             {% endfor %}            
-            <h3> Doctoral Consortium Posters </h3>
             {% for poster in site.data.postersDC %}
                 {% if poster.PosterCategory == cat.name %}
                     <div style="margin-left: 25px;">                                  
@@ -98,8 +97,8 @@ title_separator: "|"
                             {% endfor %}
                         </p>
                         {% if poster.abstract %}
-                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
-                                <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
+                            <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                                <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
                                 <div class="collapsible-content">
                                     <div class="content-inner">
                                         <p>{{ poster.abstract }}</p>
