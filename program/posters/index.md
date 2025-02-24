@@ -76,6 +76,39 @@ title_separator: "|"
                         {% endif %}
                     </div>
                 {% endif %}
+            {% endfor %}            
+            <h3> Doctoral Consortium Posters </h3>
+            {% for poster in site.data.postersDC %}
+                {% if poster.PosterCategory == cat.name %}
+                    <div style="margin-left: 25px;">                                  
+                        <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                            <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
+                        </p>
+                        <p class="font_70" >
+                            {% assign authornames = poster.authors | split: ";" %}
+                            {% for name in authornames %}
+                                {% assign barename = name | split: ":" %}
+                                {% for n in barename %}
+                                    {% if n == barename.last %}
+                                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                    {% else %}                            
+                                        <span class="bold">{{ n | strip }},</span>
+                                    {% endif %}
+                                {% endfor %} 
+                            {% endfor %}
+                        </p>
+                        {% if poster.abstract %}
+                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                                <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        <p>{{ poster.abstract }}</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        {% endif %}
+                    </div>
+                {% endif %}
             {% endfor %}
         {% endfor %}
     </div>
