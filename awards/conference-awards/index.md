@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Conference Awards Committee IEEE VR 2025"
+title: "Awards"
 ---
 <script type="text/javascript">
     $(document).ready(function(){
@@ -46,7 +46,7 @@ title: "Conference Awards Committee IEEE VR 2025"
         {% endif %}
         {% for acpaper in source %}
             {% if item.id == acpaper.ids  %} 
-                <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
+                <p class="medLarge" id="paper_{{ acpaper.id }}" style="margin-bottom: 0.3em;">
                     <b>{{ acpaper.title }}</b>
                 </p>
                 <div><p class="font_70">
@@ -76,7 +76,7 @@ title: "Conference Awards Committee IEEE VR 2025"
         {% endfor %}
         {% for acpaper in source2 %}
             {% if item.id == acpaper.ids  %} 
-                <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
+                <p class="medLarge" id="paper_{{ acpaper.id }}" style="margin-bottom: 0.3em;">
                     <b>{{ acpaper.title }}</b>
                 </p>
                 <div><p class="font_70">
