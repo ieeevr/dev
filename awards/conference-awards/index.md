@@ -98,7 +98,6 @@ title: "Awards"
     {% endfor %}
 </div>
 {% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
-<h2> Honorable Mention for Best Papers </h2>
 {% if award.size > 0  %}
 <div>
     <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
