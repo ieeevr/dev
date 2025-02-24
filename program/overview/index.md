@@ -195,7 +195,7 @@ title_separator: "|"
                     </div>
                 {% endif %}     
             {% endfor %}   
-			<p class="time-slot" style="grid-row: time-0820;">8:20</p>  
+			<p class="time-slot" style="grid-row: time-0815;">8:20</p>  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
                 <span class="session-time">8:20-8:30</span>
@@ -546,13 +546,13 @@ title_separator: "|"
                 <span class="session-time">16:15-18:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
-			<p class="time-slot" style="grid-row: time-1800;">18:00</p>  	           
+			<p class="time-slot" style="grid-row: time-1800;">18:00</p>
+			<p class="time-slot" style="grid-row: time-1830;">18:30</p>
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
                 <span class="session-time">18:00-18:30</span>
                 <span class="session-time">Room: La Conchée</span>
-            </div> 		
-			<p class="time-slot" style="grid-row: time-1830;">18:30</p>  	
+            </div> 		  	
         </div> 
     </div>
 	<div>
@@ -926,6 +926,7 @@ title_separator: "|"
                 <span class="session-time">17:00-17:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>             
+            <p class="time-slot" style="grid-row: time-1745;">17:45</p>   
             <p class="time-slot" style="grid-row: time-1800;">18:00</p>  
 			<div class="session track-XRgallery" style="grid-column: track-10; grid-row: time-0800 / time-1800;">  
                 <div class="rotate_reg">             
