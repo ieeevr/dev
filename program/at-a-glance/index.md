@@ -27,7 +27,7 @@ title_separator: "|"
     <div>
         <h2 id="pre">Pre-Conference</h2>
 		<!--<img style="width: 80%;" src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">-->
-        <iframe src="{{"/assets/program/IEEEVR2025_preconference_program.pdf" | relative_url }}#zoom=40" 
+        <iframe src="{{"/assets/program/IEEEVR2025_preconference_program.pdf" | relative_url }}#zoom=70" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
@@ -36,7 +36,7 @@ title_separator: "|"
         </iframe>
         <h2 id="full">Main-Conference</h2>
         <!--<img style="width: 80%;" src="/dev/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">-->
-        <iframe src="{{"/assets/program/IEEEVR2025_mainconference_program.pdf" | relative_url }}#zoom=31" 
+        <iframe src="{{"/assets/program/IEEEVR2025_mainconference_program.pdf" | relative_url }}#zoom=100" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
