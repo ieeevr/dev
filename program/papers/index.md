@@ -37,14 +37,34 @@ title_separator: "|"
 <div>
     {% for session in site.data.sessions %}
             <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.letter }})</h2>
-            {% for paper in site.data.papers %}                 
+            {% for paper in site.data.papers %}
                 {% if session.session == paper.session %}
                     {% if paper.room == session.letter %}   
+                        {% for a in site.data.awards %}  
+                            {% if a.id == paper.id %}
+                                {% if a.award == "Best Paper" %}
+                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"></a></div>
+                                {% endif %}                                                    
+                                {% if a.award == "Honorable Mention" %}
+                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"></a></div>
+                                {% endif %}
+                            {% endif %}
+                            {% if a.type == 'Presentation' %}
+                                {% if a.id == paper.id %}
+                                    {% if a.award == "Best Presentation" %}
+                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#presentation-best"><img src= "{{ "/assets/images/awards/best-star.png" | relative_url }}" title="Best Presentation Award" alt="Best Presentation Award"></a></div>
+                                    {% endif %}                                                    
+                                    {% if a.award == "Honorable Mention" %}
+                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#presentation-honorable"><img src= "{{ "/assets/images/awards/hm2.png" | relative_url }}" title="Best Presentation Honorable Mention" alt="Best Presentation Honorable Mention"></a></div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                         <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
                         {% for acpaper in site.data.acceptedpaperstvcg %}  
-                            {% if acpaper.ids == paper.ids  %} 
+                            {% if acpaper.ids == paper.id  %} 
                                 <div>
                                     <p class="font_70">
                                     {{ acpaper.contactauthor }}
@@ -63,7 +83,7 @@ title_separator: "|"
                             {% endif %}
                         {% endfor %}
                         {% for acpaper in site.data.acceptedpapers %}    
-                            {% if acpaper.ids == paper.ids  %} 
+                            {% if acpaper.ids == paper.id  %} 
                                 <div><p class="font_70">
                                 {% assign authornames = acpaper.affiliations | split: "," %}
                                 {% for name in authornames %}
