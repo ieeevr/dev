@@ -21,13 +21,13 @@ title_separator: "|"
            <div class="italic med" style="text-align: right;">Updated: February 25, 2025 </div>
         </div>
     </div>
-	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+	<!--<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
 		<img src="/2025/assets/images/program/overview.png" alt="Map of France with the main locations of the events in Rennes, St Malo and Mt St Michel." style="flex: 1 1 60%; max-width: 60%; height: auto;">
-	</div>
+	</div>-->
     <div>
         <h2 id="pre">Pre-Conference</h2>
 		<!--<img style="width: 80%;" src="/dev/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">-->
-        <iframe src="{{"/assets/program/IEEEVR2025_preconference_program.pdf" | relative_url }}#zoom=70" 
+        <iframe src="{{"/assets/program/IEEEVR2025_preconference_program.pdf" | relative_url }}#zoom=80" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
@@ -36,7 +36,7 @@ title_separator: "|"
         </iframe>
         <h2 id="full">Main-Conference</h2>
         <!--<img style="width: 80%;" src="/dev/assets/images/program/Main-conference.png" alt="Main-Conference program overview.">-->
-        <iframe src="{{"/assets/program/IEEEVR2025_mainconference_program.pdf" | relative_url }}#zoom=100" 
+        <iframe src="{{"/assets/program/IEEEVR2025_mainconference_program.pdf" | relative_url }}#zoom=110" 
             title="IEEE VR 2025 Schedule (PDF)"
             width="100%"
             height="600px"
