@@ -23,7 +23,7 @@ title_separator: "|"
             <li>In the following schedule, the student is mentionned first followed by the associated mentors.</li>
         </ul>
     </p>
-</div>-->
+</div>
 <div>
     <table class="styled-table font_80">
         <tr>
@@ -108,7 +108,7 @@ title_separator: "|"
             </td>
         </tr>
     </table>    
-</div>-->
+</div>
 <div>
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
     {% assign sorted_dc = site.data.dc | sort: "num" %}
