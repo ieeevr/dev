@@ -4,7 +4,7 @@ title: "Program Overview"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240318">
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20250226">
     
 <script>
     const days = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
@@ -124,10 +124,10 @@ title_separator: "|"
     <div>
         <h4 id="day1">Saturday, 8 March 2025</h4>
         <div class="schedule-sat" aria-labelledby="Saturday, 8 March 2025 - Workshop Schedule"> 
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">  
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">  
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>  
 <!-- SATURDAY Morning (Part 1) -->			
@@ -195,10 +195,9 @@ title_separator: "|"
                     </div>
                 {% endif %}     
             {% endfor %}   
-			<p class="time-slot" style="grid-row: time-0815;">8:20</p>  
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
-                <span class="session-time">8:20-8:30</span>
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0830 / time-0845;">                    
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome & Introduction</a></span>
+                <span class="session-time">8:30-8:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>
             {% for tutorial in site.data.tutorials %}  
@@ -219,15 +218,15 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}           
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0830 / time-1015;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0845 / time-1015;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 1-6 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">8:30-10:15</span>
+                <span class="session-time">8:45-10:15</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>              
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Jacques Cartier & Cézembre</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1015 / time-1045;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -327,7 +326,7 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1045 / time-1230;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-13 (10-min talk + 5-min Q&A for each presentation)</span>
                 <span class="session-time">10:45-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
@@ -434,14 +433,14 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1400 / time-1545;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 13-20 (10-min talk + 5-min Q&A for each presentation)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 14-20 (10-min talk + 5-min Q&A for each presentation)</span>
                 <span class="session-time">14:00-15:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>         
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -540,16 +539,15 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %} 
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1615 / time-1800;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1615 / time-1715;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 21-24 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">16:15-18:00</span>
+                <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
 			<p class="time-slot" style="grid-row: time-1800;">18:00</p>
-			<p class="time-slot" style="grid-row: time-1830;">18:30</p>
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1715 / time-1800;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
-                <span class="session-time">18:00-18:30</span>
+                <span class="session-time">17:15-18:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div> 		  	
         </div> 
@@ -558,10 +556,10 @@ title_separator: "|"
         <h4 id="day2">Sunday, 9 March 2025</h4> 
         <div class="schedule-sun" aria-labelledby="Sunday, 9 March 2029 - Workshop Schedule">  
 <!-- SUNDAY Morning (Part 1) -->
-        <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">  
+        <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">  
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>   
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>                         
@@ -660,7 +658,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-1045;">10:45</p>             
@@ -838,7 +836,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>              
@@ -938,10 +936,10 @@ title_separator: "|"
     <div>
         <h4 id="day3">Monday, 10 March 2025</h4>
         <div class="schedule-mon" aria-labelledby="Monday, 10 March 2025 - Main Conference">  
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1830;"> 
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1830;"> 
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;18:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;18:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
@@ -951,31 +949,31 @@ title_separator: "|"
                 <span class="session-time">Room: Chateaubriand</span>
             </div>            
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>
-            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
-                <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
+            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-0945;">
+                <span class="session-title">Cushion Break (Not Catered): 9:30-9:45</span>
             </div> 
-            <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
-                <span class="session-time">9:30-10:00</span>
-                <span class="session-time">Room: Grand large</span>
-            </div>    
-			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
-                <span class="session-time">9:30-10:00</span>
-                <span class="session-time">Room: Bouvet, Charcot</span>
-            </div>                      
-            <p class="time-slot" style="grid-row: time-1000;">10:00</p>
-            <div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
+            <p class="time-slot" style="grid-row: time-0945;">9:45</p>
+            <div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-0945 / time-1045;">
                 <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">George Drettakis</a></span>                
                 <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">The 3D Gaussian Splatting Adventure: Past, Present and Future</a></span>
-                <span class="session-time">10:00-11:00</span>   
+                <span class="session-time">9:45-10:45</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
             </div> 
-            <p class="time-slot" style="grid-row: time-1100;">11:00</p>  
-            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1100 / time-1115;">
-                <span class="session-title">Stretch Break (Not Catered): 11:00-11:15</span>
+            <p class="time-slot" style="grid-row: time-1045;">10:45</p>  
+            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1045 / time-1115;">
+                <span class="session-title">Break (Catered): 10:45-11:15&nbsp;&nbsp;</span><br>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div>             
+            <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1045 / time-1115;">
+                <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
+                <span class="session-time">10:45-11:15</span>
+                <span class="session-time">Room: Grand large</span>
+            </div>    
+			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-1045 / time-1115;">
+                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
+                <span class="session-time">10:45-11:15</span>
+                <span class="session-time">Room: Bouvet, Charcot</span>
+            </div>                      
             <p class="time-slot" style="grid-row: time-1115;">11:15</p>
             {% for session in site.data.sessions %}  
                 {% if session.id == '0' %}
@@ -1114,9 +1112,9 @@ title_separator: "|"
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div>
             <p class="time-slot" style="grid-row: time-1715;">17:15</p> 
-			<div class="session track-main" style="grid-column: track-1; grid-row: time-1615 / time-1815;">
+			<div class="session track-main" style="grid-column: track-1; grid-row: time-1715 / time-2045;">
                 <span class="session-title">Art performance - <a href="{{ '/program/xrgallery/' | relative_url }}#PO1103">ReVerie</a></span>
-                <span class="session-time">16:15-18:15</span>
+                <span class="session-time">17:15-20:45</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
             {% for session in site.data.sessions %}  
@@ -1148,7 +1146,7 @@ title_separator: "|"
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p> 
             <p class="time-slot" style="grid-row: time-1845;">18:45</p> 
-			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1845 / time-2045;">
+			<div class="session track-main" style="grid-column: track-2-start / track-4-end; grid-row: time-1845 / time-2045;">
                 <span class="session-title">Welcome reception</span>
                 <span class="session-time">18:45-20:45</span>
                 <span class="session-time">Room: Jacques Cartier, Grand large</span>
@@ -1158,12 +1156,12 @@ title_separator: "|"
     </div>
 <!-- TUESDAY Morning (Part 1) -->
     <div>
-        <h4 id="day4">Tuesday, 19 March 2024</h4>
-        <div class="schedule-tue" aria-labelledby="Tuesday, 19 March 2024 - Main Conference">   
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">            
+        <h4 id="day4">Tuesday, 11 March 2025</h4>
+        <div class="schedule-tue" aria-labelledby="Tuesday, 19 March 2025 - Main Conference">   
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">            
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
@@ -1434,10 +1432,10 @@ title_separator: "|"
         <h4 id="day5">Wednesday, 12 March 2025</h4>
         <div class="schedule-wed" aria-labelledby="Wednesday, 12 March 2025 - Main Conference">   
 <!-- WEDNESDAY Morning (Part 1) -->
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">            
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">            
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
