@@ -1429,8 +1429,8 @@ title_separator: "|"
 			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-2300 / time-2400;">
                 <span class="session-title">After</span>
                 <span class="session-time">23:00-1:00</span>
-            <p class="time-slot" style="grid-row: time-2400;">1:00</p> 
             </div>   
+            <p class="time-slot" style="grid-row: time-2400;">1:00</p> 
         </div> 
     </div>
     <div>
