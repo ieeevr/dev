@@ -18,85 +18,101 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>    
-    <p>
-    <img src="https://ieeevr.org/dev/assets/images/SponsorsDeadlines.png" alt="SponsorsDeadlines">
-    </p>
     <h2 id="overview">Sponsors</h2>
     <div class="confsponsors-type">Special</div>
+    <p>Inria</p>
     <a href="https://inria.fr/en" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/Inria.png" alt="Inria logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/Inria.png" alt="Inria logo.">
     </a>
     <br><br>
     <!-- Silver -->
-    <div class="confsponsors-type">Silver</div>
+    <h3 id="overview">Silver</h3>
     <br>
+    <p>Interdigital</p>
     <a href="https://www.interdigital.com/" target="_blank">
-        <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
     </a>
     <br>
+    <p>Meta</p>
     <a href="https://www.meta.com/" target="_blank">
-        <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/meta.png" alt="Meta logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/meta.png" alt="Meta logo.">
     </a>
     <br>
     <!-- Bronze -->
-    <div  class="confsponsors-type">Bronze</div>
+    <h3 id="overview">Bronze</h3>
+    <p>MiddleVR</p>
     <a href="https://www.middlevr.com/2/" target="_blank">
-        <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
     </a>
     <br>
+    <p>Hit Lab</p>
     <a href="https://www.hitlabnz.org/" target="_blank">
-        <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
     </a>
     <br><br>
+    <p>Immersion</p>
     <a href="https://www.immersion.fr/" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/Immersion.png" alt="Immersion logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/Immersion.png" alt="Immersion logo.">
     </a>
     <br>
+    <p>Qualcomm</p>
     <a href="https://www.qualcomm.com/" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/Qualcomm.png" alt="Qualcomm logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/Qualcomm.png" alt="Qualcomm logo.">
     </a>
-    <h4 class="sponsor_section">Supporters</h4>
+    <h3 id="overview">Supporters</h3>
+    <p>AFXR</p>
     <a href="https://www.afxr.org/page/1756926-accueil" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
     </a>
     <br>
+    <p>LabSTICC</p>
     <a href="https://labsticc.fr/en" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/LabSTICC.png" alt="LabSTICC logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/LabSTICC.png" alt="LabSTICC logo.">
     </a>
     <br>
+    <p>GuestXR</p>
     <a href="https://guestxr.eu/" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/GuestXR.png" alt="GuestXR logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/GuestXR.png" alt="GuestXR logo.">
     </a>
     <br>
+    <p>CEA list</p>
     <a href="https://list.cea.fr/en/" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/CEA list.jpg" alt="CEA list logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/CEA list.jpg" alt="CEA list logo.">
     </a>
+    <p>ENSAM</p>
     <a href="https://artsetmetiers.fr/en" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/ENSAM.png" alt="ENSAM logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/ENSAM.png" alt="ENSAM logo.">
     </a>
+    <p>Haption</p>
     <a href="https://www.haption.com/" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/Haption.jpg" alt="Haption logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/Haption.jpg" alt="Haption logo.">
     </a>
     <br><br>
+    <p>EuroXR</p>
     <a href="https://www.euroxr-association.org/" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/EuroXR.png" alt="EuroXR logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/EuroXR.png" alt="EuroXR logo.">
     </a><br><br>
+    <p>INSA</p>
     <a href="https://www.insa-rennes.fr/graduate-school-of-engineering.html" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/INSA.png" alt="INSA logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/INSA.png" alt="INSA logo.">
     </a><br><br>
+    <p>Insitut Neurociencies</p>
     <a href="https://www.neurociencies.ub.edu/" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/InstitutNeurociencies.png" alt="Institut de Neurociencies, Universitat de Barcelona logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/InstitutNeurociencies.png" alt="Institut de Neurociencies, Universitat de Barcelona logo.">
     </a>
     <br><br>
+    <p>ShareSpace</p>
     <a href="https://sharespace.eu/" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
+        <img class="conf-icon"  src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
     </a>
     <br><br>
+    <p>Bretagne</p>
     <a href="https://www.bretagne.bzh/" target="_blank">
-        <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
+        <img class="conf-icon"  src="/2025/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
     </a>
     <br><br>
+    <p>Université de Rennes</p>
     <a href="https://www.univ-rennes.fr/en" target="_blank">
-        <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/UnivRennes.png" alt="UnivRennes logo.">
+        <img class="conf-icon"  src="/2025/assets/images/sponsors/UnivRennes.png" alt="UnivRennes logo.">
     </a>
 </div>
