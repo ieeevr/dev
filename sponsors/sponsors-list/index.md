@@ -72,7 +72,6 @@ div.bronze3 div {
     <br>
     <div class ="silver">
         <div>
-        <p><b>Interdigital</b></p>
         <a href="https://www.interdigital.com/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
         </a>
@@ -80,7 +79,6 @@ div.bronze3 div {
         </div>
     <br>
         <div>
-        <p><b>Google</b></p>
         <a href="https://about.google/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/meta.png" alt="Meta logo.">
         </a>
