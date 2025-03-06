@@ -56,6 +56,7 @@ div.supporterst div {
   float:left;
 }
 
+div.bronze img,
 div.supportersfi img,
 div.supportersfo img,
 div.supporterst img {
@@ -64,6 +65,7 @@ div.supporterst img {
     display: block;
     margin: auto; /* Center the images */
 }
+div.bronze div,
 div.supporterst div,
 div.supportersfi div,
 div.supportersfo div {
@@ -196,7 +198,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://sharespace.eu/" target="_blank">
-                <img class="conf-icon" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
+                <img class="conf-icon" style="width: 80%" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
             </a>
         </div>
     </div>    
@@ -213,7 +215,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.orange.fr/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
+                <img class="conf-icon"  style="width: 80%" src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
             </a>
         </div>
         <div>
