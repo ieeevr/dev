@@ -95,12 +95,12 @@ div.supporterst div {
     <div class="bronze">
         <div>
             <a href="https://www.middlevr.com/2/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
+                <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
             </a>
         </div> 
         <div>
             <a href="https://www.hitlabnz.org/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
+                <img class="conf-icon" style="width: 850%;" src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
             </a>
         </div>
         <div>
@@ -122,7 +122,7 @@ div.supporterst div {
         </div>
         <div>
             <a href="https://www.meta.com/fr/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/realitylabs.png" alt="realitylabs logo.">
+                <img class="conf-icon" style="width: 65%;" src="/dev/assets/images/sponsors/realitylabs.png" alt="realitylabs logo.">
             </a>
         </div>
     </div>
