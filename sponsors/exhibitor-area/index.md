@@ -24,7 +24,10 @@ title_separator: "|"
         </div>
         <div>
             <h2 id="ground">First level</h2>
-            <img style="width: 80%;" src="/dev/assets/images/ground.jpg" alt="Layout of the ground level.">
+            <img style="width: 80%;" src="/dev/assets/images/sponsors/Sponsors.png" alt="Layout of the first level.">
         </div>
+        <div>
+            <img style="width: 80%;" src="/dev/assets/images/sponsors/10.png" alt="Exhibitors numbers.">
+        <div>
     
 </div>
