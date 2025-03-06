@@ -126,7 +126,7 @@ div.supporterst div {
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/realitylabs.png" alt="realitylabs logo.">
             </a>
         </div>
-    <div>
+    </div>
     <h3 id="overview">Supporters</h3>
     <div class="supportersfi">
         <div>
