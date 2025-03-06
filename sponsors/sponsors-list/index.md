@@ -26,7 +26,8 @@ div.bronze div {
 div.supportersfi {
   width:100%;
   overflow:auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 div.supportersfi div {
   width:20%;  
@@ -35,7 +36,8 @@ div.supportersfi div {
 div.supportersfo {
   width:100%;
   overflow:auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 div.supportersfo div {
   width:25%;  
@@ -44,7 +46,8 @@ div.supportersfo div {
 div.supporterst {
   width:80%;
   overflow:auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 div.supporterst div {
   width:33%;  
