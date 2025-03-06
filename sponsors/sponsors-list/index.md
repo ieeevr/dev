@@ -71,7 +71,7 @@ div.supportersfo div {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 150px; 
+    height: 200px; 
 }
 </style>
 <script type="text/javascript">
@@ -119,12 +119,12 @@ div.supportersfo div {
     <div class="bronze">
         <div>
             <a href="https://www.middlevr.com/2/" target="_blank">
-                <img class="conf-icon" style="width: 70%;" src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
+                <img class="conf-icon" src="/dev/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
             </a>
         </div> 
         <div>
             <a href="https://www.hitlabnz.org/" target="_blank">
-                <img class="conf-icon" style="width: 850%;" src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
             </a>
         </div>
         <div>
@@ -146,7 +146,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.meta.com/fr/" target="_blank">
-                <img class="conf-icon" style="width: 65%;" src="/dev/assets/images/sponsors/realitylabs.png" alt="realitylabs logo.">
+                <img class="conf-icon" src="/dev/assets/images/sponsors/realitylabs.png" alt="realitylabs logo.">
             </a>
         </div>
     </div>
@@ -154,7 +154,7 @@ div.supportersfo div {
     <div class="supportersfi">
         <div>
             <a href="https://www.afxr.org/page/1756926-accueil" target="_blank">
-                <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
+                <img class="conf-icon" src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
             </a>
         </div>
         <div>
@@ -196,7 +196,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://sharespace.eu/" target="_blank">
-                <img class="conf-icon" style="width: 50%;" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
+                <img class="conf-icon" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
             </a>
         </div>
     </div>    
@@ -213,7 +213,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.orange.fr/" target="_blank">
-                <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
             </a>
         </div>
         <div>
@@ -230,7 +230,7 @@ div.supportersfo div {
     <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
-                <img class="conf-icon" style="width: 80%;" src="/dev/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
+                <img class="conf-icon" src="/dev/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
             </a>
         </div>
         <div>
