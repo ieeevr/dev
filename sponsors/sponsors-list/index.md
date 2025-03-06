@@ -13,6 +13,7 @@ div.silver {
 div.silver div {
   width:50%;  
   float:left;
+  display: flex;
 }
 div.bronze {
   width:100%;
@@ -22,6 +23,7 @@ div.bronze {
 div.bronze div {
   width:33%;  
   float:left;
+  display: flex;
 }
 div.supportersfi {
   width:100%;
@@ -31,6 +33,7 @@ div.supportersfi {
 div.supportersfi div {
   width:20%;  
   float:left;
+  display: flex;
 }
 div.supportersfo {
   width:100%;
@@ -40,6 +43,7 @@ div.supportersfo {
 div.supportersfo div {
   width:25%;  
   float:left;
+  display: flex;
 }
 div.supporterst {
   width:80%;
@@ -49,6 +53,7 @@ div.supporterst {
 div.supporterst div {
   width:33%;  
   float:left;
+  display: flex;
 }
 </style>
 <script type="text/javascript">
