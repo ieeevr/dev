@@ -112,7 +112,7 @@ div.supportersfo div {
         <a href="https://about.google/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/Google.png" alt="Google logo.">
         </a>
-        <div><p style="text-align: center; margin-top: 100px;margin-bottom: 100px;margin-right: 150px;margin-left: 80px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
+        <div><p style="text-align: center;margin-right: 15px;margin-left: 15px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
         </div>
         </div>
     </div>
