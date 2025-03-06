@@ -91,8 +91,6 @@ div.supportersfo div {
             March 8-12, 2025 | Saint-Malo, France
     </p>    
     <h2 id="overview">Sponsors</h2>
-    <div class="confsponsors-type">Special</div>
-    <p><b>Inria</b></p>
     <a href="https://inria.fr/en" target="_blank">
         <img class="conf-icon"  src="/dev/assets/images/sponsors/Inria.png" alt="Inria logo.">
     </a>
@@ -104,14 +102,19 @@ div.supportersfo div {
         <div>
         <a href="https://www.interdigital.com/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital2.png" alt="InterDigital logo.">
-        </a>
-        <p style="margin-right: 10px;margin-left: 10px;">For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible.</p>
+        </a>        
         </div>
     <br>
         <div>
         <a href="https://about.google/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/Google.png" alt="Google logo.">
         </a>
+        </div>
+    </div>
+    <div class ="silver">
+        <div><p style="margin-right: 10px;margin-left: 10px;">For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible.</p>
+        </div>
+        <div>
         <p style="margin-left: 10px;margin-right: 10px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
         </div>
     </div>
