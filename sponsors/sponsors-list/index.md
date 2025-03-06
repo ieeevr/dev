@@ -55,6 +55,24 @@ div.supporterst div {
   width:33%;  
   float:left;
 }
+
+div.supportersfi img,
+div.supportersfo img,
+div.supporterst img {
+    max-width: 80%; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: auto; /* Center the images */
+}
+div.supporterst div,
+div.supportersfi div,
+div.supportersfo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px; /* Adjust this value to ensure all containers have the same height */
+}
 </style>
 <script type="text/javascript">
     $(document).ready(function(){
