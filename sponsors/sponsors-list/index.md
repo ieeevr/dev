@@ -105,14 +105,14 @@ div.supportersfo div {
         <a href="https://www.interdigital.com/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital2.png" alt="InterDigital logo.">
         </a>
-        <div><p style="text-align: center;margin-right: 15px;margin-left: 15px;">For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible</p></div>
+        <div><p style="margin-right: 10px;margin-left: 150x;">For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible</p></div>
         </div>
     <br>
         <div>
         <a href="https://about.google/" target="_blank">
             <img class="conf-icon"  src="/dev/assets/images/sponsors/Google.png" alt="Google logo.">
         </a>
-        <div><p style="text-align: center;margin-right: 15px;margin-left: 15px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
+        <div><p style="margin-right: 10px;margin-left: 10px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
         </div>
         </div>
     </div>
