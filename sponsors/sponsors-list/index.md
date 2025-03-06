@@ -26,8 +26,7 @@ div.bronze div {
 div.supportersfi {
   width:100%;
   overflow:auto;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  display: flex;
 }
 div.supportersfi div {
   width:20%;  
@@ -36,18 +35,15 @@ div.supportersfi div {
 div.supportersfo {
   width:100%;
   overflow:auto;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
 }
 div.supportersfo div {
   width:25%;  
   float:left;
 }
 div.supporterst {
-  width:80%;
   overflow:auto;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+  display: flex;
 }
 div.supporterst div {
   width:33%;  
@@ -134,7 +130,7 @@ div.supporterst div {
     <div class="supportersfi">
         <div>
             <a href="https://www.afxr.org/page/1756926-accueil" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
+                <img class="conf-icon" style="width: 90%;" src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
             </a>
         </div>
         <div>
@@ -176,7 +172,7 @@ div.supporterst div {
         </div>
         <div>
             <a href="https://sharespace.eu/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
+                <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
             </a>
         </div>
     </div>    
@@ -193,7 +189,7 @@ div.supporterst div {
         </div>
         <div>
             <a href="https://www.orange.fr/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
+                <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
             </a>
         </div>
         <div>
@@ -210,7 +206,7 @@ div.supporterst div {
     <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
+                <img class="conf-icon" style="width: 80%;" src="/dev/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
             </a>
         </div>
         <div>
