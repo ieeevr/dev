@@ -68,12 +68,12 @@ title_separator: "|"
     </p>
     <h2>Takeways</h2>
     <p>
-    If you only have a little time and the weather allows you to enjoy a meal, perhaps on the beach, don't forget that France is the country of the ‘jambon-beurre’ sandwich (and ‘beurre’ is sacred here in Brittany)! You will also be able to find many other options... A good approach is to target the large bakeries, most of which offer savoury snacks: sandwiches, quiches, tarts, pastries, etc.). Here are few options:
+    If you only have a little time and the weather allows you to enjoy a meal, perhaps on the beach, don't forget that France is the country of the ‘jambon-beurre’ sandwich (and ‘beurre’ is sacred here in Brittany)! You will also be able to find many other options... A good approach is to target the large bakeries, most of which offer savoury snacks: sandwiches, quiches, tarts, pastries, etc. Here are few options:
     <ul>
-        </li>Madlenn Intra (€ 4.3)</li>
-        </li>Boulangerie Pâtisserie de la Cathédrale (€ 4.5, they also have the best kouign amann of the city !)</li>
-        </li>Au Pain d’Autrefois (€ 4.1), Rocabey district (15 mins walk)</li>
-        </li>… and a few more!</li>
+        <li>Madlenn Intra (€ 4.3)</li>
+        <li>Boulangerie Pâtisserie de la Cathédrale (€ 4.5, they also have the best kouign amann of the city !)</li>
+        <li>Au Pain d’Autrefois (€ 4.1), Rocabey district (15 mins walk)</li>
+        <li>… and a few more!</li>
     </ul>
     </p>
 </div>
