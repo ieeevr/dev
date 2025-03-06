@@ -237,7 +237,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.cesi.fr/en/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/cesi.jpg" alt="CESI logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/CESI.jpg" alt="CESI logo.">
             </a>
         </div>
         <div>
