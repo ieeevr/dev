@@ -21,27 +21,27 @@ div.bronze div {
   width:33%;  
   float:left;
 }
-div.supporters5 {
+div.supportersfi {
   width:100%;
   overflow:auto;
 }
-div.supporters5 div {
+div.supportersfi div {
   width:20%;  
   float:left;
 }
-div.supporters4 {
+div.supportersfo {
   width:100%;
   overflow:auto;
 }
-div.supporters4 div {
+div.supportersfo div {
   width:25%;  
   float:left;
 }
-div.supporters3 {
+div.supporterst {
   width:100%;
   overflow:auto;
 }
-div.supporters3 div {
+div.supporterst div {
   width:33%;  
   float:left;
 }
@@ -123,7 +123,7 @@ div.supporters3 div {
         </div>
     <div>
     <h3 id="overview">Supporters</h3>
-    <div class = "supporters5">
+    <div class="supportersfi">
         <div>
             <a href="https://www.afxr.org/page/1756926-accueil" target="_blank">
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
@@ -149,7 +149,7 @@ div.supporters3 div {
             </a>
         </div>
     </div>
-    <div class="supporters4">
+    <div class="supportersfo">
         <div>
             <a href="https://www.euroxr-association.org/" target="_blank">
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/EuroXR.png" alt="EuroXR logo.">
@@ -171,7 +171,7 @@ div.supporters3 div {
             </a>
         </div>
     </div>
-    <div class="supporters5">
+    <div class="supportersfi">
         <div>
             <a href="https://www.bretagne.bzh/" target="_blank">
                 <img class="conf-icon"  src="/2025/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
@@ -198,7 +198,7 @@ div.supporters3 div {
             </a>
         </div>
     </div>    
-    <div class="supporters3">
+    <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
                 <img class="conf-icon"  src="/2025/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
