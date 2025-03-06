@@ -18,23 +18,21 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>    
-    <h2 id="overview">Sponsors</h2>
-    <div class="confsponsors-type">Special</div>
-    <p><b>Inria</b></p>
+    <h2 id="special">Special</h2>
     <a href="https://inria.fr/en" target="_blank">
         <img class="conf-icon"  src="/dev/assets/images/sponsors/Inria.png" alt="Inria logo.">
     </a>
     <br><br>
     <!-- Silver -->
-    <h3 id="overview">Silver</h3>
+    <h2 id="overview">Silver</h2>
     <br>
     <img class="conf-icon"  src="/dev/assets/images/sponsors/silver.png" alt="InterDigital logo.">
     <!-- Bronze -->
-    <h3 id="overview">Bronze</h3>
+    <h2 id="overview">Bronze</h2>
     <br>
     <img class="conf-icon"  src="/dev/assets/images/sponsors/bronze.png" alt="InterDigital logo.">
     <!-- Supporters -->
-    <h3 id="overview">Supporters</h3>
+    <h2 id="overview">Supporters</h2>
     <br>
     <img class="conf-icon"  src="/dev/assets/images/sponsors/supporters.png" alt="InterDigital logo.">
     
