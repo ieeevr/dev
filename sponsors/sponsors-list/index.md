@@ -25,7 +25,7 @@ div.supporters5 {
   width:100%;
   overflow:auto;
 }
-div.bronze5 div {
+div.supporters5 div {
   width:20%;  
   float:left;
 }
@@ -33,7 +33,7 @@ div.supporters4 {
   width:100%;
   overflow:auto;
 }
-div.bronze4 div {
+div.supporters4 div {
   width:25%;  
   float:left;
 }
@@ -41,7 +41,7 @@ div.supporters3 {
   width:100%;
   overflow:auto;
 }
-div.bronze3 div {
+div.supporters3 div {
   width:33%;  
   float:left;
 }
