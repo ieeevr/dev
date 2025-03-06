@@ -138,6 +138,7 @@ div.supporterst div {
             <a href="https://labsticc.fr/en" target="_blank">
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/LabSTICC.png" alt="LabSTICC logo.">
             </a>
+        </div>
         <div>
             <a href="https://guestxr.eu/" target="_blank">
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/GuestXR.png" alt="GuestXR logo.">
@@ -153,7 +154,7 @@ div.supporterst div {
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/Haption.jpg" alt="Haption logo.">
             </a>
         </div>
-    </div>
+    </div>    
     <div class="supportersfo">
         <div>
             <a href="https://www.euroxr-association.org/" target="_blank">
@@ -175,7 +176,7 @@ div.supporterst div {
                 <img class="conf-icon"  src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
             </a>
         </div>
-    </div>
+    </div>    
     <div class="supportersfi">
         <div>
             <a href="https://www.bretagne.bzh/" target="_blank">
@@ -202,7 +203,7 @@ div.supporterst div {
                 <img class="conf-icon"  src="/2025/assets/images/sponsors/inami.png" alt="Inami logo.">
             </a>
         </div>
-    </div>    
+    </div>        
     <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
