@@ -42,7 +42,7 @@ div.supportersfo div {
   float:left;
 }
 div.supporterst {
-  width:100%;
+  width:80%;
   overflow:auto;
   display: flex;
 }
