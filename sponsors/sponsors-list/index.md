@@ -8,6 +8,7 @@ title_separator: "|"
 div.silver {
   width:100%;
   overflow:auto;
+  display: flex;
 }
 div.silver div {
   width:50%;  
@@ -16,6 +17,7 @@ div.silver div {
 div.bronze {
   width:100%;
   overflow:auto;
+  display: flex;
 }
 div.bronze div {
   width:33%;  
@@ -24,6 +26,7 @@ div.bronze div {
 div.supportersfi {
   width:100%;
   overflow:auto;
+  display: flex;
 }
 div.supportersfi div {
   width:20%;  
@@ -32,6 +35,7 @@ div.supportersfi div {
 div.supportersfo {
   width:100%;
   overflow:auto;
+  display: flex;
 }
 div.supportersfo div {
   width:25%;  
@@ -40,6 +44,7 @@ div.supportersfo div {
 div.supporterst {
   width:100%;
   overflow:auto;
+  display: flex;
 }
 div.supporterst div {
   width:33%;  
