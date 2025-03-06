@@ -13,11 +13,18 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1 id="cfp-exhibitssponsors">Exhibitors Area<div class="floatRight"><span class="exhibitssponsors"></span></div></h1>
-    <p>
-        <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
-            March 8-12, 2025 | Saint-Malo, France
-    </p>    
-    
+    <h1>Conference Center Map</h1>
+        <p style="margin-bottom: 20px;">
+        IEEE VR 2025 will take place at the Palais du Grand Large in Saint-Malo, France. <br>
+        </p>
+        <div class="ieeevrmsgbox bold alignCenter">
+            <div class = "ieeevrmsgboxInside med">
+                Exhibitors area will be located on the first level of the conference center. The layout of the area is provided below.<br/>
+            </div>
+        </div>
+        <div>
+            <h2 id="ground">First level</h2>
+            <img style="width: 80%;" src="/dev/assets/images/ground.jpg" alt="Layout of the ground level.">
+        </div>
     
 </div>
