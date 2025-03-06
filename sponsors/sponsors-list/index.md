@@ -71,7 +71,7 @@ div.supportersfo div {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 150px; /* Adjust this value to ensure all containers have the same height */
+    height: 150px; 
 }
 </style>
 <script type="text/javascript">
