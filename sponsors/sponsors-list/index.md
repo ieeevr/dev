@@ -80,7 +80,7 @@ div.supporters3 div {
     <br>
         <div>
         <a href="https://about.google/" target="_blank">
-            <img class="conf-icon"  src="/dev/assets/images/sponsors/meta.png" alt="Meta logo.">
+            <img class="conf-icon"  src="/dev/assets/images/sponsors/Google.png" alt="Google logo.">
         </a>
         <p>Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
         <br>
@@ -113,7 +113,7 @@ div.supporters3 div {
         </div>
         <div>
             <a href="https://www.huawei.com/en/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/Huawei.png" alt="Huawei logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/Huawei.jpg" alt="Huawei logo.">
             </a>
         </div>
         <div>
@@ -201,7 +201,7 @@ div.supporters3 div {
     <div class="supporters3">
         <div>
             <a href="https://vrsj.org" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/vrsocjapan.jpg" alt="Inami logo.">
+                <img class="conf-icon"  src="/2025/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
             </a>
         </div>
         <div>
