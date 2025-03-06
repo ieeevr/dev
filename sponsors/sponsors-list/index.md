@@ -193,7 +193,7 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.neurociencies.ub.edu/" target="_blank">
-                <img class="conf-icon"  src="/dev/assets/images/sponsors/InstitutNeurociencies.png" alt="Institut de Neurociencies, Universitat de Barcelona logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/neurociences2.png" alt="Institut de Neurociencies, Universitat de Barcelona logo.">
             </a>
         </div>
         <div>
