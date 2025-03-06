@@ -27,6 +27,8 @@ div.supportersfi {
   width:100%;
   overflow:auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 div.supportersfi div {
   width:20%;  
@@ -36,6 +38,8 @@ div.supportersfo {
   width:100%;
   overflow:auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 div.supportersfo div {
   width:25%;  
@@ -44,6 +48,8 @@ div.supportersfo div {
 div.supporterst {
   overflow:auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 div.supporterst div {
   width:33%;  
@@ -172,7 +178,7 @@ div.supporterst div {
         </div>
         <div>
             <a href="https://sharespace.eu/" target="_blank">
-                <img class="conf-icon" style="width: 60%;" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
+                <img class="conf-icon" style="width: 50%;" src="/dev/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
             </a>
         </div>
     </div>    
