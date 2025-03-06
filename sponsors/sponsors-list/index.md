@@ -101,7 +101,7 @@ div.supportersfo div {
     <div class ="silver">
         <div>
         <a href="https://www.interdigital.com/" target="_blank">
-            <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
+            <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital2.png" alt="InterDigital logo.">
         </a>        
         </div>
     <br>
