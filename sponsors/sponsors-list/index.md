@@ -78,7 +78,7 @@ div.supporterst div {
     <div class ="silver">
         <div>
         <a href="https://www.interdigital.com/" target="_blank">
-            <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
+            <img class="conf-icon"  src="/dev/assets/images/sponsors/InterDigital2.png" alt="InterDigital logo.">
         </a>
         <p>For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible</p>
         </div>
@@ -180,44 +180,44 @@ div.supporterst div {
     <div class="supportersfi">
         <div>
             <a href="https://www.bretagne.bzh/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
             </a>
         </div>
         <div>
             <a href="https://www.univ-rennes.fr/en" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/UnivRennes.png" alt="UnivRennes logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/UnivRennes.png" alt="UnivRennes logo.">
             </a>
         </div>
         <div>
             <a href="https://www.orange.fr/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/orange.png" alt="orange logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/orange.png" alt="orange logo.">
             </a>
         </div>
         <div>
             <a href="https://www.clarte-lab.fr/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/clarte.png" alt="clarté logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/clarte.png" alt="clarté logo.">
             </a>
         </div>
         <div>
             <a href="https://star.rcast.u-tokyo.ac.jp/en/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/inami.png" alt="Inami logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/inami.png" alt="Inami logo.">
             </a>
         </div>
     </div>        
     <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
             </a>
         </div>
         <div>
             <a href="https://www.cesi.fr/en/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/cesi.png" alt="CESI logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/cesi.png" alt="CESI logo.">
             </a>
         </div>
         <div>
             <a href="https://www.stmalo-agglomeration.fr" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/saintmalo.png" alt="Saint Malo logo.">
+                <img class="conf-icon"  src="/dev/assets/images/sponsors/saintmalo.png" alt="Saint Malo logo.">
             </a>
         </div>
     </div>
