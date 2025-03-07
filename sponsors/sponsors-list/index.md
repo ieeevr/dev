@@ -115,7 +115,7 @@ div.supportersfo div {
         <div><p style="margin-right: 10px;margin-left: 10px;">For more than 50 years, InterDigital® has been inventing foundational wireless, video and AI technologies that have become essential to daily life and enable the next generation of connected ecosystems. As a result, InterDigital is a leader in making the connected world we depend on possible.</p>
         </div>
         <div>
-        <p style="margin-left: 10px;margin-right: 10px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more: Google's mission is to organize the world’s information and make it universally.</a></p>
+        <p style="margin-left: 10px;margin-right: 10px;">Google is the company behind Android XR, an operating system for headsets and glasses that will be available in 2025. <a href="https://www.android.com/xr/">Learn more:</a> Google's mission is to organize the world’s information and make it universally.</p>
         </div>
     </div>
     <!-- Bronze -->
