@@ -16,8 +16,9 @@ title_separator: "|"
                     {% for session in site.data.sessions %}
                         {% if day.day == session.day %}
                             <tr>
-                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}&#8209;{{ session.room }}</a></td>
+                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.session }}&#8209;{{ session.letter }}</a></td>
                                 <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
+                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.room }}</a></td>
                                 {% for room in site.data.rooms %} 
                                     {% if room.session == session.session %}
                                         {% if room.room == session.room %}
@@ -37,6 +38,13 @@ title_separator: "|"
 <div>
     {% for session in site.data.sessions %}
             <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.room }})</h2>
+			<p class="small">
+				<span class="bold">Date & Time:</span> {{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }})<br />
+				<span class="bold">Room:</span> {{ session.room }}
+				{% if session.sessionchair %}
+					<br /><span class="bold">Session Chair:</span> {{ session.sessionchair }}
+				{% endif %}
+			</p>
             {% for paper in site.data.papers %}                 
                 {% if session.session == paper.session %}
                     {% if paper.room == session.letter %}   
@@ -67,7 +75,17 @@ title_separator: "|"
                             {% if acpaper.ids == paper.ids  %} 
                                 <div>
                                     <p class="font_70">
-                                    <span class="bold">{{ acpaper.contactauthor }}</span>
+                                    {% assign authornames = acpaper.affiliations | split: ";" %}
+                                    {% for name in authornames %}
+                                        {% assign barename = name | split: ":" %}
+                                        {% for n in barename %}
+                                            {% if n == barename.last %}
+                                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                            {% else %}                            
+                                                <span class="bold">{{ n | strip }},</span>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    {% endfor %}
                                     </p>
                                 </div>
                                 {% if acpaper.abstract %}
