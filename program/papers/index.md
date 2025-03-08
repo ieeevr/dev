@@ -41,8 +41,8 @@ title_separator: "|"
 			<p class="small">
 				<span class="bold">Date & Time:</span> {{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }})<br />
 				<span class="bold">Room:</span> {{ session.room }}
-				{% if session.sessionchair %}
-					<br /><span class="bold">Session Chair:</span> {{ session.sessionchair }}
+				{% if session.chair %}
+					<br /><span class="bold">Session Chair:</span> {{ session.chair }}
 				{% endif %}
 			</p>
             {% for paper in site.data.papers %}                 
