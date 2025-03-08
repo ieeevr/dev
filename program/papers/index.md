@@ -37,9 +37,9 @@ title_separator: "|"
 </div>
 <div>
     {% for session in site.data.sessions %}
-            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.room }})</h2>
+            <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }})</h2>
 			<p class="small">
-				<span class="bold">Date & Time:</span> {{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }})<br />
+				<span class="bold">Date & Time:</span> {{ session.day }}, {{ session.time }} (UTC+1)<br />
 				<span class="bold">Room:</span> {{ session.room }}
 				{% if session.chair %}
 					<br /><span class="bold">Session Chair:</span> {{ session.chair }}
