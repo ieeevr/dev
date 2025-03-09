@@ -70,15 +70,10 @@ title_separator: "|"
             {% endif %}
         {% endfor %}-->
         <p class="medLarge" id="{{ demo.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.id }})</strong>
+            <strong>{{ demo.title }} (ID:&nbsp;{{ demo.demoid }})</strong>
         </p>
         <p>
-        {% for demobooth in site.data.demobooth %}
-            Test {{ demo.id }} & {{demobooth.id}} ||{{ demo.demoid }} ee
-            {% if demobooth.Title == demo.title %}
-                Hall: {{ demobooth.hall}}, Booth ID : {{ demobooth.booth }}
-            {% endif %}
-        {% endfor %}
+        Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
         </p>
         <p class="font_70" >                
             {% if demo.author1first %}                         
@@ -119,7 +114,7 @@ title_separator: "|"
             {% endif %}  
         </p>
         {% if demo.abstract %}
-            <div id="{{ demo.id }}" class="wrap-collabsible"> <input id="collapsible{{ demo.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.id }}" class="lbl-toggle">Abstract</label>
+            <div id="{{ demo.demoid }}" class="wrap-collabsible"> <input id="collapsible{{ demo.demoid }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.demoid }}" class="lbl-toggle">Abstract</label>
                 <div class="collapsible-content">
                     <div class="content-inner">
                         <p>{{ demo.abstract }}</p>
