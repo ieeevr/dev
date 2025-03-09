@@ -74,9 +74,9 @@ title_separator: "|"
         </p>
         <p>
         {% for demobooth in site.data.demobooth %}
-            Test {{ demo.demoid}} {{demobooth.id}} <br />
-            {% if demobooth.id == demo.demoid}
-            Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
+            Test {{ demo.demoid}} {{demobooth.id}}
+            {% if demobooth.id == demo.demoid %}
+            Hall: {{ demo.hall}}, Booth ID : {{ demo.booth }}
             {% endif %}
         {% endfor %}
         </p>
